@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="157"
-  DTS:VersionGUID="{B21BC6A9-93C6-4651-88DA-AC4731546CFE}">
+  DTS:VersionBuild="204"
+  DTS:VersionGUID="{DC261E61-89CD-4863-900A-9C8A0EB28ADB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_id"
-              DTS:DTSID="{276D6CC2-C128-4CB5-AAEA-BAA3911D38CE}"
+              DTS:DTSID="{20F5D828-D47F-4F34-B597-886991E4A50C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_name"
-              DTS:DTSID="{036181D4-1F0B-435F-90EC-E32934061D60}"
+              DTS:DTSID="{8846465D-5985-4A64-BD62-A0C52BF98EC4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_type"
-              DTS:DTSID="{D50D3FF2-CACC-4B6B-B491-835844650E3D}"
+              DTS:DTSID="{9DEF3549-6444-4332-B144-EA03DC3F6591}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_short_name"
-              DTS:DTSID="{CD33875F-DABA-498E-95E2-64073049B928}"
+              DTS:DTSID="{EEF403AB-6C7C-4483-970E-F173B166B5AF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="province_id"
-              DTS:DTSID="{2A5BE1CF-168A-451D-BCA8-F1A0CB79984A}"
+              DTS:DTSID="{48D7FEED-7855-47CD-A7E7-BD926067FA6B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="province_name"
-              DTS:DTSID="{6FF02C02-2FAE-4438-9F95-7337FC704DBA}"
+              DTS:DTSID="{B553A8A7-B307-4322-9603-72F90251FEFE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_code"
-              DTS:DTSID="{40CBC322-F493-4113-91D6-26CFB69D4CA9}"
+              DTS:DTSID="{A9A982B6-643F-48BC-BFFB-DAF94C303099}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_name"
-              DTS:DTSID="{229E0BD8-2368-4279-8F14-0C2C75FC1022}"
+              DTS:DTSID="{E128FD2C-BB79-4F14-95DA-70494CD52025}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,7 +110,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_blocks"
-              DTS:DTSID="{E5AE3532-39A9-4815-A59C-515509F9BA40}"
+              DTS:DTSID="{F3625237-337F-4643-9795-3D690267A43A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -118,7 +118,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="score_mark"
-              DTS:DTSID="{B896DA5C-C569-47C1-B28F-278F3C78CFF9}"
+              DTS:DTSID="{1696A3F8-E94B-4ECD-A37F-67BED6E0DB7E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -126,7 +126,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="score_year"
-              DTS:DTSID="{B1641F8F-EB5C-44BC-9AA1-A06E032D0CC4}"
+              DTS:DTSID="{392DD1E6-851E-417C-A27D-BC377DF11EB0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -135,7 +135,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_introtext"
-              DTS:DTSID="{F85B1571-DA88-457E-907F-E0A476944E49}"
+              DTS:DTSID="{8B67C380-E2CF-44AE-A579-7B0EDF9EFA21}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -144,7 +144,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_admission_name"
-              DTS:DTSID="{CA232D48-8942-4728-B83C-EBF227A69A34}"
+              DTS:DTSID="{D4DFD8FE-8501-4D55-8505-DAD57F10238A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -152,7 +152,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="score_converted_mark"
-              DTS:DTSID="{4447C0B3-E7E0-4CAA-A8FB-F958CD52FA89}"
+              DTS:DTSID="{54EDE942-019C-4F81-8623-0048F9D9AA42}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -180,7 +180,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="major_group_id"
-              DTS:DTSID="{0423E09C-EC2B-441F-B968-1B0BDA3C8692}"
+              DTS:DTSID="{A4A67EF0-1245-4151-AEA9-60B09CC87E45}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -189,7 +189,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="major_group_name"
-              DTS:DTSID="{7FB21500-9842-4CBB-88DD-52711B8354E5}"
+              DTS:DTSID="{DD194F96-FBB1-4410-B2A0-CD4CA99CE535}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -197,7 +197,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="major_id"
-              DTS:DTSID="{B59755CF-A03E-4A2B-93BA-FA1FE80E5AFF}"
+              DTS:DTSID="{EC7E66AC-E384-4FB8-93E5-D0C7C6246881}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -206,7 +206,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="major_name"
-              DTS:DTSID="{8FFB04E9-D7A2-4B8E-A5A3-04EE34158C5D}"
+              DTS:DTSID="{F9479F57-0E69-449F-8E52-3D04FBE50BE3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="major_description"
-              DTS:DTSID="{102876C9-F8C2-4FBC-B1FF-D5F730686C51}"
+              DTS:DTSID="{4FA95A7C-768A-4BF4-85A8-E9BD528BDC59}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -223,7 +223,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_codes"
-              DTS:DTSID="{E5A4F606-5462-4B7A-B05D-9387FAEB9540}"
+              DTS:DTSID="{EBF597E5-F5DD-4181-90D4-3700D6690752}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -252,7 +252,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="code"
-              DTS:DTSID="{F1F18561-DDF7-4734-A999-EABFE3305970}"
+              DTS:DTSID="{B7D46DB3-075B-4638-94E5-B03287966F8C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -261,7 +261,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject1"
-              DTS:DTSID="{35232C0A-741C-40CB-A139-2D776FC13807}"
+              DTS:DTSID="{E92F3B3B-56FD-4745-8255-FF84ED7910A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -270,7 +270,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject2"
-              DTS:DTSID="{456ACCC0-FDE8-4FB0-BA0E-78EC2AB28176}"
+              DTS:DTSID="{C2FDF14C-FCED-4D4D-817B-ED367235D505}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -279,7 +279,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject3"
-              DTS:DTSID="{97EB8100-C75F-49C0-85BD-176E892A67FA}"
+              DTS:DTSID="{369B7557-1538-4666-A8B0-1A4D9570C729}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -288,7 +288,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject4"
-              DTS:DTSID="{34DE0619-CB8A-4B0E-84EE-C1710B1EE8D7}"
+              DTS:DTSID="{532A7E65-F76A-47A1-B4B8-B742B08876D9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -449,11 +449,6 @@
                       cachedLength="100"
                       cachedName="score_admission_name"
                       lineageId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]" />
-                    <inputColumn
-                      refId="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Inputs[Derived Column Input].Columns[score_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_mark"
-                      lineageId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -555,30 +550,6 @@
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_WSTR,300)TRIM(score_admission_name)</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]"
-                      name="SCORE_MARK"
-                      precision="8"
-                      scale="2"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">(DT_NUMERIC,8,2)#{Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]}</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">(DT_NUMERIC,8,2)score_mark</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -1219,7 +1190,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
                   expressionType="Notify"
                   name="SqlCommandParam"
                   UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select * from (select * from [dbo].[FACT_CUTOFF_SCORE]) [refTable]
-where [refTable].[YEAR_ID] = ? and [refTable].[SCORE_MARK] = ? and [refTable].[PROGRAM_ID] = ? and [refTable].[ADMISSION_METHOD_ID] = ?</property>
+where [refTable].[YEAR_ID] = ? and [refTable].[PROGRAM_ID] = ? and [refTable].[ADMISSION_METHOD_ID] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the type of connection used to access the reference dataset."
@@ -1250,12 +1221,12 @@ where [refTable].[YEAR_ID] = ? and [refTable].[SCORE_MARK] = ? and [refTable].[P
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="FACT_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PROGRAM_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="YEAR_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ADMISSION_METHOD_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SCORE_MARK" dataType="DT_NUMERIC" length="0" precision="8" scale="2" codePage="0"/&gt;&lt;referenceColumn name="SCORE_CONVERTED_MARK" dataType="DT_NUMERIC" length="0" precision="9" scale="4" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="FACT_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PROGRAM_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="YEAR_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ADMISSION_METHOD_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SCORE_CONVERTED_MARK" dataType="DT_NUMERIC" length="0" precision="9" scale="4" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Outputs[Derived Column Output].Columns[YEAR_ID]};#{Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]};#{Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM.Outputs[Lookup Match Output].Columns[PROGRAM_ID]};#{Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD.Outputs[Lookup Match Output].Columns[ADMISSION_METHOD_ID]};</property>
+                  name="ParameterMap">#{Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Outputs[Derived Column Output].Columns[YEAR_ID]};#{Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM.Outputs[Lookup Match Output].Columns[PROGRAM_ID]};#{Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD.Outputs[Lookup Match Output].Columns[ADMISSION_METHOD_ID]};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1320,24 +1291,6 @@ where [refTable].[YEAR_ID] = ? and [refTable].[SCORE_MARK] = ? and [refTable].[P
                           dataType="System.String"
                           description="Specifies the column in the reference table that a column joins."
                           name="JoinToReferenceColumn">ADMISSION_METHOD_ID</property>
-                        <property
-                          dataType="System.Null"
-                          description="Specifies the column in the reference table from which a column is copied."
-                          name="CopyFromReferenceColumn" />
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup FACT_CUTOFF_SCORE.Inputs[Lookup Input].Columns[SCORE_MARK]"
-                      cachedDataType="numeric"
-                      cachedName="SCORE_MARK"
-                      cachedPrecision="8"
-                      cachedScale="2"
-                      lineageId="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]">
-                      <properties>
-                        <property
-                          dataType="System.String"
-                          description="Specifies the column in the reference table that a column joins."
-                          name="JoinToReferenceColumn">SCORE_MARK</property>
                         <property
                           dataType="System.Null"
                           description="Specifies the column in the reference table from which a column is copied."
@@ -5074,7 +5027,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{B16FCCB3-B752-4082-B1E7-238D7AD21985}"
-          SQLTask:SqlStatementSource="CREATE TABLE DIM_PROVINCE (&#xA;    PROVINCE_ID INT PRIMARY KEY,&#xA;    PROVINCE_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCHOOL (&#xA;    SCHOOL_ID NVARCHAR(50) PRIMARY KEY,&#xA;    SCHOOL_NAME NVARCHAR(500) NOT NULL,&#xA;    SCHOOL_TYPE NVARCHAR(100),&#xA;    SCHOOL_SHORT_NAME NVARCHAR(200),&#xA;    PROVINCE_ID INT,&#xA;    CONSTRAINT FK_SCHOOL_PROVINCE&#xA;        FOREIGN KEY (PROVINCE_ID)&#xA;        REFERENCES DIM_PROVINCE(PROVINCE_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR_GROUP (&#xA;    MAJOR_GROUP_ID INT PRIMARY KEY,&#xA;    MAJOR_GROUP_NAME NVARCHAR(500) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR (&#xA;    MAJOR_ID INT PRIMARY KEY,&#xA;    MAJOR_NAME NVARCHAR(500) NOT NULL,&#xA;    MAJOR_DESCRIPTION NVARCHAR(MAX)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_MAJOR_GROUP (&#xA;    MAJOR_ID INT NOT NULL,&#xA;    MAJOR_GROUP_ID INT NOT NULL,&#xA;    PRIMARY KEY (MAJOR_ID, MAJOR_GROUP_ID),&#xA;    CONSTRAINT FK_BMG_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID),&#xA;    CONSTRAINT FK_BMG_GROUP&#xA;        FOREIGN KEY (MAJOR_GROUP_ID)&#xA;        REFERENCES DIM_MAJOR_GROUP(MAJOR_GROUP_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCORE_BLOCK (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) PRIMARY KEY,&#xA;    SCORE_BLOCK_NAME NVARCHAR(500)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SUBJECT (&#xA;    SUBJECT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SUBJECT_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_SCORE_BLOCK_SUBJECT (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    SUBJECT_ID INT NOT NULL,&#xA;    PRIMARY KEY (SCORE_BLOCK_CODE, SUBJECT_ID),&#xA;    CONSTRAINT FK_BSBS_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE),&#xA;    CONSTRAINT FK_BSBS_SUBJECT&#xA;        FOREIGN KEY (SUBJECT_ID)&#xA;        REFERENCES DIM_SUBJECT(SUBJECT_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_ADMISSION_METHOD (&#xA;    ADMISSION_METHOD_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    ADMISSION_METHOD_NAME NVARCHAR(300) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_YEAR (&#xA;    YEAR_ID INT PRIMARY KEY,&#xA;    YEAR INT NOT NULL,&#xA;    DECADE NVARCHAR(50)&#xA;);&#xA;&#xA;CREATE TABLE DIM_PROGRAM (&#xA;    PROGRAM_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SCHOOL_ID NVARCHAR(50) NOT NULL,&#xA;    MAJOR_ID INT,&#xA;    SCORE_CODE NVARCHAR(100),&#xA;    PROGRAM_NAME NVARCHAR(1000),&#xA;    CONSTRAINT FK_PROGRAM_SCHOOL&#xA;        FOREIGN KEY (SCHOOL_ID)&#xA;        REFERENCES DIM_SCHOOL(SCHOOL_ID),&#xA;    CONSTRAINT FK_PROGRAM_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID)&#xA;);&#xA;&#xA;CREATE TABLE FACT_CUTOFF_SCORE (&#xA;    FACT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    PROGRAM_ID INT NOT NULL,&#xA;    YEAR_ID INT NOT NULL,&#xA;    ADMISSION_METHOD_ID INT NOT NULL,&#xA;    SCORE_MARK DECIMAL(8,2),&#xA;    SCORE_CONVERTED_MARK DECIMAL(9,4),&#xA;&#xA;    CONSTRAINT FK_FACT_PROGRAM&#xA;        FOREIGN KEY (PROGRAM_ID)&#xA;        REFERENCES DIM_PROGRAM(PROGRAM_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_YEAR&#xA;        FOREIGN KEY (YEAR_ID)&#xA;        REFERENCES DIM_YEAR(YEAR_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_METHOD&#xA;        FOREIGN KEY (ADMISSION_METHOD_ID)&#xA;        REFERENCES DIM_ADMISSION_METHOD(ADMISSION_METHOD_ID)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_FACT_SCORE_BLOCK (&#xA;    FACT_ID INT NOT NULL,&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    PRIMARY KEY (FACT_ID, SCORE_BLOCK_CODE),&#xA;&#xA;    CONSTRAINT FK_BFSB_FACT&#xA;        FOREIGN KEY (FACT_ID)&#xA;        REFERENCES FACT_CUTOFF_SCORE(FACT_ID),&#xA;&#xA;    CONSTRAINT FK_BFSB_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE)&#xA;);" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="CREATE TABLE DIM_PROVINCE (&#xA;    PROVINCE_ID INT PRIMARY KEY,&#xA;    PROVINCE_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCHOOL (&#xA;    SCHOOL_ID NVARCHAR(50) PRIMARY KEY,&#xA;    SCHOOL_NAME NVARCHAR(500) NOT NULL,&#xA;    SCHOOL_TYPE NVARCHAR(100),&#xA;    SCHOOL_SHORT_NAME NVARCHAR(200),&#xA;    PROVINCE_ID INT,&#xA;    CONSTRAINT FK_SCHOOL_PROVINCE&#xA;        FOREIGN KEY (PROVINCE_ID)&#xA;        REFERENCES DIM_PROVINCE(PROVINCE_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR_GROUP (&#xA;    MAJOR_GROUP_ID INT PRIMARY KEY,&#xA;    MAJOR_GROUP_NAME NVARCHAR(500) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR (&#xA;    MAJOR_ID INT PRIMARY KEY,&#xA;    MAJOR_NAME NVARCHAR(500) NOT NULL,&#xA;    MAJOR_DESCRIPTION NVARCHAR(MAX)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_MAJOR_GROUP (&#xA;    MAJOR_ID INT NOT NULL,&#xA;    MAJOR_GROUP_ID INT NOT NULL,&#xA;    PRIMARY KEY (MAJOR_ID, MAJOR_GROUP_ID),&#xA;    CONSTRAINT FK_BMG_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID),&#xA;    CONSTRAINT FK_BMG_GROUP&#xA;        FOREIGN KEY (MAJOR_GROUP_ID)&#xA;        REFERENCES DIM_MAJOR_GROUP(MAJOR_GROUP_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCORE_BLOCK (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) PRIMARY KEY,&#xA;    SCORE_BLOCK_NAME NVARCHAR(500)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SUBJECT (&#xA;    SUBJECT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SUBJECT_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_SCORE_BLOCK_SUBJECT (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    SUBJECT_ID INT NOT NULL,&#xA;    PRIMARY KEY (SCORE_BLOCK_CODE, SUBJECT_ID),&#xA;    CONSTRAINT FK_BSBS_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE),&#xA;    CONSTRAINT FK_BSBS_SUBJECT&#xA;        FOREIGN KEY (SUBJECT_ID)&#xA;        REFERENCES DIM_SUBJECT(SUBJECT_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_ADMISSION_METHOD (&#xA;    ADMISSION_METHOD_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    ADMISSION_METHOD_NAME NVARCHAR(300) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_YEAR (&#xA;    YEAR_ID INT PRIMARY KEY,&#xA;    YEAR INT NOT NULL,&#xA;    DECADE NVARCHAR(50)&#xA;);&#xA;&#xA;CREATE TABLE DIM_PROGRAM (&#xA;    PROGRAM_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SCHOOL_ID NVARCHAR(50) NOT NULL,&#xA;    MAJOR_ID INT,&#xA;    SCORE_CODE NVARCHAR(100),&#xA;    PROGRAM_NAME NVARCHAR(1000),&#xA;    CONSTRAINT FK_PROGRAM_SCHOOL&#xA;        FOREIGN KEY (SCHOOL_ID)&#xA;        REFERENCES DIM_SCHOOL(SCHOOL_ID),&#xA;    CONSTRAINT FK_PROGRAM_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID)&#xA;);&#xA;&#xA;CREATE TABLE FACT_CUTOFF_SCORE (&#xA;    FACT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    PROGRAM_ID INT NOT NULL,&#xA;    YEAR_ID INT NOT NULL,&#xA;    ADMISSION_METHOD_ID INT NOT NULL,&#xA;    SCORE_CONVERTED_MARK DECIMAL(9,4),&#xA;&#xA;    CONSTRAINT FK_FACT_PROGRAM&#xA;        FOREIGN KEY (PROGRAM_ID)&#xA;        REFERENCES DIM_PROGRAM(PROGRAM_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_YEAR&#xA;        FOREIGN KEY (YEAR_ID)&#xA;        REFERENCES DIM_YEAR(YEAR_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_METHOD&#xA;        FOREIGN KEY (ADMISSION_METHOD_ID)&#xA;        REFERENCES DIM_ADMISSION_METHOD(ADMISSION_METHOD_ID)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_FACT_SCORE_BLOCK (&#xA;    FACT_ID INT NOT NULL,&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    PRIMARY KEY (FACT_ID, SCORE_BLOCK_CODE),&#xA;&#xA;    CONSTRAINT FK_BFSB_FACT&#xA;        FOREIGN KEY (FACT_ID)&#xA;        REFERENCES FACT_CUTOFF_SCORE(FACT_ID),&#xA;&#xA;    CONSTRAINT FK_BFSB_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE)&#xA;);&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5213,6 +5166,27 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       length="50"
                       lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[school_id]"
                       name="school_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_admission_name]"
+                      length="100"
+                      lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]"
+                      name="score_admission_name"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -5441,27 +5415,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       length="1000"
                       lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_introtext]"
                       name="score_introtext"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_admission_name]"
-                      length="100"
-                      lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]"
-                      name="score_admission_name"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -6490,47 +6443,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                   name="Flat File Source Output">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_id]"
-                      dataType="i4"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[major_group_id]"
-                      lineageId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_id]"
-                      name="major_group_id"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_name]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[major_group_name]"
-                      length="255"
-                      lineageId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_name]"
-                      name="major_group_name"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
                       refId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_id]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversion"
@@ -6580,6 +6492,47 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       externalMetadataColumnId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[major_description]"
                       lineageId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_description]"
                       name="major_description"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_id]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[major_group_id]"
+                      lineageId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_id]"
+                      name="major_group_id"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the data is in binary format."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[major_group_name]"
+                      length="255"
+                      lineageId="Package\DIM_MAJOR\Flat File Source.Outputs[Flat File Source Output].Columns[major_group_name]"
+                      name="major_group_name"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -9714,7 +9667,7 @@ public class Output0Buffer: ScriptBuffer
     <msb:CodeName>SC_5af31ff4bbb7435eaf706baee23204f7</msb:CodeName>
     <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_5af31ff4bbb7435eaf706baee23204f7</msb:DisplayName>
-    <msb:ProjectId>{9C4E99B8-D99F-490A-A1FD-7246C4B63F2E}</msb:ProjectId>
+    <msb:ProjectId>{735CEF58-8146-424D-9C97-E611AFF2F9E7}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_5af31ff4bbb7435eaf706baee23204f7.csproj" />
@@ -9861,7 +9814,7 @@ namespace SC_5af31ff4bbb7435eaf706baee23204f7.Properties {
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAB1vr2oAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAA2jUA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDABmJtGoAAAAAAAAAAOAAIiALATAAABYAAAAIAAAAAAAA2jUA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
 ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAIg1AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -9952,7 +9905,7 @@ bgBvAHQAIABiAGUAIABzAGUAdAAgAHQAbwAgAEYAYQBsAHMAZQAuACAAQQBzAHMAaQBnAG4AIABh
 ACAAdgBhAGwAdQBlACAAdABvACAAdABoAGUAIABjAG8AbAB1AG0AbgAgAGkAbgBzAHQAZQBhAGQA
 LgAAD0kAbgBwAHUAdAAgADAAABFPAHUAdABwAHUAdAAgADAAAHFTAEMAXwA1AGEAZgAzADEAZgBm
 ADQAYgBiAGIANwA0ADMANQBlAGEAZgA3ADAANgBiAGEAZQBlADIAMwAyADAANABmADcALgBQAHIA
-bwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAI9fVsdP5vUWo8GjPEEILjgAE
+bwBwAGUAcgB0AGkAZQBzAC4AUgBlAHMAbwB1AHIAYwBlAHMAAAAAGNoRic7GikWUrMwDeKD+dQAE
 IAEBCAMgAAEFIAEBEREEIAEBDgUgAQERWQYHAx0OCA4EAAECDgYgAR0OHQMDIAAOCSADARI9HQgS
 QQMGEj0DBh0IBCABCAgEIAECCAQgAQ4IAyAAAgUgAgEIHAYgAgIOEXkFIAEdCAgDBwEIBgACCBJB
 DgcAARJ9EYCBBSAAEoCFByACAQ4SgIUIt3pcVhk04IkIiYRdzYCAzJEDBhIYAwYSHAMGEhACBggD
@@ -10936,19 +10889,19 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               startId="Package\DIM_PROGRAM\Script Component.Outputs[Output 0]" />
             <path
               refId="Package\DIM_PROGRAM.Paths[Sort Output]"
-              endId="Package\DIM_PROGRAM\Merge Join.Inputs[Merge Join Left Input]"
-              name="Sort Output"
-              startId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output]" />
-            <path
-              refId="Package\DIM_PROGRAM.Paths[Sort Output1]"
               endId="Package\DIM_PROGRAM\Merge Join.Inputs[Merge Join Right Input]"
               name="Sort Output"
               startId="Package\DIM_PROGRAM\Sort Major.Outputs[Sort Output]" />
             <path
-              refId="Package\DIM_PROGRAM.Paths[Sort Output2]"
+              refId="Package\DIM_PROGRAM.Paths[Sort Output1]"
               endId="Package\DIM_PROGRAM\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Sort Output"
               startId="Package\DIM_PROGRAM\Sort.Outputs[Sort Output]" />
+            <path
+              refId="Package\DIM_PROGRAM.Paths[Sort Output2]"
+              endId="Package\DIM_PROGRAM\Merge Join.Inputs[Merge Join Left Input]"
+              name="Sort Output"
+              startId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -15263,7 +15216,7 @@ namespace SC_173c3dbc36c34243ad3ca9d0d6333f7e.Properties {
                       dataType="System.String"><![CDATA[UTF8]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="Current" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -15275,9 +15228,10 @@ namespace SC_173c3dbc36c34243ad3ca9d0d6333f7e.Properties {
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SC_173c3dbc36c34243ad3ca9d0d6333f7e</RootNamespace>
     <AssemblyName>SC_173c3dbc36c34243ad3ca9d0d6333f7e</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -15354,23 +15308,23 @@ namespace SC_173c3dbc36c34243ad3ca9d0d6333f7e.Properties {
                       dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
                     <arrayElement
                       dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
   <msb:PropertyGroup>
-    <msb:Language>msBuild</msb:Language>
     <msb:CodeName>SC_173c3dbc36c34243ad3ca9d0d6333f7e</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
     <msb:DisplayName>SC_173c3dbc36c34243ad3ca9d0d6333f7e</msb:DisplayName>
-    <msb:ProjectId>{A8BF4D06-2CC4-4A3D-880D-8EB6C1CAB0DE}</msb:ProjectId>
+    <msb:ProjectId>{73D26B58-B8D3-4F39-9D60-417E85C899B6}</msb:ProjectId>
   </msb:PropertyGroup>
   <msb:ItemGroup>
     <msb:Project Include="SC_173c3dbc36c34243ad3ca9d0d6333f7e.csproj" />
     <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="main.cs" />
+    <msb:File Include="BufferWrapper.cs" />
+    <msb:File Include="ComponentWrapper.cs" />
     <msb:File Include="Properties\Settings.settings" />
     <msb:File Include="Properties\AssemblyInfo.cs" />
     <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="main.cs" />
-    <msb:File Include="BufferWrapper.cs" />
     <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="ComponentWrapper.cs" />
   </msb:ItemGroup>
 </c:Project>]]></arrayElement>
                     <arrayElement
@@ -15506,14 +15460,14 @@ namespace SC_173c3dbc36c34243ad3ca9d0d6333f7e.Properties {
                     <arrayElement
                       dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
-ZGUuDQ0KJAAAAAAAAABQRQAATAEDAJiYr2oAAAAAAAAAAOAAIiALATAAABgAAAAIAAAAAAAAIjYA
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAOyStGoAAAAAAAAAAOAAIiALATAAABgAAAAIAAAAAAAAHjYA
 AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
-ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAANA1AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAMw1AABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
 AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAKBYAAAAgAAAAGAAAAAIA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAJBYAAAAgAAAAGAAAAAIA
 AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAaAAAAAAAAAAAAAAAAAABAAABA
-LnJlbG9jAAAMAAAAAGAAAAACAAAAIAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAE
-NgAAAAAAAEgAAAACAAUARCMAANQRAAABAAAAAAAAABg1AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAIAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAA
+NgAAAAAAAEgAAAACAAUARCMAANARAAABAAAAAAAAABQ1AAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACioTMAQAmAAAAAEAABEajRoAAAEl
 FgNvCAAABi0IA28HAAAGKwEUoiUXA28KAAAGLQgDbwkAAAYrARSiJRgDbwwAAAYtCANvCwAABisB
 FKIlGQNvDgAABi0IA28NAAAGKwEUogoWCys2BgeaDAgoEgAACi0mCG8TAAAKDQkoFAAACi0XAnsD
@@ -15529,7 +15483,7 @@ zgJvHAAABipKKwcCA28eAAAGA28PAAAGLfEqOgIoJgAACgIDfQUAAAQqOgIoJgAACgIDfQYAAAQq
 HgIoJgAACiqufgcAAAQtHnLAAABw0AgAAAIoJwAACm8oAAAKcykAAAqABwAABH4HAAAEKhp+CAAA
 BCoeAoAIAAAEKhp+CQAABCoeAigqAAAKKi5zJgAABoAJAAAEKkJTSkIBAAEAAAAAAAwAAAB2NC4w
 LjMwMzE5AAAAAAUAbAAAAPgGAAAjfgAAZAcAAFwHAAAjU3RyaW5ncwAAAADADgAANAEAACNVUwD0
-DwAAEAAAACNHVUlEAAAABBAAANABAAAjQmxvYgAAAAAAAAACAAABVxWiAQkBAAAA+gEzABYAAAEA
+DwAAEAAAACNHVUlEAAAABBAAAMwBAAAjQmxvYgAAAAAAAAACAAABVxWiAQkBAAAA+gEzABYAAAEA
 AAAfAAAACQAAAAkAAAAnAAAAFgAAACoAAAAQAAAAAgAAAAQAAAANAAAADgAAAAEAAAAEAAAAAQAA
 AAAAcwMBAAAAAAAGAGoCNgUGAP4CNgUGALYBIwUPAKoFAAAGAOMBYAQGAE0CYAQGAC4CYAQGAOUC
 YAQGAIoCYAQGAKMCYAQGAPoBYAQGABUCOQMKAL4CAwEKAOsEAwEOANwEAwEKAKkEAwEKAK0GAwEG
@@ -15555,7 +15509,7 @@ AAwFBgCJABwDBgCJACcDBgDRALIAIwDRABoEKADRAE4HIwBxAAwFLABxAPEENgBxAPIFOgB5AFMD
 PgBxAPsDQwBxADkHSABxAHcGSABxAAoETABxAAIEAQDZAAwFEABxABsHBgBxAHQGBgCJAAwFBgDR
 ACAGUgCJAAYGWQB5AGQGSACJAEYAYwCRAAwFBgDpAOcAagDpAEEHcQChAAwFdgDBAAwFBgAuAAsA
 BQEuABMADgEuABsALQEuACMANgEuACsAXwEuADMAXwEuADsAXwEuAEMANgEuAEsAZQEuAFMAXwEu
-AFsAfAFDAGMAygEDAWsAygEhAXsAygFpAXMALQGJAXMALQEbAF8AAwABAAQACQAIAAsACQANAAAA
+AFsAfAFDAGMAxgEDAWsAxgEhAXsAxgFpAXMALQGJAXMALQEbAF8AAwABAAQACQAIAAsACQANAAAA
 BQDuAAAAnwPyAAAAEgDuAAAAswPyAAAAHwDuAAAAxwPyAAAALADuAAAA2wPyAAAAVgDuAAAA7wPy
 AAAA/AT2AAAASQH7AAAAhwYAAQIABwADAAIACAAFAAIACQAHAAIACgAJAAIACwALAAIADAANAAIA
 DQAPAAIADgARAAEAEgATAAEAEwAVAAIAIgAXAAIAIwAZAAEAJAAZAAIAJQAbAASAAAABAAAAAAAA
@@ -15599,20 +15553,20 @@ dABvACAARgBhAGwAcwBlAC4AIABBAHMAcwBpAGcAbgAgAGEAIAB2AGEAbAB1AGUAIAB0AG8AIAB0
 AGgAZQAgAGMAbwBsAHUAbQBuACAAaQBuAHMAdABlAGEAZAAuAAAPSQBuAHAAdQB0ACAAMAAAEU8A
 dQB0AHAAdQB0ACAAMAAAcVMAQwBfADEANwAzAGMAMwBkAGIAYwAzADYAYwAzADQAMgA0ADMAYQBk
 ADMAYwBhADkAZAAwAGQANgAzADMAMwBmADcAZQAuAFAAcgBvAHAAZQByAHQAaQBlAHMALgBSAGUA
-cwBvAHUAcgBjAGUAcwAAAADzYSAyIOMPT5CEhYA5q9SNAAQgAQEIAyAAAQUgAQEREQQgAQEOBSAB
+cwBvAHUAcgBjAGUAcwAAAACzqapLHQfoQ6kQ7o2C4AMjAAQgAQEIAyAAAQUgAQEREQQgAQEOBSAB
 ARFZBwcEHQ4IDg4EAAECDgMgAA4JIAMBEj0dCBJBAwYSPQMGHQgEIAEOCAQgAQIIAyAAAgUgAgEI
 HAYgAgIOEXEFIAEdCAgDBwEIBgACCBJBDgYAARJ1EXkEIAASfQYgAgEOEn0It3pcVhk04IkIiYRd
 zYCAzJEDBhIYAwYSHAMGEhACBggDBhJFAwYSUQMGElUDBhIkBSABARIMBCABAQIJIAQBCA4SPRJB
 CyAEAQgdCB0SPRJBBSABARJFBAAAElEEAAASVQUAAQESVQQAABIkAwAAAQMoAA4DKAACBAgAElEE
 CAASVQQIABIkCAEACAAAAAAAHgEAAQBUAhZXcmFwTm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAA
 ACgBACNTQ18xNzNjM2RiYzM2YzM0MjQzYWQzY2E5ZDBkNjMzM2Y3ZQAABQEAAAAAFgEAEUNvcHly
-aWdodCBAICAyMDI2AABNAQAcLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcuMgEAVA4URnJhbWV3
-b3JrRGlzcGxheU5hbWUULk5FVCBGcmFtZXdvcmsgNC43LjIEAQAAAAC0AAAAzsrvvgEAAACRAAAA
-bFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4w
-LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0
-ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAAAAAAAAAAAAFBBRFBBRFC0AAAA+DUA
-AAAAAAAAAAAAEjYAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ2AAAAAAAAAAAAAAAAX0NvckRs
-bE1haW4AbXNjb3JlZS5kbGwAAAAAAP8lACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+aWdodCBAICAyMDI2AABJAQAaLk5FVEZyYW1ld29yayxWZXJzaW9uPXY0LjcBAFQOFEZyYW1ld29y
+a0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQuNwQBAAAAALQAAADOyu++AQAAAJEAAABsU3lz
+dGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRlciwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwg
+Q3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5S
+ZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0AgAAAAAAAAAAAAAAUEFEUEFEULQAAAD0NQAAAAAA
+AAAAAAAONgAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAABfQ29yRGxsTWFp
+bgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -15647,7 +15601,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAACQ2AAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAADAAAACA2AAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -16511,11 +16465,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       cachedName="score_admission_name"
                       lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]" />
                     <inputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Derived Column.Inputs[Derived Column Input].Columns[score_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_mark"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]" />
-                    <inputColumn
                       refId="Package\FACT_CUTOFF_SCORE\Derived Column.Inputs[Derived Column Input].Columns[score_converted_mark]"
                       cachedDataType="r8"
                       cachedName="score_converted_mark"
@@ -16621,30 +16570,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
                           name="FriendlyExpression">(DT_WSTR,300)TRIM(score_admission_name)</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]"
-                      dataType="numeric"
-                      errorOrTruncationOperation="Computation"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]"
-                      name="SCORE_MARK"
-                      precision="8"
-                      scale="2"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Expression"
-                          name="Expression">(DT_NUMERIC,8,2)#{Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]}</property>
-                        <property
-                          containsID="true"
-                          dataType="System.String"
-                          description="Derived Column Friendly Expression"
-                          expressionType="Notify"
-                          name="FriendlyExpression">(DT_NUMERIC,8,2)score_mark</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -16801,26 +16726,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       length="100"
                       lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]"
                       name="score_admission_name"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      name="score_mark"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -17058,7 +16963,7 @@ where [refTable].[ADMISSION_METHOD_NAME] = ?</property>
                 <output
                   refId="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="IgnoreFailure"
                   exclusionGroup="1"
                   name="Lookup Match Output"
                   synchronousInputId="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD.Inputs[Lookup Input]">
@@ -17367,14 +17272,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
                       externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[YEAR_ID]"
                       lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[YEAR_ID]" />
                     <inputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SCORE_MARK]"
-                      cachedDataType="numeric"
-                      cachedName="SCORE_MARK"
-                      cachedPrecision="8"
-                      cachedScale="2"
-                      externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_MARK]"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]" />
-                    <inputColumn
                       refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SCORE_CONVERTED_MARK]"
                       cachedDataType="numeric"
                       cachedName="SCORE_CONVERTED_MARK"
@@ -17413,12 +17310,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
                       refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ADMISSION_METHOD_ID]"
                       dataType="i4"
                       name="ADMISSION_METHOD_ID" />
-                    <externalMetadataColumn
-                      refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_MARK]"
-                      dataType="numeric"
-                      name="SCORE_MARK"
-                      precision="8"
-                      scale="2" />
                     <externalMetadataColumn
                       refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_CONVERTED_MARK]"
                       dataType="numeric"
@@ -17492,15 +17383,15 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{5E1C984B-31D2-45FF-92FA-0911B2640D56}"
-      DTS:From="Package\DIM_PROVINCE"
+      DTS:DTSID="{C07D88E2-22E3-44EF-AF1E-0245E5C29696}"
+      DTS:From="Package\Create All Tables"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
-      DTS:To="Package\DIM_SCHOOL" />
+      DTS:To="Package\DIM_PROVINCE" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 10]"
       DTS:CreationName=""
-      DTS:DTSID="{603592AD-832B-4410-A6EC-FF7BBD02E723}"
+      DTS:DTSID="{41EE94EC-7F44-482F-82D0-604FCFDBE6D1}"
       DTS:From="Package\DIM_YEAR"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 10"
@@ -17508,7 +17399,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 11]"
       DTS:CreationName=""
-      DTS:DTSID="{630060FA-632E-4742-8EE6-A10A9FF9F42F}"
+      DTS:DTSID="{90D3E2DE-2878-4862-B97C-CA161FB3ADDA}"
       DTS:From="Package\FACT_CUTOFF_SCORE"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 11"
@@ -17516,7 +17407,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 12]"
       DTS:CreationName=""
-      DTS:DTSID="{752ED571-04FC-46B8-BEFD-F1D0F28145EF}"
+      DTS:DTSID="{51F7625D-C68F-4D68-A910-8DA325A4BF8E}"
       DTS:From="Package\BRIDGE_MAJOR_GROUP"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 12"
@@ -17524,7 +17415,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 13]"
       DTS:CreationName=""
-      DTS:DTSID="{B32CBF93-4398-4D4E-B59C-15E9FC44F701}"
+      DTS:DTSID="{1845655B-A1B8-4EBD-A7D0-19E5611C6EA4}"
       DTS:From="Package\BRIDGE_SCORE_BLOCK_SUBJECT"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 13"
@@ -17532,47 +17423,47 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{0E85E5BD-EBDC-404B-B02F-8840E1CBE696}"
-      DTS:From="Package\DIM_MAJOR"
+      DTS:DTSID="{B9B53D55-40C8-4C8B-A9B2-BFBE68CC37ED}"
+      DTS:From="Package\DIM_SCHOOL"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
       DTS:To="Package\DIM_MAJOR_GROUP" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
       DTS:CreationName=""
-      DTS:DTSID="{F2579E25-6D6B-447C-BD74-81DA555FBEE7}"
+      DTS:DTSID="{80722A6E-F8A5-4F3C-B301-4BE37AB0D83F}"
       DTS:From="Package\DIM_MAJOR_GROUP"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 3"
-      DTS:To="Package\DIM_PROGRAM" />
+      DTS:To="Package\DIM_MAJOR" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
       DTS:CreationName=""
-      DTS:DTSID="{7EE755B0-E74A-48E1-B254-418199B124DB}"
-      DTS:From="Package\DIM_PROGRAM"
+      DTS:DTSID="{3047AA66-82E8-4635-AA5D-5ACB4138A4F1}"
+      DTS:From="Package\DIM_MAJOR"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 4"
-      DTS:To="Package\DIM_SCORE_BLOCK" />
+      DTS:To="Package\DIM_PROGRAM" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
       DTS:CreationName=""
-      DTS:DTSID="{C5AE58D5-94D0-45F0-8E7A-4388B9EA04C8}"
-      DTS:From="Package\DIM_SCHOOL"
+      DTS:DTSID="{BCBE0080-16B2-4681-A2D6-1DE56F3663B4}"
+      DTS:From="Package\DIM_PROVINCE"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 5"
-      DTS:To="Package\DIM_MAJOR" />
+      DTS:To="Package\DIM_SCHOOL" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
       DTS:CreationName=""
-      DTS:DTSID="{85ED7219-6DA0-48E1-9291-D8CE26D1425F}"
-      DTS:From="Package\Create All Tables"
+      DTS:DTSID="{D53187FC-6B80-44D6-A742-DDA35DD211A2}"
+      DTS:From="Package\DIM_PROGRAM"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 6"
-      DTS:To="Package\DIM_PROVINCE" />
+      DTS:To="Package\DIM_SCORE_BLOCK" />
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
       DTS:CreationName=""
-      DTS:DTSID="{28D581ED-5D4B-49B4-81F9-EB933F8BBBE7}"
+      DTS:DTSID="{41D53F8A-1390-419E-BA68-25B82746D90C}"
       DTS:From="Package\DIM_SCORE_BLOCK"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 7"
@@ -17580,7 +17471,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
       DTS:CreationName=""
-      DTS:DTSID="{4ABF24E1-CA58-4F6A-8D1E-223E0CABD355}"
+      DTS:DTSID="{48D4019C-2642-4BAC-A36A-DF8B2E1B64B1}"
       DTS:From="Package\DIM_SUBJECT"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 8"
@@ -17588,7 +17479,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 9]"
       DTS:CreationName=""
-      DTS:DTSID="{464F9931-4D1F-470A-80C2-5DBAB63DA6C1}"
+      DTS:DTSID="{7E40A231-0900-48FE-B9FE-5D59CCE8E431}"
       DTS:From="Package\DIM_ADMISSION_METHOD"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 9"
@@ -17607,52 +17498,68 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="222.4,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK"
+          TopLeft="1066.9126992685,365.405228325681" />
+        <NodeLayout
+          Size="194.4,41.6"
+          Id="Package\BRIDGE_MAJOR_GROUP"
+          TopLeft="1071.92619149101,95.6147057193046" />
+        <NodeLayout
+          Size="240,41.6"
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT"
+          TopLeft="1056.52619113977,247.026470292469" />
+        <NodeLayout
           Size="157.6,41.6"
           Id="Package\Create All Tables"
-          TopLeft="201.42857185736,219.999999817679" />
+          TopLeft="201.42857185736,224.799999817679" />
         <NodeLayout
           Size="208,41.6"
           Id="Package\DIM_ADMISSION_METHOD"
-          TopLeft="981.428573517775,342.333333033265" />
+          TopLeft="806.904763622447,361.921568198016" />
         <NodeLayout
           Size="136.8,41.6"
           Id="Package\DIM_MAJOR"
-          TopLeft="459.514286588588,222.270588020129" />
+          TopLeft="415.407143637553,92.7411762567641" />
         <NodeLayout
           Size="176.8,41.6"
           Id="Package\DIM_MAJOR_GROUP"
-          TopLeft="437.14285807342,97.2823527528247" />
+          TopLeft="398.214286561981,224.502940764408" />
         <NodeLayout
           Size="152,41.6"
           Id="Package\DIM_PROGRAM"
-          TopLeft="737.755103611303,95.0420167234147" />
+          TopLeft="617.993198594459,92.8361342602096" />
         <NodeLayout
           Size="153.6,41.6"
           Id="Package\DIM_PROVINCE"
-          TopLeft="202.142857573166,347.705882058681" />
+          TopLeft="201.845238524913,363.339215382518" />
         <NodeLayout
           Size="144,41.6"
           Id="Package\DIM_SCHOOL"
-          TopLeft="459.285715263414,347.364705460068" />
+          TopLeft="417.380953269448,361.468627020541" />
         <NodeLayout
           Size="173.6,41.6"
           Id="Package\DIM_SCORE_BLOCK"
-          TopLeft="732.603175814527,225.163398495446" />
+          TopLeft="610.222223173054,224.486927795607" />
         <NodeLayout
           Size="145.6,41.6"
           Id="Package\DIM_SUBJECT"
-          TopLeft="743.111112341048,344.117646757191" />
+          TopLeft="623.944445420702,364.852940744466" />
         <NodeLayout
           Size="128.8,41.6"
           Id="Package\DIM_YEAR"
-          TopLeft="1014.28571542307,224.592156742316" />
+          TopLeft="841.70068104207,225.00812301631" />
         <NodeLayout
           Size="149.6,41.6"
           Id="Package\Drop All Tables"
-          TopLeft="199.285714709941,91.5294116949952" />
+          TopLeft="199.285714709941,96.3294116949952" />
+        <NodeLayout
+          Size="185.6,41.6"
+          Id="Package\FACT_CUTOFF_SCORE"
+          TopLeft="809.774150361617,93.6949578211256" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="277.15714328365,133.129411694995">
+          TopLeft="277.15714328365,137.929411694995">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -17674,18 +17581,106 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="355.742857573166,368.335293759375">
+          TopLeft="279.436905191136,266.399999817679">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="103.542857690248,0"
+              EndConnector="0,96.9392155648395"
               Start="0,0"
-              End="96.0428576902478,0">
+              End="0,89.4392155648395">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="96.0428576902478,0" />
+                    End="0,89.4392155648395" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="904.337415701843,225.00812301631">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-89.7131651951843"
+              Start="0,0"
+              End="0,-82.2131651951843">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-82.2131651951843" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="995.374150361617,115.454831770215">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="76.5520411293878,0"
+              Start="0,0"
+              End="69.0520411293878,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.0520411293878,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 12]"
+          TopLeft="1172.82619131539,137.214705719305">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,109.811764573164"
+              Start="0,0"
+              End="0,102.311764573164">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,102.311764573164" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 13]"
+          TopLeft="1177.31944520413,288.626470292469">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,76.7787580332115"
+              Start="0,0"
+              End="0,69.2787580332115">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,69.2787580332115" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17696,18 +17691,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="526.728572331004,222.270588020129">
+          TopLeft="487.997619915714,361.468627020541">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-83.3882352673042"
+              EndConnector="0,-95.3656862561331"
               Start="0,0"
-              End="0,-75.8882352673042">
+              End="0,-87.8656862561331">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-75.8882352673042" />
+                    End="0,-87.8656862561331" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17718,18 +17713,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 3]"
-          TopLeft="613.94285807342,116.96218473812">
+          TopLeft="485.210715099767,224.502940764408">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="123.812245537883,0"
+              EndConnector="0,-90.1617645076435"
               Start="0,0"
-              End="116.312245537883,0">
+              End="0,-82.6617645076435">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="116.312245537883,0" />
+                    End="0,-82.6617645076435" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17740,18 +17735,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 4]"
-          TopLeft="816.579139712915,136.642016723415">
+          TopLeft="552.207143637553,113.588655258487">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,88.5213817720312"
+              EndConnector="65.7860549569067,0"
               Start="0,0"
-              End="0,81.0213817720312">
+              End="58.2860549569067,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,81.0213817720312" />
+                    End="58.2860549569067,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17762,18 +17757,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="529.600000926001,347.364705460068">
+          TopLeft="355.445238524913,383.203921201529">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-83.4941174399389"
+              EndConnector="61.9357147445346,0"
               Start="0,0"
-              End="0,-75.9941174399389">
+              End="54.4357147445346,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-75.9941174399389" />
+                    End="54.4357147445346,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17784,18 +17779,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 6]"
-          TopLeft="279.585714715263,261.599999817679">
+          TopLeft="695.507710883756,134.43613426021">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,86.1058822410018"
+              EndConnector="0,90.0507935353978"
               Start="0,0"
-              End="0,78.6058822410018">
+              End="0,82.5507935353978">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,78.6058822410018" />
+                    End="0,82.5507935353978" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17806,18 +17801,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 7]"
-          TopLeft="817.657144077788,266.763398495446">
+          TopLeft="696.883334296878,266.086927795607">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,77.3542482617451"
+              EndConnector="0,98.7660129488581"
               Start="0,0"
-              End="0,69.8542482617451">
+              End="0,91.2660129488581">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,69.8542482617451" />
+                    End="0,91.2660129488581" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17828,18 +17823,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
-          TopLeft="888.711112341048,364.025489895228">
+          TopLeft="769.544445420702,384.187254471241">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="92.7174611767272,0"
+              EndConnector="37.3603182017447,0"
               Start="0,0"
-              End="85.2174611767272,0">
+              End="29.8603182017447,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="85.2174611767272,0" />
+                    End="29.8603182017447,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17850,122 +17845,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 9]"
-          TopLeft="1082.05714447042,342.333333033265">
+          TopLeft="908.502722332258,361.921568198016">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-76.1411762909494"
+              EndConnector="0,-95.3134451817057"
               Start="0,0"
-              End="0,-68.6411762909494">
+              End="0,-87.8134451817057">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-68.6411762909494" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="185.6,41.6"
-          Id="Package\FACT_CUTOFF_SCORE"
-          TopLeft="991.542858158569,95.6823528895638" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="1081.51428679082,224.592156742316">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,-87.3098038527522"
-              Start="0,0"
-              End="0,-79.8098038527522">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-79.8098038527522" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="194.4,41.6"
-          Id="Package\BRIDGE_MAJOR_GROUP"
-          TopLeft="1259.4857156998,94.1882352445159" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="1177.14285815857,115.73529406704">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="82.3428575412354,0"
-              Start="0,0"
-              End="74.8428575412354,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="74.8428575412354,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="240,41.6"
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT"
-          TopLeft="1233.37142961147,222.658823367201" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 12]"
-          TopLeft="1355.02857265564,135.788235244516">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,86.8705881226846"
-              Start="0,0"
-              End="0,79.3705881226846">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,79.3705881226846" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="222.4,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK"
-          TopLeft="1248.22222346399,345.81699316093" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 13]"
-          TopLeft="1356.39682653773,264.258823367201">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,81.5581697937296"
-              Start="0,0"
-              End="0,74.0581697937296">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,74.0581697937296" />
+                    End="0,-87.8134451817057" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17977,6 +17868,592 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <TaskHost
+    design-time-name="Package\BRIDGE_FACT_SCORE_BLOCK">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="223.2,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup FACT_CUTOFF_SCORE"
+          TopLeft="321.181814289905,58.8181801397689" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column"
+          TopLeft="104.63636297123,297.636360095306" />
+        <NodeLayout
+          Size="245.6,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD"
+          TopLeft="310.909087170254,169.727271092209" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Script Component"
+          TopLeft="653.99999114871,51.2727277820762" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\OLE DB Destination"
+          TopLeft="646.363626732067,292.727268365297" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source"
+          TopLeft="93.9999994933606,60" />
+        <NodeLayout
+          Size="189.6,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM"
+          TopLeft="346.272723006931,300.090905513275" />
+        <NodeLayout
+          Size="154.4,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Conditional Split"
+          TopLeft="97.5454539859837,175.636361913248" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Sort"
+          TopLeft="689.727263343606,171.327274847301" />
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Derived Column Output]"
+          TopLeft="257.43636297123,319.663632804291">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="88.8363600357009,0"
+              Start="0,0"
+              End="81.3363600357009,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="81.3363600357009,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Sort Output]"
+          TopLeft="735.045445037837,212.927274847301">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,79.7999935179956"
+              Start="0,0"
+              End="0,72.2999935179956">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,72.2999935179956" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Output 0]"
+          TopLeft="736.863627246158,92.8727277820762">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,78.4545470652252"
+              Start="0,0"
+              End="0,70.9545470652252">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,70.9545470652252" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Lookup Match Output2]"
+          TopLeft="544.381814289905,75.8454539609226">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="109.618176858805,0"
+              Start="0,0"
+              End="102.118176858805,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="102.118176858805,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="2.86770171065255,5,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Lookup Match Output1]"
+          TopLeft="433.245450730079,169.727271092209">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-69.3090909524401"
+              Start="0,0"
+              End="0,-61.8090909524401">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-61.8090909524401" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,-36.7092329762201,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Lookup Match Output]"
+          TopLeft="437.390905088592,300.090905513275">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-88.7636344210664"
+              Start="0,0"
+              End="0,-81.2636344210664">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-81.2636344210664" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,-46.4365047105332,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Has_Score_Blocks]"
+          TopLeft="177.890908478607,217.236361913248">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,80.399998182058"
+              Start="0,0"
+              End="0,72.899998182058">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,72.899998182058" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-40.292578125,30.918749091029,80.58515625,11.0625"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Flat File Source Output]"
+          TopLeft="171.972726739672,101.6">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,74.0363619132476"
+              Start="0,0"
+              End="0,66.5363619132476">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,66.5363619132476" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup FACT_CUTOFF_SCORE">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:boolean">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[FACT_CUTOFF_SCORE]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:int">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_ADMISSION_METHOD]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\BRIDGE_FACT_SCORE_BLOCK\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\BRIDGE_MAJOR_GROUP">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\BRIDGE_MAJOR_GROUP\Sort"
+          TopLeft="459.571421954401,372.705876767017" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\BRIDGE_MAJOR_GROUP\Flat File Source"
+          TopLeft="432.999993547797,149.999997764826" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\BRIDGE_MAJOR_GROUP\OLE DB Destination"
+          TopLeft="426.857137481777,468.058816597691" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\BRIDGE_MAJOR_GROUP\Derived Column"
+          TopLeft="434.999993517995,274.999995902181" />
+        <EdgeLayout
+          Id="Package\BRIDGE_MAJOR_GROUP.Paths[Derived Column Output]"
+          TopLeft="509.885707736198,316.599995902181">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,56.105880864836"
+              Start="0,0"
+              End="0,48.605880864836">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.605880864836" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_MAJOR_GROUP.Paths[Sort Output]"
+          TopLeft="510.214279718089,414.305876767017">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,53.7529398306734"
+              Start="0,0"
+              End="0,46.2529398306734">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.2529398306734" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_MAJOR_GROUP.Paths[Flat File Source Output]"
+          TopLeft="509.799993532896,191.599997764826">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,83.3999981373549"
+              Start="0,0"
+              End="0,75.8999981373549">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,75.8999981373549" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\BRIDGE_MAJOR_GROUP\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\BRIDGE_SCORE_BLOCK_SUBJECT">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="112.8,41.6"
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Lookup"
+          TopLeft="412.999993845821,297.999995559454" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Sort"
+          TopLeft="433.999993532896,403.999993979931" />
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Script Component"
+          TopLeft="390.999994173646,187.999997198582" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\OLE DB Destination"
+          TopLeft="410.999993875623,487.999992728233" />
+        <NodeLayout
+          Size="150.4,41.6"
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Flat File Source"
+          TopLeft="406.999993935228,90.9999986439943" />
+        <EdgeLayout
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Output 0]"
+          TopLeft="470.799994009733,229.599997198582">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,68.3999983608724"
+              Start="0,0"
+              End="0,60.8999983608724">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,60.8999983608724" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Lookup Match Output]"
+          TopLeft="469.399993845821,339.599995559454">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13.3999996870756,64.3999984204769"
+              Start="0,0"
+              End="13.3999996870756,56.8999984204769">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.1999992102385" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.1999992102385"
+                    Point2="0,32.1999992102385"
+                    Point3="4,32.1999992102385" />
+                  <mssgle:LineSegment
+                    End="9.39999968707559,32.1999992102385" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.39999968707559,32.1999992102385"
+                    Point2="13.3999996870756,32.1999992102385"
+                    Point3="13.3999996870756,36.1999992102385" />
+                  <mssgle:LineSegment
+                    End="13.3999996870756,56.8999984204769" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-41.4913868752122,37.1999992102385,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Flat File Source Output]"
+          TopLeft="482.199993935227,132.599998643994">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-9.99999976158148,55.3999985545873"
+              Start="0,0"
+              End="-9.99999976158148,47.8999985545873">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.6999992772937" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.6999992772937"
+                    Point2="0,27.6999992772937"
+                    Point3="-4,27.6999992772937" />
+                  <mssgle:LineSegment
+                    End="-5.99999976158148,27.6999992772937" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-5.99999976158148,27.6999992772937"
+                    Point2="-9.99999976158148,27.6999992772937"
+                    Point3="-9.99999976158148,31.6999992772937" />
+                  <mssgle:LineSegment
+                    End="-9.99999976158148,47.8999985545873" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Sort Output]"
+          TopLeft="482.799993532896,445.599993979931">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13.4000003427267,42.3999987483024"
+              Start="0,0"
+              End="13.4000003427267,34.8999987483024">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.1999993741512" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.1999993741512"
+                    Point2="0,21.1999993741512"
+                    Point3="4,21.1999993741512" />
+                  <mssgle:LineSegment
+                    End="9.40000034272674,21.1999993741512" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9.40000034272674,21.1999993741512"
+                    Point2="13.4000003427267,21.1999993741512"
+                    Point3="13.4000003427267,25.1999993741512" />
+                  <mssgle:LineSegment
+                    End="13.4000003427267,34.8999987483024" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Lookup">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[DIM_SUBJECT]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\BRIDGE_SCORE_BLOCK_SUBJECT\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\DIM_ADMISSION_METHOD">
     <LayoutInfo>
@@ -18408,7 +18885,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\DIM_PROGRAM">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="151.2,41.6"
           Id="Package\DIM_PROGRAM\Derived Cut Off"
@@ -18447,62 +18924,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           TopLeft="407.142858009558,92.5294116836002" />
         <EdgeLayout
           Id="Package\DIM_PROGRAM.Paths[Sort Output2]"
-          TopLeft="350.928572032981,508.482352616084">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42.0823529351438"
-              Start="0,0"
-              End="0,34.5823529351438">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.5823529351438" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROGRAM.Paths[Sort Output1]"
-          TopLeft="477.171429451813,326.835293867627">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-113.533333620713,63.1647057905225"
-              Start="0,0"
-              End="-113.533333620713,55.6647057905225">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,33.4366427002365" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,33.4366427002365"
-                    Point2="0,37.4366427002365"
-                    Point3="-4,37.4366427002365" />
-                  <mssgle:LineSegment
-                    End="-109.533333620713,37.4366427002365" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-109.533333620713,37.4366427002365"
-                    Point2="-113.533333620713,37.4366427002365"
-                    Point3="-113.533333620713,41.4366427002365" />
-                  <mssgle:LineSegment
-                    End="-113.533333620713,55.6647057905225" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROGRAM.Paths[Sort Output]"
           TopLeft="231.485714635435,321.482352695849">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -18532,7 +18953,69 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_PROGRAM.Paths[Sort Output1]"
+          TopLeft="350.928572032981,508.482352616084">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,42.0823529351438"
+              Start="0,0"
+              End="0,34.5823529351438">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5823529351438" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_PROGRAM.Paths[Sort Output]"
+          TopLeft="477.171429451813,326.835293867627">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-113.533333620713,63.1647057905225"
+              Start="0,0"
+              End="-113.533333620713,55.6647057905225">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,33.4366427002365" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,33.4366427002365"
+                    Point2="0,37.4366427002365"
+                    Point3="-4,37.4366427002365" />
+                  <mssgle:LineSegment
+                    End="-109.533333620713,37.4366427002365" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-109.533333620713,37.4366427002365"
+                    Point2="-113.533333620713,37.4366427002365"
+                    Point3="-113.533333620713,41.4366427002365" />
+                  <mssgle:LineSegment
+                    End="-113.533333620713,55.6647057905225" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18554,7 +19037,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18576,7 +19061,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18598,7 +19085,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18620,7 +19109,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18642,7 +19133,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18673,7 +19166,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_PROVINCE\OLE DB Destination"
-          TopLeft="253.999996215105,446.999993339181" />
+          TopLeft="262.57142480478,448.564699220864" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_PROVINCE\Flat File Source"
@@ -18732,30 +19225,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_PROVINCE.Paths[Sort Output]"
-          TopLeft="350.799995499849,392.599994769693">
+          TopLeft="349.285710152314,392.599994769692">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-11.5999992847443,54.3999985694886"
+              EndConnector="0,55.9647044511715"
               Start="0,0"
-              End="-11.5999992847443,46.8999985694886">
+              End="0,48.4647044511715">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,23.1999992847443" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.1999992847443"
-                    Point2="0,27.1999992847443"
-                    Point3="-4,27.1999992847443" />
-                  <mssgle:LineSegment
-                    End="-7.59999928474429,27.1999992847443" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-7.59999928474429,27.1999992847443"
-                    Point2="-11.5999992847443,27.1999992847443"
-                    Point3="-11.5999992847443,31.1999992847443" />
-                  <mssgle:LineSegment
-                    End="-11.5999992847443,46.8999985694886" />
+                    End="0,48.4647044511715" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -18899,7 +19380,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_SCORE_BLOCK\OLE DB Destination"
-          TopLeft="382.999994292855,423.999993681908" />
+          TopLeft="370.833327807486,435.533327487111" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_SCORE_BLOCK\Flat File Source"
@@ -18914,18 +19395,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           TopLeft="377.999994367361,223.99999666214" />
         <EdgeLayout
           Id="Package\DIM_SCORE_BLOCK.Paths[Sort Output]"
-          TopLeft="464.999994069338,373.599995052815">
+          TopLeft="458.916660826653,373.599995052815">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,50.3999986290931"
+              EndConnector="0,61.9333324342963"
               Start="0,0"
-              End="0,42.8999986290931">
+              End="0,54.4333324342963">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.8999986290931" />
+                    End="0,54.4333324342963" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -18938,18 +19419,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_SCORE_BLOCK.Paths[Flat File Source Output]"
-          TopLeft="455.299994345009,162.59999819696">
+          TopLeft="455.29999434501,162.59999819696">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,61.3999984651803"
+              EndConnector="0,61.39999846518"
               Start="0,0"
-              End="0,53.8999984651803">
+              End="0,53.89999846518">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,53.8999984651803" />
+                    End="0,53.89999846518" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -18966,14 +19447,14 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,66.3999983906747"
+              EndConnector="0,66.399998390675"
               Start="0,0"
-              End="0,58.8999983906747">
+              End="0,58.899998390675">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,58.8999983906747" />
+                    End="0,58.899998390675" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -19016,37 +19497,25 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_SUBJECT\OLE DB Destination"
-          TopLeft="381.999994307757,449.999993294477" />
+          TopLeft="371.999994456769,452.499993257224" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_SUBJECT\Flat File Source"
           TopLeft="373.999994426966,103.999998450279" />
         <EdgeLayout
           Id="Package\DIM_SUBJECT.Paths[Sort Output]"
-          TopLeft="452.799993979931,388.599994829297">
+          TopLeft="454.99999421835,388.599994829297">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="14.4000003278255,61.3999984651803"
+              EndConnector="0,63.8999984279271"
               Start="0,0"
-              End="14.4000003278255,53.8999984651803">
+              End="0,56.3999984279271">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.6999992325902" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,26.6999992325902"
-                    Point2="0,30.6999992325902"
-                    Point3="4,30.6999992325902" />
-                  <mssgle:LineSegment
-                    End="10.4000003278255,30.6999992325902" />
-                  <mssgle:CubicBezierSegment
-                    Point1="10.4000003278255,30.6999992325902"
-                    Point2="14.4000003278255,30.6999992325902"
-                    Point3="14.4000003278255,34.6999992325902" />
-                  <mssgle:LineSegment
-                    End="14.4000003278255,53.8999984651803" />
+                    End="0,56.3999984279271" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -19250,184 +19719,125 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\FACT_CUTOFF_SCORE\Flat File Source"
-          TopLeft="350.999994769692,65.9999990165234" />
+          TopLeft="337.999994963407,99.9999985098839" />
+        <NodeLayout
+          Size="189.6,41.6"
+          Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM"
+          TopLeft="322.999995186925,278.999995842576" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\FACT_CUTOFF_SCORE\OLE DB Destination"
+          TopLeft="334.999995008111,449.999993294478" />
+        <NodeLayout
+          Size="245.6,41.6"
+          Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD"
+          TopLeft="300.99999551475,358.999994650483" />
         <NodeLayout
           Size="152.8,41.6"
           Id="Package\FACT_CUTOFF_SCORE\Derived Column"
           TopLeft="338.999994948506,169.999997466803" />
         <EdgeLayout
-          Id="Package\FACT_CUTOFF_SCORE.Paths[Flat File Source Output]"
-          TopLeft="426.199994769692,107.599999016523">
+          Id="Package\FACT_CUTOFF_SCORE.Paths[Lookup Match Output1]"
+          TopLeft="421.99999526143,400.599994650483">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-10.799999821186,62.3999984502792"
+              EndConnector="0,49.3999986439946"
               Start="0,0"
-              End="-10.799999821186,54.8999984502792">
+              End="0,41.8999986439946">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.1999992251396" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,27.1999992251396"
-                    Point2="0,31.1999992251396"
-                    Point3="-4,31.1999992251396" />
-                  <mssgle:LineSegment
-                    End="-6.79999982118602,31.1999992251396" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-6.79999982118602,31.1999992251396"
-                    Point2="-10.799999821186,31.1999992251396"
-                    Point3="-10.799999821186,35.1999992251396" />
-                  <mssgle:LineSegment
-                    End="-10.799999821186,54.8999984502792" />
+                    End="0,41.8999986439946" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,15.1453118219973,96.3827734375,11.609375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="189.6,41.6"
-          Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM"
-          TopLeft="368.999994501472,277.999995857477" />
-        <EdgeLayout
-          Id="Package\FACT_CUTOFF_SCORE.Paths[Derived Column Output]"
-          TopLeft="415.399994948506,211.599997466803">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="48.3999995529651,66.3999983906746"
-              Start="0,0"
-              End="48.3999995529651,58.8999983906746">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.1999991953373" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,29.1999991953373"
-                    Point2="0,33.1999991953373"
-                    Point3="4,33.1999991953373" />
-                  <mssgle:LineSegment
-                    End="44.3999995529651,33.1999991953373" />
-                  <mssgle:CubicBezierSegment
-                    Point1="44.3999995529651,33.1999991953373"
-                    Point2="48.3999995529651,33.1999991953373"
-                    Point3="48.3999995529651,37.1999991953373" />
-                  <mssgle:LineSegment
-                    End="48.3999995529651,58.8999983906746" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD"
-          TopLeft="344.999994859099,402.999993994832" />
         <EdgeLayout
           Id="Package\FACT_CUTOFF_SCORE.Paths[Lookup Match Output]"
-          TopLeft="465.799994680286,319.599995857477">
+          TopLeft="420.799995350838,320.599995842576">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,83.3999981373549"
+              EndConnector="0,38.3999988079072"
               Start="0,0"
-              End="0,75.8999981373549">
+              End="0,30.8999988079072">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,75.8999981373549" />
+                    End="0,30.8999988079072" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,32.1453115686774,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,9.6453119039536,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\FACT_CUTOFF_SCORE\OLE DB Destination"
-          TopLeft="394.999994114041,490.99999268353" />
         <EdgeLayout
-          Id="Package\FACT_CUTOFF_SCORE.Paths[Lookup Match Output1]"
-          TopLeft="467.799994859099,444.599993994832">
+          Id="Package\FACT_CUTOFF_SCORE.Paths[Flat File Source Output]"
+          TopLeft="414.299994955956,141.599998509884">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="12.399999254942,46.3999986886978"
+              EndConnector="0,28.3999989569191"
               Start="0,0"
-              End="12.399999254942,38.8999986886978">
+              End="0,20.8999989569191">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19.1999993443489" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,19.1999993443489"
-                    Point2="0,23.1999993443489"
-                    Point3="4,23.1999993443489" />
-                  <mssgle:LineSegment
-                    End="8.39999925494197,23.1999993443489" />
-                  <mssgle:CubicBezierSegment
-                    Point1="8.39999925494197,23.1999993443489"
-                    Point2="12.399999254942,23.1999993443489"
-                    Point3="12.399999254942,27.1999993443489" />
-                  <mssgle:LineSegment
-                    End="12.399999254942,38.8999986886978" />
+                    End="0,20.8999989569191" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-41.991387091279,28.1999993443489,96.3827734375,11.609375"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FACT_CUTOFF_SCORE.Paths[Derived Column Output]"
+          TopLeft="416.599995067716,211.599997466803">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,67.3999983757729"
+              Start="0,0"
+              End="0,59.8999983757729">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.8999983757729" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[DIM_PROGRAM]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -19437,7 +19847,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -19457,597 +19867,26 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\BRIDGE_MAJOR_GROUP">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\BRIDGE_MAJOR_GROUP\Flat File Source"
-          TopLeft="432.999993547797,149.999997764826" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\BRIDGE_MAJOR_GROUP\Derived Column"
-          TopLeft="434.999993517995,274.999995902181" />
-        <EdgeLayout
-          Id="Package\BRIDGE_MAJOR_GROUP.Paths[Flat File Source Output]"
-          TopLeft="509.799993532896,191.599997764826">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,83.3999981373549"
-              Start="0,0"
-              End="0,75.8999981373549">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,75.8999981373549" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\BRIDGE_MAJOR_GROUP\Sort"
-          TopLeft="445.999993354082,374.999994412065" />
-        <EdgeLayout
-          Id="Package\BRIDGE_MAJOR_GROUP.Paths[Derived Column Output]"
-          TopLeft="511.399993517995,316.599995902181">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-16.6000001639126,58.3999985098839"
-              Start="0,0"
-              End="-16.6000001639126,50.8999985098839">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.1999992549419" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.1999992549419"
-                    Point2="0,29.1999992549419"
-                    Point3="-4,29.1999992549419" />
-                  <mssgle:LineSegment
-                    End="-12.6000001639126,29.1999992549419" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-12.6000001639126,29.1999992549419"
-                    Point2="-16.6000001639126,29.1999992549419"
-                    Point3="-16.6000001639126,33.1999992549419" />
-                  <mssgle:LineSegment
-                    End="-16.6000001639126,50.8999985098839" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\BRIDGE_MAJOR_GROUP\OLE DB Destination"
-          TopLeft="368.999994501472,464.99999307096" />
-        <EdgeLayout
-          Id="Package\BRIDGE_MAJOR_GROUP.Paths[Sort Output]"
-          TopLeft="494.799993354082,416.599994412065">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-40.5999988526106,48.3999986588955"
-              Start="0,0"
-              End="-40.5999988526106,40.8999986588955">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.1999993294477" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.1999993294477"
-                    Point2="0,24.1999993294477"
-                    Point3="-4,24.1999993294477" />
-                  <mssgle:LineSegment
-                    End="-36.5999988526106,24.1999993294477" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-36.5999988526106,24.1999993294477"
-                    Point2="-40.5999988526106,24.1999993294477"
-                    Point3="-40.5999988526106,28.1999993294477" />
-                  <mssgle:LineSegment
-                    End="-40.5999988526106,40.8999986588955" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\BRIDGE_MAJOR_GROUP\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\BRIDGE_SCORE_BLOCK_SUBJECT">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Flat File Source"
-          TopLeft="406.999993935228,90.9999986439943" />
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Script Component"
-          TopLeft="390.999994173646,187.999997198582" />
-        <EdgeLayout
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Flat File Source Output]"
-          TopLeft="482.199993935227,132.599998643994">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-9.99999976158148,55.3999985545873"
-              Start="0,0"
-              End="-9.99999976158148,47.8999985545873">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,23.6999992772937" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,23.6999992772937"
-                    Point2="0,27.6999992772937"
-                    Point3="-4,27.6999992772937" />
-                  <mssgle:LineSegment
-                    End="-5.99999976158148,27.6999992772937" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-5.99999976158148,27.6999992772937"
-                    Point2="-9.99999976158148,27.6999992772937"
-                    Point3="-9.99999976158148,31.6999992772937" />
-                  <mssgle:LineSegment
-                    End="-9.99999976158148,47.8999985545873" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="112.8,41.6"
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Lookup"
-          TopLeft="412.999993845821,297.999995559454" />
-        <EdgeLayout
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Output 0]"
-          TopLeft="470.799994009733,229.599997198582">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,68.3999983608724"
-              Start="0,0"
-              End="0,60.8999983608724">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,60.8999983608724" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Sort"
-          TopLeft="433.999993532896,403.999993979931" />
-        <EdgeLayout
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Lookup Match Output]"
-          TopLeft="469.399993845821,339.599995559454">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="13.3999996870756,64.3999984204769"
-              Start="0,0"
-              End="13.3999996870756,56.8999984204769">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,28.1999992102385" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,28.1999992102385"
-                    Point2="0,32.1999992102385"
-                    Point3="4,32.1999992102385" />
-                  <mssgle:LineSegment
-                    End="9.39999968707559,32.1999992102385" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9.39999968707559,32.1999992102385"
-                    Point2="13.3999996870756,32.1999992102385"
-                    Point3="13.3999996870756,36.1999992102385" />
-                  <mssgle:LineSegment
-                    End="13.3999996870756,56.8999984204769" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-41.4913868752122,37.1999992102385,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT\OLE DB Destination"
-          TopLeft="410.999993875623,487.999992728233" />
-        <EdgeLayout
-          Id="Package\BRIDGE_SCORE_BLOCK_SUBJECT.Paths[Sort Output]"
-          TopLeft="482.799993532896,445.599993979931">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="13.4000003427267,42.3999987483024"
-              Start="0,0"
-              End="13.4000003427267,34.8999987483024">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.1999993741512" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.1999993741512"
-                    Point2="0,21.1999993741512"
-                    Point3="4,21.1999993741512" />
-                  <mssgle:LineSegment
-                    End="9.40000034272674,21.1999993741512" />
-                  <mssgle:CubicBezierSegment
-                    Point1="9.40000034272674,21.1999993741512"
-                    Point2="13.4000003427267,21.1999993741512"
-                    Point3="13.4000003427267,25.1999993741512" />
-                  <mssgle:LineSegment
-                    End="13.4000003427267,34.8999987483024" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\BRIDGE_SCORE_BLOCK_SUBJECT\Lookup">
+    design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[DIM_SUBJECT]</Value>
+          type="q3:string">[dbo].[DIM_PROGRAM]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\BRIDGE_SCORE_BLOCK_SUBJECT\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\BRIDGE_FACT_SCORE_BLOCK">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="150.4,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source"
-          TopLeft="93.9999994933606,60" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Conditional Split"
-          TopLeft="97.5454539859837,175.636361913248" />
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column"
-          TopLeft="104.63636297123,297.636360095306" />
-        <NodeLayout
-          Size="189.6,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM"
-          TopLeft="309.909087185155,294.636360140009" />
-        <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD"
-          TopLeft="310.909087170254,169.727271092209" />
-        <NodeLayout
-          Size="223.2,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup FACT_CUTOFF_SCORE"
-          TopLeft="332.090905036438,57.9090892442245" />
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Script Component"
-          TopLeft="622.181809804656,53.090909573165" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Sort"
-          TopLeft="648.818173044108,174.963638429479" />
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Flat File Source Output]"
-          TopLeft="171.972726739672,101.6">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,74.0363619132476"
-              Start="0,0"
-              End="0,66.5363619132476">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66.5363619132476" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Has_Score_Blocks]"
-          TopLeft="177.890908478607,217.236361913248">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,80.3999981820582"
-              Start="0,0"
-              End="0,72.8999981820582">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,72.8999981820582" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-40.292578125,30.9187490910291,80.58515625,11.0625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Derived Column Output]"
-          TopLeft="257.43636297123,316.936360117658">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="52.4727242139253,0"
-              Start="0,0"
-              End="44.9727242139253,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="44.9727242139253,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Lookup Match Output]"
-          TopLeft="404.709087185155,294.636360140009">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="68.5999999850987,-83.3090890477999"
-              Start="0,0"
-              End="68.5999999850987,-75.8090890477999">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-45.6619229857759" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-45.6619229857759"
-                    Point2="0,-49.6619229857759"
-                    Point3="4,-49.6619229857759" />
-                  <mssgle:LineSegment
-                    End="64.5999999850987,-49.6619229857759" />
-                  <mssgle:CubicBezierSegment
-                    Point1="64.5999999850987,-49.6619229857759"
-                    Point2="68.5999999850987,-49.6619229857759"
-                    Point3="68.5999999850987,-53.6619229857759" />
-                  <mssgle:LineSegment
-                    End="68.5999999850987,-75.8090890477999" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-13.8913867262006,-44.6619229857759,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Lookup Match Output1]"
-          TopLeft="433.709087170254,169.727271092209">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="45.848484532851,-70.218181847985"
-              Start="0,0"
-              End="45.848484532851,-62.718181847985">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,-37.8310449870202" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,-37.8310449870202"
-                    Point2="0,-41.8310449870202"
-                    Point3="4,-41.8310449870202" />
-                  <mssgle:LineSegment
-                    End="41.848484532851,-41.8310449870202" />
-                  <mssgle:CubicBezierSegment
-                    Point1="41.848484532851,-41.8310449870202"
-                    Point2="45.848484532851,-41.8310449870202"
-                    Point3="45.848484532851,-45.8310449870202" />
-                  <mssgle:LineSegment
-                    End="45.848484532851,-62.718181847985" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-25.2671444523245,-36.8310449870202,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Lookup Match Output2]"
-          TopLeft="555.290905036439,76.2999994086947">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="66.890904768218,0"
-              Start="0,0"
-              End="59.390904768218,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="59.390904768218,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-18.495934334641,5,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Output 0]"
-          TopLeft="700.499991424382,94.690909573165">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,80.2727288563139"
-              Start="0,0"
-              End="0,72.7727288563139">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,72.7727288563139" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\OLE DB Destination"
-          TopLeft="649.999990314245,292.727268365297" />
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Sort Output]"
-          TopLeft="697.618173044107,216.563638429479">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="37.5818172701379,76.1636299358176"
-              Start="0,0"
-              End="37.5818172701379,68.6636299358176">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.0818149679088" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,34.0818149679088"
-                    Point2="0,38.0818149679088"
-                    Point3="4,38.0818149679088" />
-                  <mssgle:LineSegment
-                    End="33.5818172701379,38.0818149679088" />
-                  <mssgle:CubicBezierSegment
-                    Point1="33.5818172701379,38.0818149679088"
-                    Point2="37.5818172701379,38.0818149679088"
-                    Point3="37.5818172701379,42.0818149679088" />
-                  <mssgle:LineSegment
-                    End="37.5818172701379,68.6636299358176" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\BRIDGE_FACT_SCORE_BLOCK\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
