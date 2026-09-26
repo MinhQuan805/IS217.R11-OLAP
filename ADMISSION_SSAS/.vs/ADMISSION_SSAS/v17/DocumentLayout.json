@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\UNIDOCS\\OLAP\\IS217.R11-OLAP\\ADMISSION_SSAS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB3372C7-C441-A11F-00D9-22CCF6D4BC9E}|ADMISSION_SSAS.dwproj|D:\\UNIDOCS\\OLAP\\IS217.R11-OLAP\\ADMISSION_SSAS\\Admission Data Warehouse.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{DB3372C7-C441-A11F-00D9-22CCF6D4BC9E}|ADMISSION_SSAS.dwproj|solutionrelative:Admission Data Warehouse.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Admission Data Warehouse.cube [Design]",
+              "DocumentMoniker": "D:\\UNIDOCS\\OLAP\\IS217.R11-OLAP\\ADMISSION_SSAS\\Admission Data Warehouse.cube",
+              "RelativeDocumentMoniker": "Admission Data Warehouse.cube",
+              "ToolTip": "D:\\UNIDOCS\\OLAP\\IS217.R11-OLAP\\ADMISSION_SSAS\\Admission Data Warehouse.cube [Design]",
+              "RelativeToolTip": "Admission Data Warehouse.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-09-26T16:47:18.362Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

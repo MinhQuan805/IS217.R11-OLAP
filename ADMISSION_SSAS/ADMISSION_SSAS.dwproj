@@ -24,20 +24,12 @@
       <FullPath>DIM PROVINCE.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DIM SCHOOL.dim</Name>
-      <FullPath>DIM SCHOOL.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DIM MAJOR GROUP.dim</Name>
       <FullPath>DIM MAJOR GROUP.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM MAJOR.dim</Name>
       <FullPath>DIM MAJOR.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>DIM PROGRAM.dim</Name>
-      <FullPath>DIM PROGRAM.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>DIM SCORE BLOCK.dim</Name>
@@ -58,6 +50,14 @@
     <ProjectItem>
       <Name>FACT CUTOFF SCORE.dim</Name>
       <FullPath>FACT CUTOFF SCORE.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM SCHOOL.dim</Name>
+      <FullPath>DIM SCHOOL.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DIM PROGRAM.dim</Name>
+      <FullPath>DIM PROGRAM.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
