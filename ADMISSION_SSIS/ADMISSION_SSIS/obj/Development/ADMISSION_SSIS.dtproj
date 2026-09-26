@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOPUBTMKO7Q</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAb/m5yBrhQ0KIgoa8MXOGZgAAAAACAAAAAAAQZgAAAAEAACAAAAAPzKYGmjB9jzZIWlntq5VZOjnRkHOGi1GlFNzhaQkYLgAAAAAOgAAAAAIAACAAAAAN8JCDoyqpWtRLkRVEsgkt4ySxTphm4aprZX32xtUqRJAAAACmZbyX5i/IGRaY33x428h+I2TxExP6RWrbIhmsX+x13Zis4EoY9izu3UO1Yp3/ZL+XchUww6j6ni97vR7zSlsuEu64cp/0wnxo4FWnAh20xhw8gbxlt0WEmW/1zJ5fMWuW7IwKi92KQ6PTeKOQEFDYihIuf3c22t/C/VluHm15MVtDJ7HTwmNICjVxwingAJtAAAAAj12cHSvjHQmLRKGfGuK+41KGdmsDryNFUJnmuTFgb8y1AeRW3o5u5dY28aEr20cHXxOPMXo8BJIjbqGyQi96/w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+HteAXWqTk6OsE9Z6kMZDwAAAAACAAAAAAAQZgAAAAEAACAAAACdxYPsCmbTThX61DmacSvSae4a7tztxWcxrU2Oi0HNkwAAAAAOgAAAAAIAACAAAAC3wIvrUQMJADuBiS6ZW4EB4nON+UsCs1POaYpcLCc8kZAAAABlFcm1d/5Xhn3dkOFV2DsEozvRyPjHtlTbuk/6oOK4KfO2xbfSNhLdUCEapysQ+BwIibxtAlVh6AZnyJhLxYWT4C3Yh/GLfjzY/3dRFDEw+LKTpDa1YymaWCIMuHrZtzMuYKG2Fe9PbK4ZbVlL4c41Q4qASYltLoMrLEEptgOkzEXczkqt8ywcIgsRzfAQtS1AAAAAhZ9wRrS02trxqoONsg25fDctbydEbqsuasT6NANo7p4miqT2d31umJMmgrNUylEBgORVVe/UWTLk5cYujIBH/A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">205</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">209</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{29BDE19D-C7F5-492C-BC61-489056C027F1}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{928426F2-0D6F-4CEE-98DF-FCAD2F396E5F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -123,7 +123,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\Study\University\OLAP\Đồ án\IS217.R11-OLAP\cleaned-data\cleaned-cutoff-scores.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\UNIDOCS\OLAP\IS217.R11-OLAP\PythonScripts\cleaned-data\cleaned-cutoff-scores.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -320,7 +320,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\Study\University\OLAP\Đồ án\IS217.R11-OLAP\cleaned-data\cleaned-majors.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\UNIDOCS\OLAP\IS217.R11-OLAP\PythonScripts\cleaned-data\cleaned-majors.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -517,7 +517,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">D:\Study\University\OLAP\Đồ án\IS217.R11-OLAP\cleaned-data\cleaned-score-blocks.csv</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">D:\UNIDOCS\OLAP\IS217.R11-OLAP\PythonScripts\cleaned-data\cleaned-score-blocks.csv</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -669,7 +669,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LAPTOPUBTMKO7Q;Initial Catalog=AdmissionDataWarehouse;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{B16FCCB3-B752-4082-B1E7-238D7AD21985}LAPTOPUBTMKO7Q.AdmissionDataWarehouse;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=CAOTHAIBAO;Initial Catalog=AdmissionDataWarehouse;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{B16FCCB3-B752-4082-B1E7-238D7AD21985}LAPTOPUBTMKO7Q.AdmissionDataWarehouse;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -773,7 +773,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">LAPTOPUBTMKO7Q</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">CAOTHAIBAO</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

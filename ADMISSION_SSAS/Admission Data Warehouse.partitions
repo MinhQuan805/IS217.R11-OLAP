@@ -1,0 +1,85 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5c57d630-d4b3-4e96-aec5-999e2c4bdb33" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Admission Data Warehouse</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>BRIDGE FACT SCORE BLOCK</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="9495c975-0fed-41f9-9a08-3eb3133aa07c">
+          <ID>BRIDGE FACT SCORE BLOCK</ID>
+          <Name>BRIDGE FACT SCORE BLOCK</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="674d86a3-9209-47f4-a159-83359d191718">
+            <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
+            <TableID>dbo_BRIDGE_FACT_SCORE_BLOCK</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>BRIDGE MAJOR GROUP</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="626a84e5-47b9-4066-8464-c23f5d23dc95">
+          <ID>BRIDGE MAJOR GROUP</ID>
+          <Name>BRIDGE MAJOR GROUP</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a31872b3-eb5f-4ee7-be4d-10ed54151fd8">
+            <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
+            <TableID>dbo_BRIDGE_MAJOR_GROUP</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>BRIDGE SCORE BLOCK SUBJECT</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="f04c7fc9-8b54-4cee-a251-9279a4d23457">
+          <ID>BRIDGE SCORE BLOCK SUBJECT</ID>
+          <Name>BRIDGE SCORE BLOCK SUBJECT</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c803eb93-ceb8-4b8d-bddd-226f390c1c5f">
+            <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
+            <TableID>dbo_BRIDGE_SCORE_BLOCK_SUBJECT</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT CUTOFF SCORE</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="cb434e75-b304-45b7-96c5-0f61be827ce8">
+          <ID>FACT CUTOFF SCORE</ID>
+          <Name>FACT CUTOFF SCORE</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="7b57454b-26c6-4ce7-aba5-0bf4595ae4a2">
+            <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
+            <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

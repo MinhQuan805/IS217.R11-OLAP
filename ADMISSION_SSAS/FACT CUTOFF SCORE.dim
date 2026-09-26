@@ -1,0 +1,139 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6776ec5c-8932-4cd6-a958-fbeadd7492c7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FACT CUTOFF SCORE</ID>
+  <Name>FACT CUTOFF SCORE</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dd246412-1127-43a6-bfe5-2628c659e274">
+    <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="bbe2b8e5-b0f7-4b81-823d-9f38f66d6dee">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="61c6a2ef-05e7-4468-bc9f-d2f6aaa8b6b4">
+      <ID>FACT ID</ID>
+      <Name>FACT ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a87a5b69-7df2-4026-8c49-2e8e7dab89cf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="87ca09d8-e593-4edf-a7e0-7a0d5d33ff51">
+            <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+            <ColumnID>FACT_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6140a26f-fba1-469b-bf7d-08c295b22465">
+          <AttributeID>PROGRAM ID</AttributeID>
+          <Name>PROGRAM ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="14bec3ee-b964-42fd-a75f-025eeaa6a8f4">
+          <AttributeID>YEAR ID</AttributeID>
+          <Name>YEAR ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4564d37-d2fa-4884-89e0-502aafc3e3a1">
+          <AttributeID>ADMISSION METHOD ID</AttributeID>
+          <Name>ADMISSION METHOD ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4fe1b984-43a8-433d-9849-70661510a281">
+      <ID>PROGRAM ID</ID>
+      <Name>PROGRAM ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f6282b0-87cd-49f2-a29b-5e3ef83f39cb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1ea7db2-1ea7-4c0f-bd0d-1c3a991c8e03">
+            <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+            <ColumnID>PROGRAM_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="06607022-fe8c-4aff-adfa-07daa3d14f77">
+      <ID>YEAR ID</ID>
+      <Name>YEAR ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82a623d7-c236-445c-a504-8096482d9aec">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="59207b73-867c-47a0-aa3a-54ce790e84ec">
+            <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+            <ColumnID>YEAR_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f1a52919-b5e1-4ba6-95c1-ae0a0af143e7">
+      <ID>ADMISSION METHOD ID</ID>
+      <Name>ADMISSION METHOD ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cf0cf3ec-54ae-41f3-a702-90b454213064">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01fd54e5-d773-490a-9fdd-3ec962d932c4">
+            <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+            <ColumnID>ADMISSION_METHOD_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

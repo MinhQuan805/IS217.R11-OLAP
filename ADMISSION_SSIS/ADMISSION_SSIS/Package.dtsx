@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="205"
-  DTS:VersionGUID="{29BDE19D-C7F5-492C-BC61-489056C027F1}">
+  DTS:VersionBuild="209"
+  DTS:VersionGUID="{928426F2-0D6F-4CEE-98DF-FCAD2F396E5F}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -30,7 +30,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Study\University\OLAP\Đồ án\IS217.R11-OLAP\cleaned-data\cleaned-cutoff-scores.csv">
+          DTS:ConnectionString="D:\UNIDOCS\OLAP\IS217.R11-OLAP\PythonScripts\cleaned-data\cleaned-cutoff-scores.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_id"
-              DTS:DTSID="{20F5D828-D47F-4F34-B597-886991E4A50C}"
+              DTS:DTSID="{BE4E2125-B95A-466A-852D-3AEC350716B9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_name"
-              DTS:DTSID="{8846465D-5985-4A64-BD62-A0C52BF98EC4}"
+              DTS:DTSID="{78704A3F-0FAD-4F1F-AB79-C111FE812064}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_type"
-              DTS:DTSID="{9DEF3549-6444-4332-B144-EA03DC3F6591}"
+              DTS:DTSID="{BF58D75A-A679-4C66-8B6E-07BC3E85A274}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_short_name"
-              DTS:DTSID="{EEF403AB-6C7C-4483-970E-F173B166B5AF}"
+              DTS:DTSID="{A66D0728-6D9F-4D77-9BCA-E72FC37C4B6C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="province_id"
-              DTS:DTSID="{48D7FEED-7855-47CD-A7E7-BD926067FA6B}"
+              DTS:DTSID="{22D4F507-A5DB-4529-964A-563EC37C535D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="province_name"
-              DTS:DTSID="{B553A8A7-B307-4322-9603-72F90251FEFE}"
+              DTS:DTSID="{B568357E-FAD4-44B0-8E88-397C5CA766A7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_code"
-              DTS:DTSID="{A9A982B6-643F-48BC-BFFB-DAF94C303099}"
+              DTS:DTSID="{A51882AB-C532-4892-84E5-D2B03B602A60}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_name"
-              DTS:DTSID="{E128FD2C-BB79-4F14-95DA-70494CD52025}"
+              DTS:DTSID="{3FA9E58C-8CF2-44B9-B80F-B333E487164B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,7 +110,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_blocks"
-              DTS:DTSID="{F3625237-337F-4643-9795-3D690267A43A}"
+              DTS:DTSID="{D53CA30A-54E7-401B-A502-A26462CABFD2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -118,7 +118,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="score_mark"
-              DTS:DTSID="{1696A3F8-E94B-4ECD-A37F-67BED6E0DB7E}"
+              DTS:DTSID="{7BF9A8A1-534C-445F-B79A-83EC3DC9258B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -126,7 +126,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="score_year"
-              DTS:DTSID="{392DD1E6-851E-417C-A27D-BC377DF11EB0}"
+              DTS:DTSID="{FC6B91EC-A054-4DBB-A781-5A2BA1060186}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -135,7 +135,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_introtext"
-              DTS:DTSID="{8B67C380-E2CF-44AE-A579-7B0EDF9EFA21}"
+              DTS:DTSID="{CC2DFEB7-5EAF-49E0-89B6-417CDAE12251}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -144,7 +144,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_admission_name"
-              DTS:DTSID="{D4DFD8FE-8501-4D55-8505-DAD57F10238A}"
+              DTS:DTSID="{D311CA62-FE46-43AB-8378-D7528827785B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -152,7 +152,7 @@
               DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="score_converted_mark"
-              DTS:DTSID="{54EDE942-019C-4F81-8623-0048F9D9AA42}"
+              DTS:DTSID="{4C7A1B0B-CEF2-4E55-B559-E3416C07BA40}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -172,7 +172,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Study\University\OLAP\Đồ án\IS217.R11-OLAP\cleaned-data\cleaned-majors.csv">
+          DTS:ConnectionString="D:\UNIDOCS\OLAP\IS217.R11-OLAP\PythonScripts\cleaned-data\cleaned-majors.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -180,7 +180,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="major_group_id"
-              DTS:DTSID="{A4A67EF0-1245-4151-AEA9-60B09CC87E45}"
+              DTS:DTSID="{06BE19A6-B2E5-44D8-BA15-28582754732B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -189,7 +189,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="major_group_name"
-              DTS:DTSID="{DD194F96-FBB1-4410-B2A0-CD4CA99CE535}"
+              DTS:DTSID="{349B1E03-48A9-46BF-A928-04F8619DB9FF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -197,7 +197,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="major_id"
-              DTS:DTSID="{EC7E66AC-E384-4FB8-93E5-D0C7C6246881}"
+              DTS:DTSID="{7B65951A-DC99-450F-ADB5-EB5CD5B76D1A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -206,7 +206,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="major_name"
-              DTS:DTSID="{F9479F57-0E69-449F-8E52-3D04FBE50BE3}"
+              DTS:DTSID="{F7D98E3D-C486-4AE6-83DF-6712EACE2F67}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +214,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="major_description"
-              DTS:DTSID="{4FA95A7C-768A-4BF4-85A8-E9BD528BDC59}"
+              DTS:DTSID="{A74FA793-88C1-4987-AEA0-BFAC7AB8DEDF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -223,7 +223,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_codes"
-              DTS:DTSID="{EBF597E5-F5DD-4181-90D4-3700D6690752}"
+              DTS:DTSID="{65DA17D8-78F1-4F5E-A365-FE8C546DEC52}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -243,7 +243,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x0022_"
           DTS:CodePage="65001"
-          DTS:ConnectionString="D:\Study\University\OLAP\Đồ án\IS217.R11-OLAP\cleaned-data\cleaned-score-blocks.csv">
+          DTS:ConnectionString="D:\UNIDOCS\OLAP\IS217.R11-OLAP\PythonScripts\cleaned-data\cleaned-score-blocks.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -252,7 +252,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="code"
-              DTS:DTSID="{B7D46DB3-075B-4638-94E5-B03287966F8C}"
+              DTS:DTSID="{BA10707E-D0AF-41DB-8B65-2C77AF7E3D37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -261,7 +261,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject1"
-              DTS:DTSID="{E92F3B3B-56FD-4745-8255-FF84ED7910A1}"
+              DTS:DTSID="{06A8D7B1-149E-4282-AB30-4A3141B7CEB2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -270,7 +270,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject2"
-              DTS:DTSID="{C2FDF14C-FCED-4D4D-817B-ED367235D505}"
+              DTS:DTSID="{47F32473-FE70-4580-8D91-9FEB28522FAA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -279,7 +279,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject3"
-              DTS:DTSID="{369B7557-1538-4666-A8B0-1A4D9570C729}"
+              DTS:DTSID="{1999B529-54C8-4DD6-B90C-2BDAA70E897A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -288,7 +288,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject4"
-              DTS:DTSID="{532A7E65-F76A-47A1-B4B8-B742B08876D9}"
+              DTS:DTSID="{6D77597D-14A7-4989-95F5-D0CA17AC6813}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -303,7 +303,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=LAPTOPUBTMKO7Q;Initial Catalog=AdmissionDataWarehouse;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Package-{B16FCCB3-B752-4082-B1E7-238D7AD21985}LAPTOPUBTMKO7Q.AdmissionDataWarehouse;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=CAOTHAIBAO;Initial Catalog=AdmissionDataWarehouse;Provider=SQLOLEDB.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{B16FCCB3-B752-4082-B1E7-238D7AD21985}LAPTOPUBTMKO7Q.AdmissionDataWarehouse;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -17563,14 +17563,14 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,86.8705881226843"
+              EndConnector="0,86.8705881226838"
               Start="0,0"
-              End="0,79.3705881226843">
+              End="0,79.3705881226838">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,79.3705881226843" />
+                    End="0,79.3705881226838" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17874,25 +17874,33 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="223.2,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup FACT_CUTOFF_SCORE"
-          TopLeft="321.181814289905,58.8181801397689" />
-        <NodeLayout
           Size="152.8,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column"
           TopLeft="104.63636297123,297.636360095306" />
         <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD"
-          TopLeft="310.909087170254,169.727271092209" />
+          Size="154.4,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Conditional Split"
+          TopLeft="97.5454539859837,175.636361913248" />
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\Script Component"
           TopLeft="653.99999114871,51.2727277820762" />
         <NodeLayout
+          Size="223.2,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup FACT_CUTOFF_SCORE"
+          TopLeft="321.181814289905,58.8181801397689" />
+        <NodeLayout
+          Size="245.6,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_ADMISSION_METHOD"
+          TopLeft="310.909087170254,169.727271092209" />
+        <NodeLayout
           Size="170.4,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\OLE DB Destination"
           TopLeft="646.363626732067,292.727268365297" />
+        <NodeLayout
+          Size="97.6,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Sort"
+          TopLeft="689.727263343606,171.327274847301" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source"
@@ -17901,36 +17909,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Size="189.6,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM"
           TopLeft="346.272723006931,300.090905513275" />
-        <NodeLayout
-          Size="154.4,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Conditional Split"
-          TopLeft="97.5454539859837,175.636361913248" />
-        <NodeLayout
-          Size="97.6,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Sort"
-          TopLeft="689.727263343606,171.327274847301" />
-        <EdgeLayout
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Derived Column Output]"
-          TopLeft="257.43636297123,319.663632804291">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="88.8363600357009,0"
-              Start="0,0"
-              End="81.3363600357009,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="81.3363600357009,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Sort Output]"
           TopLeft="735.045445037837,212.927274847301">
@@ -17950,7 +17928,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17972,7 +17952,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18090,7 +18072,33 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Derived Column Output]"
+          TopLeft="257.43636297123,319.663632804291">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="88.8363600357009,0"
+              Start="0,0"
+              End="81.3363600357009,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="81.3363600357009,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18102,7 +18110,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -18112,7 +18120,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -18159,7 +18167,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\BRIDGE_MAJOR_GROUP">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\BRIDGE_MAJOR_GROUP\Sort"
@@ -18195,7 +18203,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18217,7 +18227,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18239,7 +18251,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -19717,6 +19731,10 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="245.6,41.6"
+          Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD"
+          TopLeft="300.99999551475,358.999994650483" />
+        <NodeLayout
           Size="150.4,41.6"
           Id="Package\FACT_CUTOFF_SCORE\Flat File Source"
           TopLeft="337.999994963407,99.9999985098839" />
@@ -19725,17 +19743,61 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM"
           TopLeft="322.999995186925,278.999995842576" />
         <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\FACT_CUTOFF_SCORE\OLE DB Destination"
-          TopLeft="334.999995008111,449.999993294478" />
-        <NodeLayout
-          Size="245.6,41.6"
-          Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD"
-          TopLeft="300.99999551475,358.999994650483" />
-        <NodeLayout
           Size="152.8,41.6"
           Id="Package\FACT_CUTOFF_SCORE\Derived Column"
           TopLeft="338.999994948506,169.999997466803" />
+        <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\FACT_CUTOFF_SCORE\OLE DB Destination"
+          TopLeft="334.999995008111,449.999993294478" />
+        <EdgeLayout
+          Id="Package\FACT_CUTOFF_SCORE.Paths[Flat File Source Output]"
+          TopLeft="414.299994955956,141.599998509884">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28.3999989569191"
+              Start="0,0"
+              End="0,20.8999989569191">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.8999989569191" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\FACT_CUTOFF_SCORE.Paths[Derived Column Output]"
+          TopLeft="416.599995067716,211.599997466803">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,67.3999983757729"
+              Start="0,0"
+              End="0,59.8999983757729">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.8999983757729" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\FACT_CUTOFF_SCORE.Paths[Lookup Match Output1]"
           TopLeft="421.99999526143,400.599994650483">
@@ -19784,55 +19846,11 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\FACT_CUTOFF_SCORE.Paths[Flat File Source Output]"
-          TopLeft="414.299994955956,141.599998509884">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,28.3999989569191"
-              Start="0,0"
-              End="0,20.8999989569191">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.8999989569191" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\FACT_CUTOFF_SCORE.Paths[Derived Column Output]"
-          TopLeft="416.599995067716,211.599997466803">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,67.3999983757729"
-              Start="0,0"
-              End="0,59.8999983757729">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,59.8999983757729" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD">
+    design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -19842,7 +19860,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[DIM_ADMISSION_METHOD]</Value>
+          type="q3:string">[dbo].[DIM_PROGRAM]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
@@ -19868,7 +19886,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM">
+    design-time-name="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
@@ -19878,7 +19896,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <Property>
         <Name>UsedTableName</Name>
         <Value
-          type="q3:string">[dbo].[DIM_PROGRAM]</Value>
+          type="q3:string">[dbo].[DIM_ADMISSION_METHOD]</Value>
       </Property>
       <Property>
         <Name>TableInfoObjectType</Name>
