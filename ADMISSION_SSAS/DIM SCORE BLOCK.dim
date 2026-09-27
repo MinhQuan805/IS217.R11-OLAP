@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ecea4b1b-e7ec-4f1a-b2b6-619382a6fc61" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="afd5d723-0beb-4458-8809-1af3c4d0ad5a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM SCORE BLOCK</ID>
   <Name>DIM SCORE BLOCK</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,32 +42,32 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0590cdf3-42dc-4af5-a8bd-4779a7b8662a">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4866f50b-678a-4adf-b419-bd004ec6ddb3">
     <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="3333ceb0-3533-45ec-8094-1cedc285af7c">
+  <ErrorConfiguration dwd:design-time-name="439b79e5-94a7-458a-b018-d974fb7f45d7">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="3976263d-5e93-4816-a3bf-f1ba16d22ee0">
+    <Attribute dwd:design-time-name="f74e7898-199c-420e-9a69-355aed80baa8">
       <ID>SCORE BLOCK CODE</ID>
       <Name>SCORE BLOCK CODE</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d74a16ca-1319-4ef8-8140-63a9734ff600">
+        <KeyColumn dwd:design-time-name="38559316-df7a-486b-ba45-875697e71063">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="eecb3bed-03d6-486a-97c7-8905d148003b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6eac9dfa-98ca-44fc-b7c7-468135be5686">
             <TableID>dbo_DIM_SCORE_BLOCK</TableID>
             <ColumnID>SCORE_BLOCK_CODE</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7698736c-fd88-4363-8855-5af490bec2c7">
+        <AttributeRelationship dwd:design-time-name="aabad9f1-2576-49dc-ba53-cad8ac69c0ad">
           <AttributeID>SCORE BLOCK NAME</AttributeID>
           <Name>SCORE BLOCK NAME</Name>
         </AttributeRelationship>
@@ -76,14 +76,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="aabdd73b-0f3c-4cf3-b9cf-980695ec96f9">
+    <Attribute dwd:design-time-name="743ddffe-3e74-42b5-8601-5f879ef01440">
       <ID>SCORE BLOCK NAME</ID>
       <Name>SCORE BLOCK NAME</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ee77a826-f907-4d83-91c7-7ae04d52c5f5">
+        <KeyColumn dwd:design-time-name="21ae59fd-739f-4fca-9248-43c0f9432224">
           <DataType>WChar</DataType>
           <DataSize>500</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b5f58758-34fc-4329-bd5f-28ac8bab15a5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="99a80b63-de39-4416-8473-297844620b1e">
             <TableID>dbo_DIM_SCORE_BLOCK</TableID>
             <ColumnID>SCORE_BLOCK_NAME</ColumnID>
           </Source>

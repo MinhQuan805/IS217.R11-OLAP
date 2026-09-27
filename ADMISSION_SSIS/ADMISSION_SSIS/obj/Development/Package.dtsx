@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="209"
-  DTS:VersionGUID="{928426F2-0D6F-4CEE-98DF-FCAD2F396E5F}">
+  DTS:VersionBuild="215"
+  DTS:VersionGUID="{58F55613-D108-49C3-AF31-19B704834C5E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_id"
-              DTS:DTSID="{BE4E2125-B95A-466A-852D-3AEC350716B9}"
+              DTS:DTSID="{7B431F5B-0858-4D22-8EC6-EDE7D0E8B488}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_name"
-              DTS:DTSID="{78704A3F-0FAD-4F1F-AB79-C111FE812064}"
+              DTS:DTSID="{13C51634-ED69-486E-A513-3EA0599D9D3A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_type"
-              DTS:DTSID="{BF58D75A-A679-4C66-8B6E-07BC3E85A274}"
+              DTS:DTSID="{2322ADC2-13EE-44ED-83FB-B0BF16A87D7E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_short_name"
-              DTS:DTSID="{A66D0728-6D9F-4D77-9BCA-E72FC37C4B6C}"
+              DTS:DTSID="{010CC5BD-0122-4C57-B531-CBEF5DC4F573}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="province_id"
-              DTS:DTSID="{22D4F507-A5DB-4529-964A-563EC37C535D}"
+              DTS:DTSID="{614DA2B8-1BD3-4543-8E8B-A0AB76444CEA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="province_name"
-              DTS:DTSID="{B568357E-FAD4-44B0-8E88-397C5CA766A7}"
+              DTS:DTSID="{BF2ED87A-A549-44BE-9560-92672F8B7F3E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_code"
-              DTS:DTSID="{A51882AB-C532-4892-84E5-D2B03B602A60}"
+              DTS:DTSID="{DEFCEEB9-70FD-4774-AB6A-67AF9C9AAFF0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_name"
-              DTS:DTSID="{3FA9E58C-8CF2-44B9-B80F-B333E487164B}"
+              DTS:DTSID="{63D18BA8-A9B8-486C-ADBF-1E7A43901483}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,15 +110,15 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_blocks"
-              DTS:DTSID="{D53CA30A-54E7-401B-A502-A26462CABFD2}"
+              DTS:DTSID="{D41060D0-2C27-4D97-A745-7C95770484FE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="5"
+              DTS:DataType="21"
               DTS:TextQualified="True"
               DTS:ObjectName="score_mark"
-              DTS:DTSID="{7BF9A8A1-534C-445F-B79A-83EC3DC9258B}"
+              DTS:DTSID="{39985FC9-BF1E-4E48-9BC2-1B7673BF220F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -126,7 +126,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="score_year"
-              DTS:DTSID="{FC6B91EC-A054-4DBB-A781-5A2BA1060186}"
+              DTS:DTSID="{4C1F0D2B-7C20-4BAF-857D-9CFDBDF36407}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -135,24 +135,16 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_introtext"
-              DTS:DTSID="{CC2DFEB7-5EAF-49E0-89B6-417CDAE12251}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x002C_"
-              DTS:MaximumWidth="100"
-              DTS:DataType="130"
-              DTS:TextQualified="True"
-              DTS:ObjectName="score_admission_name"
-              DTS:DTSID="{D311CA62-FE46-43AB-8378-D7528827785B}"
+              DTS:DTSID="{78FABEAD-BC81-49B4-A3FB-22EB35738EC9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:DataType="5"
+              DTS:MaximumWidth="100"
+              DTS:DataType="130"
               DTS:TextQualified="True"
-              DTS:ObjectName="score_converted_mark"
-              DTS:DTSID="{4C7A1B0B-CEF2-4E55-B559-E3416C07BA40}"
+              DTS:ObjectName="score_admission_name"
+              DTS:DTSID="{E0FEE1DC-A485-4CA6-840C-FA7A85B09D2F}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -180,7 +172,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="major_group_id"
-              DTS:DTSID="{06BE19A6-B2E5-44D8-BA15-28582754732B}"
+              DTS:DTSID="{0C79BFEB-07A8-41E2-8E87-9DDC60AF679B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -189,7 +181,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="major_group_name"
-              DTS:DTSID="{349B1E03-48A9-46BF-A928-04F8619DB9FF}"
+              DTS:DTSID="{70311DEC-6444-489B-8ED2-6465908DE858}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -197,7 +189,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="major_id"
-              DTS:DTSID="{7B65951A-DC99-450F-ADB5-EB5CD5B76D1A}"
+              DTS:DTSID="{B1854473-0EDA-4E9A-8D5E-0F595D16427E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -206,7 +198,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="major_name"
-              DTS:DTSID="{F7D98E3D-C486-4AE6-83DF-6712EACE2F67}"
+              DTS:DTSID="{976F553D-2261-4AE1-8BA1-DCA17C73C012}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -214,7 +206,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="major_description"
-              DTS:DTSID="{A74FA793-88C1-4987-AEA0-BFAC7AB8DEDF}"
+              DTS:DTSID="{BEE221AD-1428-4226-A804-C83F3FD1EECC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -223,7 +215,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_codes"
-              DTS:DTSID="{65DA17D8-78F1-4F5E-A365-FE8C546DEC52}"
+              DTS:DTSID="{7B992438-693A-4462-A398-4A6268ED549D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -252,7 +244,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="code"
-              DTS:DTSID="{BA10707E-D0AF-41DB-8B65-2C77AF7E3D37}"
+              DTS:DTSID="{19554323-0FFB-4741-9634-11FFCD3F4683}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -261,7 +253,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject1"
-              DTS:DTSID="{06A8D7B1-149E-4282-AB30-4A3141B7CEB2}"
+              DTS:DTSID="{FF4F056A-2812-434E-831B-C069FA0A2DE3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -270,7 +262,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject2"
-              DTS:DTSID="{47F32473-FE70-4580-8D91-9FEB28522FAA}"
+              DTS:DTSID="{E1AA1B8D-B651-4532-AE18-5FB6C4E92A1C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -279,7 +271,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject3"
-              DTS:DTSID="{1999B529-54C8-4DD6-B90C-2BDAA70E897A}"
+              DTS:DTSID="{5A11162C-DEA2-4622-A39E-62002E0FB65B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -288,7 +280,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="subject4"
-              DTS:DTSID="{6D77597D-14A7-4989-95F5-D0CA17AC6813}"
+              DTS:DTSID="{FC56D733-1612-40F5-8797-72C130A808C9}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -696,7 +688,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -784,7 +776,7 @@
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -800,10 +792,6 @@
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -1221,7 +1209,7 @@ where [refTable].[YEAR_ID] = ? and [refTable].[PROGRAM_ID] = ? and [refTable].[A
                 <property
                   dataType="System.String"
                   description="Indicates whether to reference metadata in an XML format."
-                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="FACT_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PROGRAM_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="YEAR_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ADMISSION_METHOD_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SCORE_CONVERTED_MARK" dataType="DT_NUMERIC" length="0" precision="9" scale="4" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
+                  name="ReferenceMetadataXml">&lt;referenceMetadata&gt;&lt;referenceColumns&gt;&lt;referenceColumn name="FACT_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="PROGRAM_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="YEAR_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="ADMISSION_METHOD_ID" dataType="DT_I4" length="0" precision="0" scale="0" codePage="0"/&gt;&lt;referenceColumn name="SCORE_MARK" dataType="DT_NUMERIC" length="0" precision="9" scale="4" codePage="0"/&gt;&lt;/referenceColumns&gt;&lt;/referenceMetadata&gt;</property>
                 <property
                   containsID="true"
                   dataType="System.String"
@@ -5027,7 +5015,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{B16FCCB3-B752-4082-B1E7-238D7AD21985}"
-          SQLTask:SqlStatementSource="CREATE TABLE DIM_PROVINCE (&#xA;    PROVINCE_ID INT PRIMARY KEY,&#xA;    PROVINCE_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCHOOL (&#xA;    SCHOOL_ID NVARCHAR(50) PRIMARY KEY,&#xA;    SCHOOL_NAME NVARCHAR(500) NOT NULL,&#xA;    SCHOOL_TYPE NVARCHAR(100),&#xA;    SCHOOL_SHORT_NAME NVARCHAR(200),&#xA;    PROVINCE_ID INT,&#xA;    CONSTRAINT FK_SCHOOL_PROVINCE&#xA;        FOREIGN KEY (PROVINCE_ID)&#xA;        REFERENCES DIM_PROVINCE(PROVINCE_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR_GROUP (&#xA;    MAJOR_GROUP_ID INT PRIMARY KEY,&#xA;    MAJOR_GROUP_NAME NVARCHAR(500) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR (&#xA;    MAJOR_ID INT PRIMARY KEY,&#xA;    MAJOR_NAME NVARCHAR(500) NOT NULL,&#xA;    MAJOR_DESCRIPTION NVARCHAR(MAX)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_MAJOR_GROUP (&#xA;    MAJOR_ID INT NOT NULL,&#xA;    MAJOR_GROUP_ID INT NOT NULL,&#xA;    PRIMARY KEY (MAJOR_ID, MAJOR_GROUP_ID),&#xA;    CONSTRAINT FK_BMG_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID),&#xA;    CONSTRAINT FK_BMG_GROUP&#xA;        FOREIGN KEY (MAJOR_GROUP_ID)&#xA;        REFERENCES DIM_MAJOR_GROUP(MAJOR_GROUP_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCORE_BLOCK (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) PRIMARY KEY,&#xA;    SCORE_BLOCK_NAME NVARCHAR(500)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SUBJECT (&#xA;    SUBJECT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SUBJECT_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_SCORE_BLOCK_SUBJECT (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    SUBJECT_ID INT NOT NULL,&#xA;    PRIMARY KEY (SCORE_BLOCK_CODE, SUBJECT_ID),&#xA;    CONSTRAINT FK_BSBS_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE),&#xA;    CONSTRAINT FK_BSBS_SUBJECT&#xA;        FOREIGN KEY (SUBJECT_ID)&#xA;        REFERENCES DIM_SUBJECT(SUBJECT_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_ADMISSION_METHOD (&#xA;    ADMISSION_METHOD_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    ADMISSION_METHOD_NAME NVARCHAR(300) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_YEAR (&#xA;    YEAR_ID INT PRIMARY KEY,&#xA;    YEAR INT NOT NULL,&#xA;    DECADE NVARCHAR(50)&#xA;);&#xA;&#xA;CREATE TABLE DIM_PROGRAM (&#xA;    PROGRAM_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SCHOOL_ID NVARCHAR(50) NOT NULL,&#xA;    MAJOR_ID INT,&#xA;    SCORE_CODE NVARCHAR(100),&#xA;    PROGRAM_NAME NVARCHAR(1000),&#xA;    CONSTRAINT FK_PROGRAM_SCHOOL&#xA;        FOREIGN KEY (SCHOOL_ID)&#xA;        REFERENCES DIM_SCHOOL(SCHOOL_ID),&#xA;    CONSTRAINT FK_PROGRAM_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID)&#xA;);&#xA;&#xA;CREATE TABLE FACT_CUTOFF_SCORE (&#xA;    FACT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    PROGRAM_ID INT NOT NULL,&#xA;    YEAR_ID INT NOT NULL,&#xA;    ADMISSION_METHOD_ID INT NOT NULL,&#xA;    SCORE_CONVERTED_MARK DECIMAL(9,4),&#xA;&#xA;    CONSTRAINT FK_FACT_PROGRAM&#xA;        FOREIGN KEY (PROGRAM_ID)&#xA;        REFERENCES DIM_PROGRAM(PROGRAM_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_YEAR&#xA;        FOREIGN KEY (YEAR_ID)&#xA;        REFERENCES DIM_YEAR(YEAR_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_METHOD&#xA;        FOREIGN KEY (ADMISSION_METHOD_ID)&#xA;        REFERENCES DIM_ADMISSION_METHOD(ADMISSION_METHOD_ID)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_FACT_SCORE_BLOCK (&#xA;    FACT_ID INT NOT NULL,&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    PRIMARY KEY (FACT_ID, SCORE_BLOCK_CODE),&#xA;&#xA;    CONSTRAINT FK_BFSB_FACT&#xA;        FOREIGN KEY (FACT_ID)&#xA;        REFERENCES FACT_CUTOFF_SCORE(FACT_ID),&#xA;&#xA;    CONSTRAINT FK_BFSB_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE)&#xA;);&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="CREATE TABLE DIM_PROVINCE (&#xA;    PROVINCE_ID INT PRIMARY KEY,&#xA;    PROVINCE_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCHOOL (&#xA;    SCHOOL_ID NVARCHAR(50) PRIMARY KEY,&#xA;    SCHOOL_NAME NVARCHAR(500) NOT NULL,&#xA;    SCHOOL_TYPE NVARCHAR(100),&#xA;    SCHOOL_SHORT_NAME NVARCHAR(200),&#xA;    PROVINCE_ID INT,&#xA;    CONSTRAINT FK_SCHOOL_PROVINCE&#xA;        FOREIGN KEY (PROVINCE_ID)&#xA;        REFERENCES DIM_PROVINCE(PROVINCE_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR_GROUP (&#xA;    MAJOR_GROUP_ID INT PRIMARY KEY,&#xA;    MAJOR_GROUP_NAME NVARCHAR(500) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_MAJOR (&#xA;    MAJOR_ID INT PRIMARY KEY,&#xA;    MAJOR_NAME NVARCHAR(500) NOT NULL,&#xA;    MAJOR_DESCRIPTION NVARCHAR(MAX)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_MAJOR_GROUP (&#xA;    MAJOR_ID INT NOT NULL,&#xA;    MAJOR_GROUP_ID INT NOT NULL,&#xA;    PRIMARY KEY (MAJOR_ID, MAJOR_GROUP_ID),&#xA;    CONSTRAINT FK_BMG_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID),&#xA;    CONSTRAINT FK_BMG_GROUP&#xA;        FOREIGN KEY (MAJOR_GROUP_ID)&#xA;        REFERENCES DIM_MAJOR_GROUP(MAJOR_GROUP_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SCORE_BLOCK (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) PRIMARY KEY,&#xA;    SCORE_BLOCK_NAME NVARCHAR(500)&#xA;);&#xA;&#xA;CREATE TABLE DIM_SUBJECT (&#xA;    SUBJECT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SUBJECT_NAME NVARCHAR(200) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_SCORE_BLOCK_SUBJECT (&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    SUBJECT_ID INT NOT NULL,&#xA;    PRIMARY KEY (SCORE_BLOCK_CODE, SUBJECT_ID),&#xA;    CONSTRAINT FK_BSBS_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE),&#xA;    CONSTRAINT FK_BSBS_SUBJECT&#xA;        FOREIGN KEY (SUBJECT_ID)&#xA;        REFERENCES DIM_SUBJECT(SUBJECT_ID)&#xA;);&#xA;&#xA;CREATE TABLE DIM_ADMISSION_METHOD (&#xA;    ADMISSION_METHOD_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    ADMISSION_METHOD_NAME NVARCHAR(300) NOT NULL&#xA;);&#xA;&#xA;CREATE TABLE DIM_YEAR (&#xA;    YEAR_ID INT PRIMARY KEY,&#xA;    YEAR INT NOT NULL,&#xA;    DECADE NVARCHAR(50)&#xA;);&#xA;&#xA;CREATE TABLE DIM_PROGRAM (&#xA;    PROGRAM_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    SCHOOL_ID NVARCHAR(50) NOT NULL,&#xA;    MAJOR_ID INT,&#xA;    SCORE_CODE NVARCHAR(100),&#xA;    PROGRAM_NAME NVARCHAR(1000),&#xA;    CONSTRAINT FK_PROGRAM_SCHOOL&#xA;        FOREIGN KEY (SCHOOL_ID)&#xA;        REFERENCES DIM_SCHOOL(SCHOOL_ID),&#xA;    CONSTRAINT FK_PROGRAM_MAJOR&#xA;        FOREIGN KEY (MAJOR_ID)&#xA;        REFERENCES DIM_MAJOR(MAJOR_ID)&#xA;);&#xA;&#xA;CREATE TABLE FACT_CUTOFF_SCORE (&#xA;    FACT_ID INT IDENTITY(1,1) PRIMARY KEY,&#xA;    PROGRAM_ID INT NOT NULL,&#xA;    YEAR_ID INT NOT NULL,&#xA;    ADMISSION_METHOD_ID INT NOT NULL,&#xA;    SCORE_MARK DECIMAL(9,4),&#xA;&#xA;    CONSTRAINT FK_FACT_PROGRAM&#xA;        FOREIGN KEY (PROGRAM_ID)&#xA;        REFERENCES DIM_PROGRAM(PROGRAM_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_YEAR&#xA;        FOREIGN KEY (YEAR_ID)&#xA;        REFERENCES DIM_YEAR(YEAR_ID),&#xA;&#xA;    CONSTRAINT FK_FACT_METHOD&#xA;        FOREIGN KEY (ADMISSION_METHOD_ID)&#xA;        REFERENCES DIM_ADMISSION_METHOD(ADMISSION_METHOD_ID)&#xA;);&#xA;&#xA;CREATE TABLE BRIDGE_FACT_SCORE_BLOCK (&#xA;    FACT_ID INT NOT NULL,&#xA;    SCORE_BLOCK_CODE NVARCHAR(50) NOT NULL,&#xA;    PRIMARY KEY (FACT_ID, SCORE_BLOCK_CODE),&#xA;&#xA;    CONSTRAINT FK_BFSB_FACT&#xA;        FOREIGN KEY (FACT_ID)&#xA;        REFERENCES FACT_CUTOFF_SCORE(FACT_ID),&#xA;&#xA;    CONSTRAINT FK_BFSB_BLOCK&#xA;        FOREIGN KEY (SCORE_BLOCK_CODE)&#xA;        REFERENCES DIM_SCORE_BLOCK(SCORE_BLOCK_CODE)&#xA;);&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -5368,7 +5356,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -5415,26 +5403,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       length="1000"
                       lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_introtext]"
                       name="score_introtext"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      name="score_converted_mark"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -5496,7 +5464,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -5512,10 +5480,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -5844,7 +5808,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_ADMISSION_METHOD\Sort.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="r8"
+                      cachedDataType="ui8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -5897,22 +5861,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       cachedLength="100"
                       cachedName="score_admission_name"
                       lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\DIM_ADMISSION_METHOD\Sort.Inputs[Sort Input].Columns[score_converted_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_converted_mark"
-                      lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -6078,7 +6026,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_ADMISSION_METHOD\Sort.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       lineageId="Package\DIM_ADMISSION_METHOD\Sort.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -6128,19 +6076,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_ADMISSION_METHOD\Sort.Outputs[Sort Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      lineageId="Package\DIM_ADMISSION_METHOD\Sort.Outputs[Sort Output].Columns[score_converted_mark]"
-                      name="score_converted_mark">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -8130,7 +8065,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -8210,26 +8145,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      lineageId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      name="score_converted_mark"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -8279,7 +8194,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -8295,10 +8210,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -10379,7 +10290,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_PROGRAM\Sort Cut Off.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="r8"
+                      cachedDataType="ui8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -10432,22 +10343,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedLength="100"
                       cachedName="score_admission_name"
                       lineageId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_admission_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\DIM_PROGRAM\Sort Cut Off.Inputs[Sort Input].Columns[score_converted_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_converted_mark"
-                      lineageId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_converted_mark]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -10647,7 +10542,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       lineageId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -10697,19 +10592,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_admission_name]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      lineageId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output].Columns[score_converted_mark]"
-                      name="score_converted_mark">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_converted_mark]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -11250,7 +11132,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -11330,26 +11212,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      lineageId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      name="score_converted_mark"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -11399,7 +11261,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -11415,10 +11277,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -11752,7 +11610,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_PROVINCE\Sort.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="r8"
+                      cachedDataType="ui8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -11805,22 +11663,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedLength="100"
                       cachedName="score_admission_name"
                       lineageId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\DIM_PROVINCE\Sort.Inputs[Sort Input].Columns[score_converted_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_converted_mark"
-                      lineageId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -12003,7 +11845,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROVINCE\Sort.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       lineageId="Package\DIM_PROVINCE\Sort.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -12053,19 +11895,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_PROVINCE\Sort.Outputs[Sort Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      lineageId="Package\DIM_PROVINCE\Sort.Outputs[Sort Output].Columns[score_converted_mark]"
-                      name="score_converted_mark">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -12552,7 +12381,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -12632,26 +12461,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           name="UseBinaryFormat">false</property>
                       </properties>
                     </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      lineageId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      name="score_converted_mark"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -12701,7 +12510,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -12717,10 +12526,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -13090,7 +12895,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_SCHOOL\Sort.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="r8"
+                      cachedDataType="ui8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -13143,22 +12948,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       cachedLength="100"
                       cachedName="score_admission_name"
                       lineageId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]">
-                      <properties>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the comparison options for character data."
-                          name="NewComparisonFlags">0</property>
-                        <property
-                          dataType="System.Int32"
-                          description="Specifies the sort order of the column."
-                          name="NewSortKeyPosition">0</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\DIM_SCHOOL\Sort.Inputs[Sort Input].Columns[score_converted_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_converted_mark"
-                      lineageId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -13392,7 +13181,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_SCHOOL\Sort.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       lineageId="Package\DIM_SCHOOL\Sort.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -13442,19 +13231,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column that is associated with this output column."
                           name="SortColumnId">#{Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]}</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\DIM_SCHOOL\Sort.Outputs[Sort Output].Columns[score_converted_mark]"
-                      dataType="r8"
-                      lineageId="Package\DIM_SCHOOL\Sort.Outputs[Sort Output].Columns[score_converted_mark]"
-                      name="score_converted_mark">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the lineage identifier of the input column that is associated with this output column."
-                          name="SortColumnId">#{Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]}</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -16032,7 +15808,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_YEAR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_YEAR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -16048,10 +15824,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\DIM_YEAR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -16465,10 +16237,10 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       cachedName="score_admission_name"
                       lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]" />
                     <inputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Derived Column.Inputs[Derived Column Input].Columns[score_converted_mark]"
-                      cachedDataType="r8"
-                      cachedName="score_converted_mark"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]" />
+                      refId="Package\FACT_CUTOFF_SCORE\Derived Column.Inputs[Derived Column Input].Columns[score_mark]"
+                      cachedDataType="ui8"
+                      cachedName="score_mark"
+                      lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -16573,12 +16345,12 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_CONVERTED_MARK]"
+                      refId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]"
                       dataType="numeric"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_CONVERTED_MARK]"
-                      name="SCORE_CONVERTED_MARK"
+                      lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]"
+                      name="SCORE_MARK"
                       precision="9"
                       scale="4"
                       truncationRowDisposition="FailComponent">
@@ -16587,13 +16359,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(DT_NUMERIC,9,4)#{Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]}</property>
+                          name="Expression">(DT_NUMERIC,9,4)#{Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_NUMERIC,9,4)score_converted_mark</property>
+                          name="FriendlyExpression">(DT_NUMERIC,9,4)score_mark</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -16739,13 +16511,13 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       </properties>
                     </outputColumn>
                     <outputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      dataType="r8"
+                      refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
+                      dataType="ui8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_converted_mark]"
-                      name="score_converted_mark"
+                      externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
+                      lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
+                      name="score_mark"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
@@ -16807,7 +16579,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="r8"
+                      dataType="ui8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -16823,10 +16595,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       dataType="wstr"
                       length="100"
                       name="score_admission_name" />
-                    <externalMetadataColumn
-                      refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_converted_mark]"
-                      dataType="r8"
-                      name="score_converted_mark" />
                   </externalMetadataColumns>
                 </output>
                 <output
@@ -17272,13 +17040,13 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
                       externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[YEAR_ID]"
                       lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[YEAR_ID]" />
                     <inputColumn
-                      refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SCORE_CONVERTED_MARK]"
+                      refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[SCORE_MARK]"
                       cachedDataType="numeric"
-                      cachedName="SCORE_CONVERTED_MARK"
+                      cachedName="SCORE_MARK"
                       cachedPrecision="9"
                       cachedScale="4"
-                      externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_CONVERTED_MARK]"
-                      lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_CONVERTED_MARK]" />
+                      externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_MARK]"
+                      lineageId="Package\FACT_CUTOFF_SCORE\Derived Column.Outputs[Derived Column Output].Columns[SCORE_MARK]" />
                     <inputColumn
                       refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[PROGRAM_ID]"
                       cachedDataType="i4"
@@ -17311,9 +17079,9 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
                       dataType="i4"
                       name="ADMISSION_METHOD_ID" />
                     <externalMetadataColumn
-                      refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_CONVERTED_MARK]"
+                      refId="Package\FACT_CUTOFF_SCORE\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[SCORE_MARK]"
                       dataType="numeric"
-                      name="SCORE_CONVERTED_MARK"
+                      name="SCORE_MARK"
                       precision="9"
                       scale="4" />
                   </externalMetadataColumns>
@@ -17585,14 +17353,14 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,96.9392155648395"
+              EndConnector="0,96.9392155648389"
               Start="0,0"
-              End="0,89.4392155648395">
+              End="0,89.4392155648389">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,89.4392155648395" />
+                    End="0,89.4392155648389" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17669,18 +17437,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 13]"
-          TopLeft="1177.31944520413,288.626470292469">
+          TopLeft="1177.31944520414,288.626470292469">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,76.7787580332115"
+              EndConnector="0,76.7787580332119"
               Start="0,0"
-              End="0,69.2787580332115">
+              End="0,69.2787580332119">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,69.2787580332115" />
+                    End="0,69.2787580332119" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17757,18 +17525,18 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="355.445238524913,383.203921201529">
+          TopLeft="355.445238524913,383.20392120153">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="61.9357147445346,0"
+              EndConnector="61.9357147445351,0"
               Start="0,0"
-              End="54.4357147445346,0">
+              End="54.4357147445351,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="54.4357147445346,0" />
+                    End="54.4357147445351,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17874,6 +17642,10 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="189.6,41.6"
+          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM"
+          TopLeft="346.272723006931,300.090905513275" />
+        <NodeLayout
           Size="152.8,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\Derived Column"
           TopLeft="104.63636297123,297.636360095306" />
@@ -17905,10 +17677,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Size="150.4,41.6"
           Id="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source"
           TopLeft="93.9999994933606,60" />
-        <NodeLayout
-          Size="189.6,41.6"
-          Id="Package\BRIDGE_FACT_SCORE_BLOCK\Lookup DIM_PROGRAM"
-          TopLeft="346.272723006931,300.090905513275" />
         <EdgeLayout
           Id="Package\BRIDGE_FACT_SCORE_BLOCK.Paths[Sort Output]"
           TopLeft="735.045445037837,212.927274847301">
@@ -17929,7 +17697,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-30.5551171875,30.5284147277478,61.110234375,11.2431640625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17953,7 +17721,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-30.5551171875,29.8630157201126,61.110234375,11.228515625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17977,7 +17745,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="2.86770171065255,5,96.3827734375,11.609375"
+              BoundingBox="2.86770171065255,5,161.0234765625,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18001,7 +17769,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-36.7092329762201,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,-36.7092329762201,161.0234765625,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18025,7 +17793,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-46.4365047105332,96.3827734375,11.609375"
+              BoundingBox="-48.19138671875,-46.4365047105332,161.0234765625,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18049,7 +17817,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-40.292578125,30.918749091029,80.58515625,11.0625"
+              BoundingBox="-40.292578125,30.918749091029,145.4034765625,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18073,7 +17841,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-30.26947265625,27.6539231441238,60.5389453125,11.228515625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18097,7 +17865,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="12.8186487678504,5,55.6990625,11.228515625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18482,13 +18250,13 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Id="Package\DIM_ADMISSION_METHOD\Flat File Source"
           TopLeft="361.99999460578,117.999998241663" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\DIM_ADMISSION_METHOD\Derived Column"
-          TopLeft="370.999994471669,206.99999691546" />
-        <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_ADMISSION_METHOD\OLE DB Destination"
           TopLeft="369.99999448657,406.999993935228" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\DIM_ADMISSION_METHOD\Derived Column"
+          TopLeft="370.999994471669,206.99999691546" />
         <EdgeLayout
           Id="Package\DIM_ADMISSION_METHOD.Paths[Sort Output]"
           TopLeft="439.799994173646,339.599995559454">
@@ -18581,7 +18349,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-8,12.9499993219972,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18901,13 +18669,25 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\DIM_PROGRAM\OLE DB Destination"
+          TopLeft="269.285714858953,550.564705551228" />
+        <NodeLayout
+          Size="134.4,41.6"
+          Id="Package\DIM_PROGRAM\Sort Cut Off"
+          TopLeft="164.285714635435,279.882352695849" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\DIM_PROGRAM\Major Source"
+          TopLeft="407.142858009558,92.5294116836002" />
+        <NodeLayout
           Size="151.2,41.6"
           Id="Package\DIM_PROGRAM\Derived Cut Off"
           TopLeft="148.571428887698,185.823529248883" />
         <NodeLayout
-          Size="129.6,41.6"
-          Id="Package\DIM_PROGRAM\Merge Join"
-          TopLeft="278.571429164434,389.99999965815" />
+          Size="127.2,41.6"
+          Id="Package\DIM_PROGRAM\Sort Major"
+          TopLeft="413.571429451813,285.235293867627" />
         <NodeLayout
           Size="162.4,41.6"
           Id="Package\DIM_PROGRAM\Script Component"
@@ -18917,25 +18697,109 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Id="Package\DIM_PROGRAM\Sort"
           TopLeft="298.571429207009,466.882352616084" />
         <NodeLayout
-          Size="134.4,41.6"
-          Id="Package\DIM_PROGRAM\Sort Cut Off"
-          TopLeft="164.285714635435,279.882352695849" />
-        <NodeLayout
-          Size="127.2,41.6"
-          Id="Package\DIM_PROGRAM\Sort Major"
-          TopLeft="413.571429451813,285.235293867627" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\DIM_PROGRAM\OLE DB Destination"
-          TopLeft="269.285714858953,550.564705551228" />
+          Size="129.6,41.6"
+          Id="Package\DIM_PROGRAM\Merge Join"
+          TopLeft="278.571429164434,389.99999965815" />
         <NodeLayout
           Size="147.2,41.6"
           Id="Package\DIM_PROGRAM\Cut Off Source"
           TopLeft="147.142857456086,93.2941175652829" />
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\DIM_PROGRAM\Major Source"
-          TopLeft="407.142858009558,92.5294116836002" />
+        <EdgeLayout
+          Id="Package\DIM_PROGRAM.Paths[Merge Join Output]"
+          TopLeft="345.371429185721,431.59999965815">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35.2823529579339"
+              Start="0,0"
+              End="0,27.7823529579339">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.7823529579339" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_PROGRAM.Paths[Flat File Source Output1]"
+          TopLeft="475.600000851495,134.1294116836">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50.9294116836003"
+              Start="0,0"
+              End="0,43.4294116836003">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.4294116836003" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_PROGRAM.Paths[Flat File Source Output]"
+          TopLeft="222.457143171892,134.894117565283">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50.9294116836003"
+              Start="0,0"
+              End="0,43.4294116836003">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,43.4294116836003" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DIM_PROGRAM.Paths[Derived Column Output]"
+          TopLeft="227.828571761567,227.423529248883">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,52.4588234469656"
+              Start="0,0"
+              End="0,44.9588234469656">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,44.9588234469656" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-8,14.4794117234828,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_PROGRAM.Paths[Sort Output2]"
           TopLeft="231.485714635435,321.482352695849">
@@ -19056,102 +18920,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROGRAM.Paths[Merge Join Output]"
-          TopLeft="345.371429185721,431.59999965815">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,35.2823529579339"
-              Start="0,0"
-              End="0,27.7823529579339">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,27.7823529579339" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROGRAM.Paths[Flat File Source Output1]"
-          TopLeft="475.600000851495,134.1294116836">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,50.9294116836003"
-              Start="0,0"
-              End="0,43.4294116836003">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.4294116836003" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROGRAM.Paths[Flat File Source Output]"
-          TopLeft="222.457143171892,134.894117565283">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,50.9294116836003"
-              Start="0,0"
-              End="0,43.4294116836003">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,43.4294116836003" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROGRAM.Paths[Derived Column Output]"
-          TopLeft="227.828571761567,227.423529248883">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,52.4588234469656"
-              Start="0,0"
-              End="0,44.9588234469656">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,44.9588234469656" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
@@ -19189,6 +18957,30 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Size="152.8,41.6"
           Id="Package\DIM_PROVINCE\Derived Column"
           TopLeft="281.999995797873,231.999996542931" />
+        <EdgeLayout
+          Id="Package\DIM_PROVINCE.Paths[Sort Output]"
+          TopLeft="349.285710152314,392.599994769692">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,55.9647044511715"
+              Start="0,0"
+              End="0,48.4647044511715">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.4647044511715" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\DIM_PROVINCE.Paths[Flat File Source Output]"
           TopLeft="355.299995835125,179.59999794364">
@@ -19233,31 +19025,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\DIM_PROVINCE.Paths[Sort Output]"
-          TopLeft="349.285710152314,392.599994769692">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,55.9647044511715"
-              Start="0,0"
-              End="0,48.4647044511715">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.4647044511715" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-8,26.949999113381,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -19287,13 +19055,13 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Id="Package\DIM_SCHOOL\OLE DB Destination"
           TopLeft="350.999994769692,390.999994173646" />
         <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\DIM_SCHOOL\Derived Column"
-          TopLeft="350.999994769693,168.999997481704" />
-        <NodeLayout
           Size="97.6,41.6"
           Id="Package\DIM_SCHOOL\Sort"
           TopLeft="380.999994322658,290.999995663762" />
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\DIM_SCHOOL\Derived Column"
+          TopLeft="350.999994769693,168.999997481704" />
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_SCHOOL\Flat File Source"
@@ -19366,7 +19134,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-8,28.4499990910291,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -19731,6 +19499,10 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="170.4,41.6"
+          Id="Package\FACT_CUTOFF_SCORE\OLE DB Destination"
+          TopLeft="334.999995008111,449.999993294478" />
+        <NodeLayout
           Size="245.6,41.6"
           Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_ADMISSION_METHOD"
           TopLeft="300.99999551475,358.999994650483" />
@@ -19743,16 +19515,36 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           Id="Package\FACT_CUTOFF_SCORE\Lookup DIM_PROGRAM"
           TopLeft="322.999995186925,278.999995842576" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153.6,41.6"
           Id="Package\FACT_CUTOFF_SCORE\Derived Column"
           TopLeft="338.999994948506,169.999997466803" />
-        <NodeLayout
-          Size="170.4,41.6"
-          Id="Package\FACT_CUTOFF_SCORE\OLE DB Destination"
-          TopLeft="334.999995008111,449.999993294478" />
+        <EdgeLayout
+          Id="Package\FACT_CUTOFF_SCORE.Paths[Lookup Match Output]"
+          TopLeft="420.799995350838,320.599995842576">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38.3999988079072"
+              Start="0,0"
+              End="0,30.8999988079072">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.8999988079072" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,9.6453119039536,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\FACT_CUTOFF_SCORE.Paths[Flat File Source Output]"
-          TopLeft="414.299994955956,141.599998509884">
+          TopLeft="414.499994955956,141.599998509884">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -19770,24 +19562,24 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
+              BoundingBox="-8,2.44999947845955,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\FACT_CUTOFF_SCORE.Paths[Derived Column Output]"
-          TopLeft="416.599995067716,211.599997466803">
+          TopLeft="416.799995067715,211.599997466803">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,67.3999983757729"
+              EndConnector="0,67.399998375773"
               Start="0,0"
-              End="0,59.8999983757729">
+              End="0,59.899998375773">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,59.8999983757729" />
+                    End="0,59.899998375773" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -19819,30 +19611,6 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-48.19138671875,15.1453118219973,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\FACT_CUTOFF_SCORE.Paths[Lookup Match Output]"
-          TopLeft="420.799995350838,320.599995842576">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38.3999988079072"
-              Start="0,0"
-              End="0,30.8999988079072">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.8999988079072" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,9.6453119039536,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>

@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a645ac6-6c10-46f2-a3af-3b2f31f3649f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b3cc7e09-86bd-452c-8ed0-e4da5a64bc47" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Admission Data Warehouse</ID>
   <Name>Admission Data Warehouse</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,14 +42,14 @@
   <DataSourceID>Admission Data Warehouse</DataSourceID>
   <Schema>
     <xs:schema id="Admission_x0020_Data_x0020_Warehouse" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
-      <xs:element name="Admission_x0020_Data_x0020_Warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="97507171-3a2e-448c-9f4d-17697f83fdab">
+      <xs:element name="Admission_x0020_Data_x0020_Warehouse" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="ec8be77b-c906-4043-8dd7-e94a77d0e071">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="dbo_BRIDGE_FACT_SCORE_BLOCK" msprop:DbTableName="BRIDGE_FACT_SCORE_BLOCK" msprop:FriendlyName="BRIDGE_FACT_SCORE_BLOCK" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="a594627c-015a-4180-bd73-60a27cca0c4b">
+            <xs:element name="dbo_BRIDGE_FACT_SCORE_BLOCK" msprop:DbTableName="BRIDGE_FACT_SCORE_BLOCK" msprop:FriendlyName="BRIDGE_FACT_SCORE_BLOCK" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="ff4f7348-3b1e-4467-8874-d79fc4650335">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="FACT_ID" msprop:FriendlyName="FACT_ID" msprop:DbColumnName="FACT_ID" msprop:design-time-name="16f48c3e-b1de-4b35-8f94-c3143f9555f2" type="xs:int" />
-                  <xs:element name="SCORE_BLOCK_CODE" msprop:FriendlyName="SCORE_BLOCK_CODE" msprop:DbColumnName="SCORE_BLOCK_CODE" msprop:design-time-name="3be5ee4c-c7b5-4062-bf2b-8041125a0d29">
+                  <xs:element name="FACT_ID" msprop:FriendlyName="FACT_ID" msprop:DbColumnName="FACT_ID" msprop:design-time-name="e095c34e-fe4b-4280-806a-4f3f99952bf9" type="xs:int" />
+                  <xs:element name="SCORE_BLOCK_CODE" msprop:FriendlyName="SCORE_BLOCK_CODE" msprop:DbColumnName="SCORE_BLOCK_CODE" msprop:design-time-name="084753da-8177-4a19-86ce-03206c93a68e">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -59,33 +59,33 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_BRIDGE_MAJOR_GROUP" msprop:DbTableName="BRIDGE_MAJOR_GROUP" msprop:FriendlyName="BRIDGE_MAJOR_GROUP" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="21002d42-3422-4085-b813-20e51f096523">
+            <xs:element name="dbo_BRIDGE_MAJOR_GROUP" msprop:DbTableName="BRIDGE_MAJOR_GROUP" msprop:FriendlyName="BRIDGE_MAJOR_GROUP" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="dd4db70a-b0a4-49af-b702-5eed0b400b8e">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="MAJOR_ID" msprop:FriendlyName="MAJOR_ID" msprop:DbColumnName="MAJOR_ID" msprop:design-time-name="04f7542a-6836-48ee-9361-812ae07cab09" type="xs:int" />
-                  <xs:element name="MAJOR_GROUP_ID" msprop:FriendlyName="MAJOR_GROUP_ID" msprop:DbColumnName="MAJOR_GROUP_ID" msprop:design-time-name="fbe75515-1980-41b1-9d1e-b331d04bef8e" type="xs:int" />
+                  <xs:element name="MAJOR_ID" msprop:FriendlyName="MAJOR_ID" msprop:DbColumnName="MAJOR_ID" msprop:design-time-name="2d99589b-e10c-424a-9046-385567c35d01" type="xs:int" />
+                  <xs:element name="MAJOR_GROUP_ID" msprop:FriendlyName="MAJOR_GROUP_ID" msprop:DbColumnName="MAJOR_GROUP_ID" msprop:design-time-name="f63b6cf5-3187-4309-8d38-18b4a43040c3" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_BRIDGE_SCORE_BLOCK_SUBJECT" msprop:DbTableName="BRIDGE_SCORE_BLOCK_SUBJECT" msprop:FriendlyName="BRIDGE_SCORE_BLOCK_SUBJECT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="34540cec-83cc-4708-b99a-f13c78a090d1">
+            <xs:element name="dbo_BRIDGE_SCORE_BLOCK_SUBJECT" msprop:DbTableName="BRIDGE_SCORE_BLOCK_SUBJECT" msprop:FriendlyName="BRIDGE_SCORE_BLOCK_SUBJECT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="fa195e5f-6b2c-4c68-aed0-222efce41fe9">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="SCORE_BLOCK_CODE" msprop:FriendlyName="SCORE_BLOCK_CODE" msprop:DbColumnName="SCORE_BLOCK_CODE" msprop:design-time-name="c996b9ce-99aa-42f3-ae69-650d6301f37b">
+                  <xs:element name="SCORE_BLOCK_CODE" msprop:FriendlyName="SCORE_BLOCK_CODE" msprop:DbColumnName="SCORE_BLOCK_CODE" msprop:design-time-name="b9734b04-2fe5-44ec-b0ec-5c43b7163d79">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SUBJECT_ID" msprop:FriendlyName="SUBJECT_ID" msprop:DbColumnName="SUBJECT_ID" msprop:design-time-name="e9b130f2-a632-4417-bc5b-f4812045753c" type="xs:int" />
+                  <xs:element name="SUBJECT_ID" msprop:FriendlyName="SUBJECT_ID" msprop:DbColumnName="SUBJECT_ID" msprop:design-time-name="3ada8732-2049-4c53-8fce-6097dabe5fd7" type="xs:int" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_ADMISSION_METHOD" msprop:DbTableName="DIM_ADMISSION_METHOD" msprop:FriendlyName="DIM_ADMISSION_METHOD" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="2d332602-7100-4526-911b-822cf7fae1f1">
+            <xs:element name="dbo_DIM_ADMISSION_METHOD" msprop:DbTableName="DIM_ADMISSION_METHOD" msprop:FriendlyName="DIM_ADMISSION_METHOD" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="cef10a1d-8e62-41da-81da-f5d29199ea15">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="ADMISSION_METHOD_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ADMISSION_METHOD_ID" msprop:DbColumnName="ADMISSION_METHOD_ID" msprop:design-time-name="3e9c85c9-3727-498a-a288-520e095299e2" type="xs:int" />
-                  <xs:element name="ADMISSION_METHOD_NAME" msprop:FriendlyName="ADMISSION_METHOD_NAME" msprop:DbColumnName="ADMISSION_METHOD_NAME" msprop:design-time-name="486faa33-870c-49e6-a761-238028101681">
+                  <xs:element name="ADMISSION_METHOD_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="ADMISSION_METHOD_ID" msprop:DbColumnName="ADMISSION_METHOD_ID" msprop:design-time-name="179462ad-7d0c-4504-bc13-f54563e15c6b" type="xs:int" />
+                  <xs:element name="ADMISSION_METHOD_NAME" msprop:FriendlyName="ADMISSION_METHOD_NAME" msprop:DbColumnName="ADMISSION_METHOD_NAME" msprop:design-time-name="3a6eca87-fdc5-4c94-a81a-041f390aa687">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="300" />
@@ -95,18 +95,18 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_MAJOR" msprop:DbTableName="DIM_MAJOR" msprop:FriendlyName="DIM_MAJOR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="c5012fda-576a-430f-8197-efe1f607e541">
+            <xs:element name="dbo_DIM_MAJOR" msprop:DbTableName="DIM_MAJOR" msprop:FriendlyName="DIM_MAJOR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="845ff153-c01c-4ca3-b5bd-11e158863d54">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="MAJOR_ID" msprop:FriendlyName="MAJOR_ID" msprop:DbColumnName="MAJOR_ID" msprop:design-time-name="2c2f5c14-f20d-4fe3-b1e4-58e3739256ce" type="xs:int" />
-                  <xs:element name="MAJOR_NAME" msprop:FriendlyName="MAJOR_NAME" msprop:DbColumnName="MAJOR_NAME" msprop:design-time-name="0e2e878b-ad4e-4ae7-b528-3b36223812f2">
+                  <xs:element name="MAJOR_ID" msprop:FriendlyName="MAJOR_ID" msprop:DbColumnName="MAJOR_ID" msprop:design-time-name="851b4389-aaf3-4cd2-9308-9e4ec3c7d803" type="xs:int" />
+                  <xs:element name="MAJOR_NAME" msprop:FriendlyName="MAJOR_NAME" msprop:DbColumnName="MAJOR_NAME" msprop:design-time-name="9a877e98-fa4d-4122-a90a-5791813a3299">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="500" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="MAJOR_DESCRIPTION" msprop:FriendlyName="MAJOR_DESCRIPTION" msprop:DbColumnName="MAJOR_DESCRIPTION" msprop:design-time-name="bcf75bc9-4cc2-4ea0-9663-ca18af771697" minOccurs="0">
+                  <xs:element name="MAJOR_DESCRIPTION" msprop:FriendlyName="MAJOR_DESCRIPTION" msprop:DbColumnName="MAJOR_DESCRIPTION" msprop:design-time-name="d1f1a114-984d-4194-85c1-e6e545c93d3e" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1073741823" />
@@ -116,11 +116,11 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_MAJOR_GROUP" msprop:DbTableName="DIM_MAJOR_GROUP" msprop:FriendlyName="DIM_MAJOR_GROUP" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="5a5c83db-5808-4a43-8a09-32fae48250ec">
+            <xs:element name="dbo_DIM_MAJOR_GROUP" msprop:DbTableName="DIM_MAJOR_GROUP" msprop:FriendlyName="DIM_MAJOR_GROUP" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="8cadbcba-0024-4707-aaac-89e2acd52ebe">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="MAJOR_GROUP_ID" msprop:FriendlyName="MAJOR_GROUP_ID" msprop:DbColumnName="MAJOR_GROUP_ID" msprop:design-time-name="0870141b-2c51-4329-854f-21ea9dcacaca" type="xs:int" />
-                  <xs:element name="MAJOR_GROUP_NAME" msprop:FriendlyName="MAJOR_GROUP_NAME" msprop:DbColumnName="MAJOR_GROUP_NAME" msprop:design-time-name="2fb6634d-1e72-4f87-8bd8-cbe0f4f2745d">
+                  <xs:element name="MAJOR_GROUP_ID" msprop:FriendlyName="MAJOR_GROUP_ID" msprop:DbColumnName="MAJOR_GROUP_ID" msprop:design-time-name="eb9791f1-cb48-42ad-9d47-8f823f82e7d7" type="xs:int" />
+                  <xs:element name="MAJOR_GROUP_NAME" msprop:FriendlyName="MAJOR_GROUP_NAME" msprop:DbColumnName="MAJOR_GROUP_NAME" msprop:design-time-name="343a7b55-0d24-4761-9118-a7ec4fdee31d">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="500" />
@@ -130,26 +130,26 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_PROGRAM" msprop:DbTableName="DIM_PROGRAM" msprop:FriendlyName="DIM_PROGRAM" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="fa80af35-d00b-4660-ab50-3cbe2e1aa1d9">
+            <xs:element name="dbo_DIM_PROGRAM" msprop:DbTableName="DIM_PROGRAM" msprop:FriendlyName="DIM_PROGRAM" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="77640d2a-c6db-4861-9bd9-68333b732da0">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="PROGRAM_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="PROGRAM_ID" msprop:DbColumnName="PROGRAM_ID" msprop:design-time-name="90126841-14db-4f0e-9064-e0850acdf51f" type="xs:int" />
-                  <xs:element name="SCHOOL_ID" msprop:FriendlyName="SCHOOL_ID" msprop:DbColumnName="SCHOOL_ID" msprop:design-time-name="43bd9dc4-57a6-47fe-bdbf-95571b24ad40">
+                  <xs:element name="PROGRAM_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="PROGRAM_ID" msprop:DbColumnName="PROGRAM_ID" msprop:design-time-name="6503682b-b1a2-4900-abdb-b4deed51a4b3" type="xs:int" />
+                  <xs:element name="SCHOOL_ID" msprop:FriendlyName="SCHOOL_ID" msprop:DbColumnName="SCHOOL_ID" msprop:design-time-name="58b77d00-e5a5-4af4-b8f8-b0c3f5675a8c">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="MAJOR_ID" msprop:FriendlyName="MAJOR_ID" msprop:DbColumnName="MAJOR_ID" msprop:design-time-name="9b8959c8-3cb0-4fe5-bb7b-a7c909f4bd24" type="xs:int" minOccurs="0" />
-                  <xs:element name="SCORE_CODE" msprop:FriendlyName="SCORE_CODE" msprop:DbColumnName="SCORE_CODE" msprop:design-time-name="5470d170-8d30-4203-b2d5-307c3f1b4a44" minOccurs="0">
+                  <xs:element name="MAJOR_ID" msprop:FriendlyName="MAJOR_ID" msprop:DbColumnName="MAJOR_ID" msprop:design-time-name="9cf422be-1cb6-4752-be01-4fcab99a47e2" type="xs:int" minOccurs="0" />
+                  <xs:element name="SCORE_CODE" msprop:FriendlyName="SCORE_CODE" msprop:DbColumnName="SCORE_CODE" msprop:design-time-name="a9250273-3c8e-4fe3-a8d9-6f0874fa85fc" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PROGRAM_NAME" msprop:FriendlyName="PROGRAM_NAME" msprop:DbColumnName="PROGRAM_NAME" msprop:design-time-name="4ebf9808-6358-48e5-a84a-98ce2a23cde7" minOccurs="0">
+                  <xs:element name="PROGRAM_NAME" msprop:FriendlyName="PROGRAM_NAME" msprop:DbColumnName="PROGRAM_NAME" msprop:design-time-name="3fce7a2a-6573-4d77-821f-6e4819193289" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="1000" />
@@ -159,11 +159,11 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_PROVINCE" msprop:DbTableName="DIM_PROVINCE" msprop:FriendlyName="DIM_PROVINCE" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="64a592bc-3d21-46cc-acb9-4a789c3307eb">
+            <xs:element name="dbo_DIM_PROVINCE" msprop:DbTableName="DIM_PROVINCE" msprop:FriendlyName="DIM_PROVINCE" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6eb69c14-eb5f-4e1e-83cf-ec69a1af47d5">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="PROVINCE_ID" msprop:FriendlyName="PROVINCE_ID" msprop:DbColumnName="PROVINCE_ID" msprop:design-time-name="21973ba5-b492-4904-b57b-115b66f5a51b" type="xs:int" />
-                  <xs:element name="PROVINCE_NAME" msprop:FriendlyName="PROVINCE_NAME" msprop:DbColumnName="PROVINCE_NAME" msprop:design-time-name="d09f1662-35fa-4830-963f-e6756f89302f">
+                  <xs:element name="PROVINCE_ID" msprop:FriendlyName="PROVINCE_ID" msprop:DbColumnName="PROVINCE_ID" msprop:design-time-name="b742fdd5-7222-458a-8429-8919c78b429c" type="xs:int" />
+                  <xs:element name="PROVINCE_NAME" msprop:FriendlyName="PROVINCE_NAME" msprop:DbColumnName="PROVINCE_NAME" msprop:design-time-name="5f9018ab-d97c-412e-a8c8-a6eb778c3f1e">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="200" />
@@ -173,52 +173,52 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_SCHOOL" msprop:DbTableName="DIM_SCHOOL" msprop:FriendlyName="DIM_SCHOOL" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6f003ca9-cb51-4b60-b374-8f9904fda42e">
+            <xs:element name="dbo_DIM_SCHOOL" msprop:DbTableName="DIM_SCHOOL" msprop:FriendlyName="DIM_SCHOOL" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="7d63403c-ba97-41ce-a8c7-0b5e19a9a324">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="SCHOOL_ID" msprop:FriendlyName="SCHOOL_ID" msprop:DbColumnName="SCHOOL_ID" msprop:design-time-name="508b63f6-25af-4524-be6c-91517106e544">
+                  <xs:element name="SCHOOL_ID" msprop:FriendlyName="SCHOOL_ID" msprop:DbColumnName="SCHOOL_ID" msprop:design-time-name="29b558fa-7cd3-422a-a880-a683613c06cd">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SCHOOL_NAME" msprop:FriendlyName="SCHOOL_NAME" msprop:DbColumnName="SCHOOL_NAME" msprop:design-time-name="aa910bd4-a0cf-4d2a-a736-af8ae94a78f8">
+                  <xs:element name="SCHOOL_NAME" msprop:FriendlyName="SCHOOL_NAME" msprop:DbColumnName="SCHOOL_NAME" msprop:design-time-name="9ab4aebb-49d9-417c-bc3b-73bfb9875e78">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="500" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SCHOOL_TYPE" msprop:FriendlyName="SCHOOL_TYPE" msprop:DbColumnName="SCHOOL_TYPE" msprop:design-time-name="aa11dffd-7249-4914-8427-522d86e6ad28" minOccurs="0">
+                  <xs:element name="SCHOOL_TYPE" msprop:FriendlyName="SCHOOL_TYPE" msprop:DbColumnName="SCHOOL_TYPE" msprop:design-time-name="c8a82c79-9a23-4f51-9549-12e4f25f6ae5" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SCHOOL_SHORT_NAME" msprop:FriendlyName="SCHOOL_SHORT_NAME" msprop:DbColumnName="SCHOOL_SHORT_NAME" msprop:design-time-name="78adcf39-afb6-4790-8664-7cd0af2f09b3" minOccurs="0">
+                  <xs:element name="SCHOOL_SHORT_NAME" msprop:FriendlyName="SCHOOL_SHORT_NAME" msprop:DbColumnName="SCHOOL_SHORT_NAME" msprop:design-time-name="909dda02-612b-4a69-a508-a51883c86f70" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="200" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="PROVINCE_ID" msprop:FriendlyName="PROVINCE_ID" msprop:DbColumnName="PROVINCE_ID" msprop:design-time-name="ad283480-8b77-42f8-b506-8a0d2757e6a3" type="xs:int" minOccurs="0" />
+                  <xs:element name="PROVINCE_ID" msprop:FriendlyName="PROVINCE_ID" msprop:DbColumnName="PROVINCE_ID" msprop:design-time-name="6c0a65ee-cac2-497d-915e-11355b44af9f" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_SCORE_BLOCK" msprop:DbTableName="DIM_SCORE_BLOCK" msprop:FriendlyName="DIM_SCORE_BLOCK" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="ba4f9b33-e2eb-4762-88f8-31ae3d00d5b7">
+            <xs:element name="dbo_DIM_SCORE_BLOCK" msprop:DbTableName="DIM_SCORE_BLOCK" msprop:FriendlyName="DIM_SCORE_BLOCK" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="cb222dea-54dc-43b3-bd31-3e7585e0d104">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="SCORE_BLOCK_CODE" msprop:FriendlyName="SCORE_BLOCK_CODE" msprop:DbColumnName="SCORE_BLOCK_CODE" msprop:design-time-name="1cc497b1-55b2-44f3-b7f0-8b8ef5a2fba3">
+                  <xs:element name="SCORE_BLOCK_CODE" msprop:FriendlyName="SCORE_BLOCK_CODE" msprop:DbColumnName="SCORE_BLOCK_CODE" msprop:design-time-name="c4062138-8b19-429e-b451-f5ab32036dc9">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="SCORE_BLOCK_NAME" msprop:FriendlyName="SCORE_BLOCK_NAME" msprop:DbColumnName="SCORE_BLOCK_NAME" msprop:design-time-name="ac737554-a424-4347-b2c7-c4f8ca21c005" minOccurs="0">
+                  <xs:element name="SCORE_BLOCK_NAME" msprop:FriendlyName="SCORE_BLOCK_NAME" msprop:DbColumnName="SCORE_BLOCK_NAME" msprop:design-time-name="06b712c6-deca-4271-acda-dd8d68142f03" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="500" />
@@ -228,11 +228,11 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_SUBJECT" msprop:DbTableName="DIM_SUBJECT" msprop:FriendlyName="DIM_SUBJECT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="f3fc5e82-d63d-4ca1-8e5d-9ea687b59851">
+            <xs:element name="dbo_DIM_SUBJECT" msprop:DbTableName="DIM_SUBJECT" msprop:FriendlyName="DIM_SUBJECT" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="c829ef7f-29a8-4d79-9644-cd6cd0c37252">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="SUBJECT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="SUBJECT_ID" msprop:DbColumnName="SUBJECT_ID" msprop:design-time-name="a5e0e8ee-4d26-4891-b6b9-7e4a5b50aab0" type="xs:int" />
-                  <xs:element name="SUBJECT_NAME" msprop:FriendlyName="SUBJECT_NAME" msprop:DbColumnName="SUBJECT_NAME" msprop:design-time-name="77b10b95-b25a-419d-96c2-231cf11f78b2">
+                  <xs:element name="SUBJECT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="SUBJECT_ID" msprop:DbColumnName="SUBJECT_ID" msprop:design-time-name="bd9a7ee7-37da-4d0e-a19d-c26bb8e6cff2" type="xs:int" />
+                  <xs:element name="SUBJECT_NAME" msprop:FriendlyName="SUBJECT_NAME" msprop:DbColumnName="SUBJECT_NAME" msprop:design-time-name="840c7177-6127-46bd-96eb-783f55f860c4">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="200" />
@@ -242,12 +242,12 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_DIM_YEAR" msprop:DbTableName="DIM_YEAR" msprop:FriendlyName="DIM_YEAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="69b373e2-5e6e-4ede-bf9c-2655eb06818a">
+            <xs:element name="dbo_DIM_YEAR" msprop:DbTableName="DIM_YEAR" msprop:FriendlyName="DIM_YEAR" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="cb20b9a7-d906-4486-85b0-cf7ed69bd9fe">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="YEAR_ID" msprop:FriendlyName="YEAR_ID" msprop:DbColumnName="YEAR_ID" msprop:design-time-name="bdcad7cd-a985-4eb1-b338-41defd130969" type="xs:int" />
-                  <xs:element name="YEAR" msprop:FriendlyName="YEAR" msprop:DbColumnName="YEAR" msprop:design-time-name="109c1eba-387a-4fe8-9411-e71004085555" type="xs:int" />
-                  <xs:element name="DECADE" msprop:FriendlyName="DECADE" msprop:DbColumnName="DECADE" msprop:design-time-name="122c01d3-5f95-4f08-a7de-4af8334ddbe8" minOccurs="0">
+                  <xs:element name="YEAR_ID" msprop:FriendlyName="YEAR_ID" msprop:DbColumnName="YEAR_ID" msprop:design-time-name="33651d28-9a29-45b7-b19e-14be917a658a" type="xs:int" />
+                  <xs:element name="YEAR" msprop:FriendlyName="YEAR" msprop:DbColumnName="YEAR" msprop:design-time-name="9946f4a2-22bd-4a2d-8f9f-c59c32402e3f" type="xs:int" />
+                  <xs:element name="DECADE" msprop:FriendlyName="DECADE" msprop:DbColumnName="DECADE" msprop:design-time-name="165c4024-d10e-452b-84d7-3c355d773411" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="50" />
@@ -257,14 +257,14 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_FACT_CUTOFF_SCORE" msprop:DbTableName="FACT_CUTOFF_SCORE" msprop:FriendlyName="FACT_CUTOFF_SCORE" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="219ac163-63cc-4abf-9eb0-9903bd977930">
+            <xs:element name="dbo_FACT_CUTOFF_SCORE" msprop:DbTableName="FACT_CUTOFF_SCORE" msprop:FriendlyName="FACT_CUTOFF_SCORE" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="13e12e37-d167-4084-9633-b3b9065e4da4">
               <xs:complexType>
                 <xs:sequence>
-                  <xs:element name="FACT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="FACT_ID" msprop:DbColumnName="FACT_ID" msprop:design-time-name="5f64a6e1-7caa-4e2f-bc75-e4db1aaebe65" type="xs:int" />
-                  <xs:element name="PROGRAM_ID" msprop:FriendlyName="PROGRAM_ID" msprop:DbColumnName="PROGRAM_ID" msprop:design-time-name="f4c66a0f-5b18-451b-ae7e-cd8982645399" type="xs:int" />
-                  <xs:element name="YEAR_ID" msprop:FriendlyName="YEAR_ID" msprop:DbColumnName="YEAR_ID" msprop:design-time-name="ee620162-e9a5-4f1a-9906-f5f138b7730b" type="xs:int" />
-                  <xs:element name="ADMISSION_METHOD_ID" msprop:FriendlyName="ADMISSION_METHOD_ID" msprop:DbColumnName="ADMISSION_METHOD_ID" msprop:design-time-name="e6db6257-87c7-4ebe-90f2-6f7da6b6292f" type="xs:int" />
-                  <xs:element name="SCORE_CONVERTED_MARK" msprop:FriendlyName="SCORE_CONVERTED_MARK" msprop:DbColumnName="SCORE_CONVERTED_MARK" msprop:design-time-name="c703a7ed-8294-4f2f-bba1-3f203b85f925" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="FACT_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="FACT_ID" msprop:DbColumnName="FACT_ID" msprop:design-time-name="b2d5bf87-fce6-49a1-8bc9-d54141408a8c" type="xs:int" />
+                  <xs:element name="PROGRAM_ID" msprop:FriendlyName="PROGRAM_ID" msprop:DbColumnName="PROGRAM_ID" msprop:design-time-name="a9455eb1-2a96-4e1b-af6d-7e98ff608135" type="xs:int" />
+                  <xs:element name="YEAR_ID" msprop:FriendlyName="YEAR_ID" msprop:DbColumnName="YEAR_ID" msprop:design-time-name="dfabe9d8-1ae0-448c-801a-2f6c392326f7" type="xs:int" />
+                  <xs:element name="ADMISSION_METHOD_ID" msprop:FriendlyName="ADMISSION_METHOD_ID" msprop:DbColumnName="ADMISSION_METHOD_ID" msprop:design-time-name="e9ecb18c-1c42-4a20-aaa7-7d734fd99346" type="xs:int" />
+                  <xs:element name="SCORE_MARK" msprop:FriendlyName="SCORE_MARK" msprop:DbColumnName="SCORE_MARK" msprop:design-time-name="757763e3-6feb-4bb9-940c-1a6041531379" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>

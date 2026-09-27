@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,91 +19,91 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>6yGbMYjfI9l5lQLRq46pcM383MA=9/25/2026 8:55:34 PM9/25/2026 12:10:08 AM</TimeStamp>
+        <TimeStamp>xW8EgvI9x8sFtGD495ld5JixU9M=9/27/2026 2:56:24 PM9/27/2026 2:56:24 PM</TimeStamp>
         <ID>
           <String>Admission Data Warehouse</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>yoY8vujqBV6iqmjhY9U48dhVDRM=9/26/2026 11:41:30 PM9/26/2026 11:41:29 PM</TimeStamp>
+        <TimeStamp>q7hTmaCqcumsu80rv28xIepkmf4=9/27/2026 3:25:09 PM9/27/2026 2:56:47 PM</TimeStamp>
         <ID>
           <String>Admission Data Warehouse</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Jnm9EtENeB+yN4MTCdgs6vq5pMM=9/26/2026 12:59:28 PM9/26/2026 12:59:28 PM</TimeStamp>
+        <TimeStamp>EA0bZeXfvmYLI4W39FFkB3QTSZc=9/27/2026 2:57:08 PM9/27/2026 2:57:08 PM</TimeStamp>
         <ID>
           <String>DIM PROVINCE</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Zhc9iaRoMeJ3AB01vVNR1Yz2vrM=9/26/2026 1:02:16 PM9/26/2026 1:02:16 PM</TimeStamp>
-        <ID>
-          <String>DIM MAJOR GROUP</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Lz0HnJy2xlVYrZ3TXMF3u3Irs+4=9/26/2026 1:02:33 PM9/26/2026 1:02:33 PM</TimeStamp>
-        <ID>
-          <String>DIM MAJOR</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>AUXWRvILreAcpBiBdHCxgjjrzKc=9/26/2026 1:04:21 PM9/26/2026 1:04:21 PM</TimeStamp>
-        <ID>
-          <String>DIM SCORE BLOCK</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZeoaJdV97Pfx6wcPcD91wcMq44I=9/26/2026 1:04:38 PM9/26/2026 1:04:38 PM</TimeStamp>
-        <ID>
-          <String>DIM SUBJECT</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Y6pkEw/N7tp2+aw9st4x0obJ1jE=9/26/2026 11:29:42 PM9/26/2026 1:05:00 PM</TimeStamp>
-        <ID>
-          <String>DIM ADMISSION METHOD</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>86O4W1quJ4HJ43LEsBQc4Ow3aFo=9/26/2026 1:06:18 PM9/26/2026 1:05:19 PM</TimeStamp>
-        <ID>
-          <String>DIM YEAR</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>GMqfndjNmm//funrs33MtUowveI=9/26/2026 1:08:06 PM9/26/2026 1:08:06 PM</TimeStamp>
-        <ID>
-          <String>FACT CUTOFF SCORE</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>XWflC8p2HiCZlUONBI9m1BgOe7A=9/26/2026 11:43:05 PM9/26/2026 11:42:10 PM</TimeStamp>
+        <TimeStamp>nd91P2OqCqMV8ztrfqPqDCKHCO8=9/27/2026 2:57:53 PM9/27/2026 2:57:21 PM</TimeStamp>
         <ID>
           <String>DIM SCHOOL</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Z4mcsNAIBfkjg1DVoe/NTZtVQV4=9/26/2026 11:46:20 PM9/26/2026 11:45:32 PM</TimeStamp>
+        <TimeStamp>cMcSdISQdDDyCCNT1OKlLf2jbRQ=9/27/2026 2:58:06 PM9/27/2026 2:58:06 PM</TimeStamp>
+        <ID>
+          <String>DIM MAJOR GROUP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>e6gk/8LFN82SGso6GPMUvP8JmzQ=9/27/2026 2:58:24 PM9/27/2026 2:58:24 PM</TimeStamp>
+        <ID>
+          <String>DIM MAJOR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OQr/SPn0jHLjsnE+lc0Fi0HVwPE=9/27/2026 3:00:18 PM9/27/2026 2:58:41 PM</TimeStamp>
         <ID>
           <String>DIM PROGRAM</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IiYo91zcJ1hZq9/Y8M+csodFR0s=9/27/2026 3:01:17 PM9/27/2026 3:01:17 PM</TimeStamp>
+        <ID>
+          <String>DIM SCORE BLOCK</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JNykw+5FqaG8nYaFdK2iEpf1X7w=9/27/2026 3:01:33 PM9/27/2026 3:01:33 PM</TimeStamp>
+        <ID>
+          <String>DIM SUBJECT</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qCtJAdECgOB8rd/Zx0liRqGpv2k=9/27/2026 3:01:45 PM9/27/2026 3:01:45 PM</TimeStamp>
+        <ID>
+          <String>DIM ADMISSION METHOD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oVXMjEI3fOY9PCmegSKK4d3yhbI=9/27/2026 3:02:43 PM9/27/2026 3:01:56 PM</TimeStamp>
+        <ID>
+          <String>DIM YEAR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y/z7BAKrii+4Ed18TpMQnG5Xg6U=9/27/2026 3:03:03 PM9/27/2026 3:03:03 PM</TimeStamp>
+        <ID>
+          <String>FACT CUTOFF SCORE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>EuT777W9C5faAcmNUzQl/Ec/N2k=9/26/2026 11:54:30 PM9/26/2026 11:47:18 PMrLq2I5KhEzcAcTNKbi2WNeqMa8Y=9/26/2026 11:47:18 PM9/26/2026 11:47:18 PM</TimeStamp>
+        <TimeStamp>i7UQO7Z61mjaXHS1Ts80LgI0ASs=9/27/2026 3:30:03 PM9/27/2026 3:03:03 PM+7UXVHOYldZcyuYXkROAop1DREE=9/27/2026 3:03:03 PM9/27/2026 3:03:03 PM</TimeStamp>
         <ID>
           <String>Admission Data Warehouse</String>
         </ID>
@@ -111,7 +111,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>hJ8Ch/wSzamidi/eOCUVkD5i7no=9/25/2026 12:02:20 AM9/25/2026 12:02:20 AM</TimeStamp>
+      <TimeStamp>lmbNMTMA3FCphMrilVHnFEcxdLE=9/27/2026 2:54:50 PM9/27/2026 2:54:49 PM</TimeStamp>
       <ID>
         <String>ADMISSION_SSAS</String>
       </ID>
@@ -120,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-09-26T16:54:36.426667Z</LastDeployed>
+  <LastDeployed>2026-09-27T08:30:27.71Z</LastDeployed>
 </DeploymentSnapshot>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b0e53afe-487a-47f3-bd41-2693e8990e39" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4a554dad-b5ca-4e59-840f-3a71da3e0794" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM MAJOR</ID>
   <Name>DIM MAJOR</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,37 +42,37 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e6b62658-a12f-4119-b904-6c73aacf9eb4">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b8e76b07-5053-40ab-86ab-247df8ef3c55">
     <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="866b0fed-12fc-49a6-986b-28d3ad9b3f9a">
+  <ErrorConfiguration dwd:design-time-name="0da9da8b-4f78-4e80-b4d0-0771451dfeab">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="de05e550-2579-4eaf-bce4-ed188d3fd358">
+    <Attribute dwd:design-time-name="7891bace-9894-40cc-9b53-1b07a49ede7c">
       <ID>MAJOR ID</ID>
       <Name>MAJOR ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7b26d92a-84fa-42cf-8523-0f52ae3f49a4">
+        <KeyColumn dwd:design-time-name="e085cfdd-801c-4b61-8c0c-563c761a550d">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a32f2603-ac11-4273-a737-12a81ece2754">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44f00a6c-34b4-4f04-b012-db76dd00ad24">
             <TableID>dbo_DIM_MAJOR</TableID>
             <ColumnID>MAJOR_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="cb5bf14b-bbba-4848-9695-859be5a17cb3">
+        <AttributeRelationship dwd:design-time-name="8e9fb7e5-148b-4b92-88dc-7ee095e7dd1b">
           <AttributeID>MAJOR NAME</AttributeID>
           <Name>MAJOR NAME</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ec44d5da-975c-4d48-8292-639d58d64f74">
+        <AttributeRelationship dwd:design-time-name="48452982-8e2d-4d33-964c-ae3f5d826a5a">
           <AttributeID>MAJOR DESCRIPTION</AttributeID>
           <Name>MAJOR DESCRIPTION</Name>
         </AttributeRelationship>
@@ -81,14 +81,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4ced2344-a475-4610-a691-eb85be46a855">
+    <Attribute dwd:design-time-name="293f91f4-eb2e-4511-8bae-b14002e364d2">
       <ID>MAJOR NAME</ID>
       <Name>MAJOR NAME</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9d9ec6bc-8307-4bf5-b810-46f1406e246b">
+        <KeyColumn dwd:design-time-name="d056a3aa-c55a-4629-8bc0-0cedb09cfce5">
           <DataType>WChar</DataType>
           <DataSize>500</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c95d7b4d-f0bc-41f8-80c7-0a7d457f4b7d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d9e869b3-c6c1-49a7-b469-ebd2230107f1">
             <TableID>dbo_DIM_MAJOR</TableID>
             <ColumnID>MAJOR_NAME</ColumnID>
           </Source>
@@ -98,22 +98,22 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="99e13ac8-23eb-4133-a1e9-0332797375ec">
+    <Attribute dwd:design-time-name="ee876204-5322-4294-a04b-6b68f9271995">
       <ID>MAJOR DESCRIPTION</ID>
       <Name>MAJOR DESCRIPTION</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d3c2c463-5636-4f84-971f-43af808e4faf">
+        <KeyColumn dwd:design-time-name="9fd8463e-abba-4af1-8ffa-c66812111c70">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3b6e72d-67d7-427f-b6c8-c9a2488cb20f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fe4d4f31-9487-4752-b4f1-10a242af9982">
             <TableID>dbo_DIM_MAJOR</TableID>
             <ColumnID>MAJOR_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
-      <ValueColumn dwd:design-time-name="b0b65cd3-999a-4e44-a04e-0f38374697fe">
+      <ValueColumn dwd:design-time-name="798f7f34-7357-47bf-86b9-6043117d1a24">
         <DataType>Binary</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="46004dfd-f7c1-4c19-bdd1-3e15c43f841c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="47e34fa3-d8a0-4d43-b29f-0e7e0e61830b">
           <TableID>dbo_DIM_MAJOR</TableID>
           <ColumnID>MAJOR_DESCRIPTION</ColumnID>
         </Source>

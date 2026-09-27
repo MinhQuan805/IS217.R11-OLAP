@@ -15,10 +15,16 @@
         <ID>DIM PROVINCE</ID>
       </Dimension>
       <Dimension>
+        <ID>DIM SCHOOL</ID>
+      </Dimension>
+      <Dimension>
         <ID>DIM MAJOR GROUP</ID>
       </Dimension>
       <Dimension>
         <ID>DIM MAJOR</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DIM PROGRAM</ID>
       </Dimension>
       <Dimension>
         <ID>DIM SCORE BLOCK</ID>
@@ -34,12 +40,6 @@
       </Dimension>
       <Dimension>
         <ID>FACT CUTOFF SCORE</ID>
-      </Dimension>
-      <Dimension>
-        <ID>DIM SCHOOL</ID>
-      </Dimension>
-      <Dimension>
-        <ID>DIM PROGRAM</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
