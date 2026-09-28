@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="215"
-  DTS:VersionGUID="{58F55613-D108-49C3-AF31-19B704834C5E}">
+  DTS:VersionBuild="216"
+  DTS:VersionGUID="{8A586646-30B9-45E2-AEA7-2237B6EB05F5}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -39,7 +39,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_id"
-              DTS:DTSID="{7B431F5B-0858-4D22-8EC6-EDE7D0E8B488}"
+              DTS:DTSID="{D7CB3E20-C982-4A88-B7B1-15367082ACBF}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -48,7 +48,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_name"
-              DTS:DTSID="{13C51634-ED69-486E-A513-3EA0599D9D3A}"
+              DTS:DTSID="{D98978C8-1BF2-4CE4-AA48-0DFF25A1CD07}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -57,7 +57,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_type"
-              DTS:DTSID="{2322ADC2-13EE-44ED-83FB-B0BF16A87D7E}"
+              DTS:DTSID="{D863B6AB-C4CF-4BEA-95D3-96D9AA352EF9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -66,7 +66,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="school_short_name"
-              DTS:DTSID="{010CC5BD-0122-4C57-B531-CBEF5DC4F573}"
+              DTS:DTSID="{16D6DDBF-EAAC-4F06-9F9C-0FC7D5167396}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -74,7 +74,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="province_id"
-              DTS:DTSID="{614DA2B8-1BD3-4543-8E8B-A0AB76444CEA}"
+              DTS:DTSID="{8F466152-FA68-4048-8DAA-0A3461AFEF37}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -83,7 +83,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="province_name"
-              DTS:DTSID="{BF2ED87A-A549-44BE-9560-92672F8B7F3E}"
+              DTS:DTSID="{7CAAACBB-D4F8-4C57-97CA-27A3E36ABD04}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -92,7 +92,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_code"
-              DTS:DTSID="{DEFCEEB9-70FD-4774-AB6A-67AF9C9AAFF0}"
+              DTS:DTSID="{6AF4BB4E-5949-469E-ABE3-52DC3383F6D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -101,7 +101,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_name"
-              DTS:DTSID="{63D18BA8-A9B8-486C-ADBF-1E7A43901483}"
+              DTS:DTSID="{F1EDFC7A-F14E-4B44-AFE0-8887849901D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -110,15 +110,15 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_blocks"
-              DTS:DTSID="{D41060D0-2C27-4D97-A745-7C95770484FE}"
+              DTS:DTSID="{94C262EF-1237-4C57-894F-889B38EF1AC5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
-              DTS:DataType="21"
+              DTS:DataType="5"
               DTS:TextQualified="True"
               DTS:ObjectName="score_mark"
-              DTS:DTSID="{39985FC9-BF1E-4E48-9BC2-1B7673BF220F}"
+              DTS:DTSID="{98F51865-6BC7-4AE3-8510-6D3176FB4EB5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -126,7 +126,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="score_year"
-              DTS:DTSID="{4C1F0D2B-7C20-4BAF-857D-9CFDBDF36407}"
+              DTS:DTSID="{D838FE30-1D29-4107-AD10-3AD29BA14197}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -135,7 +135,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_introtext"
-              DTS:DTSID="{78FABEAD-BC81-49B4-A3FB-22EB35738EC9}"
+              DTS:DTSID="{BA688058-6710-431E-9D72-DE75339620CC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -144,7 +144,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="score_admission_name"
-              DTS:DTSID="{E0FEE1DC-A485-4CA6-840C-FA7A85B09D2F}"
+              DTS:DTSID="{90C4A133-DB6F-4D4D-983A-C6200F946579}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -688,7 +688,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -776,7 +776,7 @@
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\BRIDGE_FACT_SCORE_BLOCK\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -5356,7 +5356,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -5464,7 +5464,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -5808,7 +5808,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_ADMISSION_METHOD\Sort.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="ui8"
+                      cachedDataType="r8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_ADMISSION_METHOD\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -6026,7 +6026,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_ADMISSION_METHOD\Sort.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       lineageId="Package\DIM_ADMISSION_METHOD\Sort.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -8065,7 +8065,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -8194,7 +8194,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -10290,7 +10290,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_PROGRAM\Sort Cut Off.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="ui8"
+                      cachedDataType="r8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_PROGRAM\Cut Off Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -10542,7 +10542,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       lineageId="Package\DIM_PROGRAM\Sort Cut Off.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -11132,7 +11132,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -11261,7 +11261,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -11610,7 +11610,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_PROVINCE\Sort.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="ui8"
+                      cachedDataType="r8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_PROVINCE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -11845,7 +11845,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_PROVINCE\Sort.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       lineageId="Package\DIM_PROVINCE\Sort.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -12381,7 +12381,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -12510,7 +12510,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -12895,7 +12895,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </inputColumn>
                     <inputColumn
                       refId="Package\DIM_SCHOOL\Sort.Inputs[Sort Input].Columns[score_mark]"
-                      cachedDataType="ui8"
+                      cachedDataType="r8"
                       cachedName="score_mark"
                       lineageId="Package\DIM_SCHOOL\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]">
                       <properties>
@@ -13181,7 +13181,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\DIM_SCHOOL\Sort.Outputs[Sort Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       lineageId="Package\DIM_SCHOOL\Sort.Outputs[Sort Output].Columns[score_mark]"
                       name="score_mark">
                       <properties>
@@ -15808,7 +15808,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\DIM_YEAR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\DIM_YEAR\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -16238,7 +16238,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_admission_name]" />
                     <inputColumn
                       refId="Package\FACT_CUTOFF_SCORE\Derived Column.Inputs[Derived Column Input].Columns[score_mark]"
-                      cachedDataType="ui8"
+                      cachedDataType="r8"
                       cachedName="score_mark"
                       lineageId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]" />
                   </inputColumns>
@@ -16512,7 +16512,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                     </outputColumn>
                     <outputColumn
                       refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].Columns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
@@ -16579,7 +16579,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==]]></arrayElement>
                       name="score_blocks" />
                     <externalMetadataColumn
                       refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_mark]"
-                      dataType="ui8"
+                      dataType="r8"
                       name="score_mark" />
                     <externalMetadataColumn
                       refId="Package\FACT_CUTOFF_SCORE\Flat File Source.Outputs[Flat File Source Output].ExternalColumns[score_year]"
@@ -17696,9 +17696,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.5551171875,30.5284147277478,61.110234375,11.2431640625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17720,9 +17718,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.5551171875,29.8630157201126,61.110234375,11.228515625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17745,7 +17741,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="2.86770171065255,5,161.0234765625,11.609375"
+              BoundingBox="2.86770171065255,5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17769,7 +17765,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-36.7092329762201,161.0234765625,11.609375"
+              BoundingBox="-48.19138671875,-36.7092329762201,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17793,7 +17789,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-46.4365047105332,161.0234765625,11.609375"
+              BoundingBox="-48.19138671875,-46.4365047105332,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17817,7 +17813,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-40.292578125,30.918749091029,145.4034765625,11.609375"
+              BoundingBox="-40.292578125,30.918749091029,80.58515625,11.0625"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -17840,9 +17836,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-30.26947265625,27.6539231441238,60.5389453125,11.228515625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -17864,9 +17858,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="12.8186487678504,5,55.6990625,11.228515625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18240,7 +18232,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\DIM_ADMISSION_METHOD">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\DIM_ADMISSION_METHOD\Sort"
@@ -18288,9 +18280,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18324,9 +18314,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18348,9 +18336,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,12.9499993219972,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18667,7 +18653,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\DIM_PROGRAM">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_PROGRAM\OLE DB Destination"
@@ -18723,9 +18709,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18747,9 +18731,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18771,9 +18753,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18795,9 +18775,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,14.4794117234828,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18831,9 +18809,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18855,9 +18831,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18891,9 +18865,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -18915,9 +18887,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -18940,7 +18910,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\DIM_PROVINCE">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="97.6,41.6"
           Id="Package\DIM_PROVINCE\Sort"
@@ -18976,9 +18946,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19000,9 +18968,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19024,9 +18990,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,26.949999113381,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -19049,7 +19013,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\DIM_SCHOOL">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="170.4,41.6"
           Id="Package\DIM_SCHOOL\OLE DB Destination"
@@ -19085,9 +19049,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19109,9 +19071,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19133,9 +19093,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,28.4499990910291,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -19376,7 +19334,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
     design-time-name="Package\DIM_YEAR">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="150.4,41.6"
           Id="Package\DIM_YEAR\Flat File Source"
@@ -19412,9 +19370,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19436,9 +19392,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19472,9 +19426,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -19561,9 +19513,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-8,2.44999947845955,16,16"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -19585,9 +19535,7 @@ where [refTable].[SCHOOL_ID] = ? and [refTable].[SCORE_CODE] = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout

@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cfa0929a-bed3-4f54-9715-0d845f4cca38" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9a4730ec-d3a8-4744-8eda-0465921b220a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Admission Data Warehouse</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>BRIDGE FACT SCORE BLOCK</ID>
       <Partitions>
-        <Partition dwd:design-time-name="a63a0b0b-71d6-4263-a4f7-6f7004c60342">
+        <Partition dwd:design-time-name="fbf5cbcd-599c-4845-8e0a-69168ebe8f2e">
           <ID>BRIDGE FACT SCORE BLOCK</ID>
           <Name>BRIDGE FACT SCORE BLOCK</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b52dd681-1646-48f0-a3b4-445c0a0cfeb4">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a87eb901-a21c-4c6c-8b3e-00b8d01fbc57">
             <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
             <TableID>dbo_BRIDGE_FACT_SCORE_BLOCK</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>BRIDGE MAJOR GROUP</ID>
       <Partitions>
-        <Partition dwd:design-time-name="94029fc1-98cb-4779-aabf-0921fd2e06f8">
+        <Partition dwd:design-time-name="831bb195-aa21-4ff8-b62d-bdaf5d73cf60">
           <ID>BRIDGE MAJOR GROUP</ID>
           <Name>BRIDGE MAJOR GROUP</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dbf0f7f0-75cd-4cb9-ae63-b64ee106d0f2">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0ac9f344-dd1b-4f4b-a5dc-ac654b84e3f8">
             <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
             <TableID>dbo_BRIDGE_MAJOR_GROUP</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>BRIDGE SCORE BLOCK SUBJECT</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c0f4dbc6-8e2b-456d-8627-6db1b9dec740">
+        <Partition dwd:design-time-name="005eaaca-3b03-45e9-8466-876103af4c18">
           <ID>BRIDGE SCORE BLOCK SUBJECT</ID>
           <Name>BRIDGE SCORE BLOCK SUBJECT</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b8881888-0fab-4627-bee4-138ef7321b80">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6d26071a-16ef-4bd6-a334-44885ed60fc4">
             <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
             <TableID>dbo_BRIDGE_SCORE_BLOCK_SUBJECT</TableID>
           </Source>
@@ -64,14 +64,14 @@
     <MeasureGroup>
       <ID>FACT CUTOFF SCORE</ID>
       <Partitions>
-        <Partition dwd:design-time-name="2b171233-f1d3-4470-aea0-c8877a1ec0b6">
+        <Partition dwd:design-time-name="55ea897a-2d95-4f73-811b-dcff1b1f8d74">
           <ID>FACT CUTOFF SCORE</ID>
           <Name>FACT CUTOFF SCORE</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a758d873-17b1-4406-b442-d5f5139435f9">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a5b7a7a1-ac4b-4dd9-9ed5-72a74cd07a0c">
             <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
             <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
           </Source>

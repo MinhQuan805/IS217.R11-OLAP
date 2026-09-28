@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="97be1dc1-e5bb-4e14-8fe6-b27a38a4a243" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3472a50d-ff2c-40bd-827b-90a1d4ccdeff" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Admission Data Warehouse</ID>
   <Name>Admission Data Warehouse</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="7412" scrolltop="15353" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="6625" y="11335" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-643" scrolltop="8368" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="14161" y="11335" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
             </font>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="20" top="20331" logicalid="28" controlid="3" masterid="0" hint1="0" hint2="0" width="4138" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_MAJOR_GROUP" left="20" top="20331" logicalid="28" controlid="3" masterid="0" hint1="0" hint2="0" width="4138" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00002a10000095050000" />
             </control>
@@ -74,7 +74,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="591" top="16502" logicalid="31" controlid="6" masterid="0" hint1="0" hint2="0" width="3567" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="BRIDGE_MAJOR_GROUP" left="591" top="16502" logicalid="31" controlid="6" masterid="0" hint1="0" hint2="0" width="3567" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000ef0d000095050000" />
             </control>
@@ -405,11 +405,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>7412</Value>
+      <Value>-643</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>15353</Value>
+      <Value>8368</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -427,218 +427,218 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="72236b69-ba25-4d45-870c-822b953a5459">
+    <Dimension dwd:design-time-name="2a133067-490a-45a1-ad5f-6b41219d2259">
       <ID>FACT CUTOFF SCORE</ID>
       <Name>FACT CUTOFF SCORE</Name>
       <DimensionID>FACT CUTOFF SCORE</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="84271ac3-c12c-440a-8734-04123350497e">
+        <Attribute dwd:design-time-name="4a1c1942-5c32-4e21-abdf-05df07b0a2d0">
           <AttributeID>FACT ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="37e69623-aaf1-497e-a4eb-acc20495a689">
+        <Attribute dwd:design-time-name="379dbdd1-5541-4799-9a7a-bbdca667a186">
           <AttributeID>PROGRAM ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8cd450f8-9f7c-40a2-85ec-5691fc3b5c5f">
+        <Attribute dwd:design-time-name="12ef7f77-e6fc-45d5-b60a-f057e7708f94">
           <AttributeID>YEAR ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1c16f110-6dab-4bbd-a9f2-2ee779c8e856">
+        <Attribute dwd:design-time-name="f11c9aaa-3bc5-4a63-ad0d-98fd5800af40">
           <AttributeID>ADMISSION METHOD ID</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="71cfdd8e-a9af-42db-b5dc-56ce0a346953">
+    <Dimension dwd:design-time-name="30d46464-7dc7-4cd5-9904-21242d6776b2">
       <ID>DIM SCORE BLOCK</ID>
       <Name>DIM SCORE BLOCK</Name>
       <DimensionID>DIM SCORE BLOCK</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="632c8a80-e9f4-4f5c-bc09-6d8648f2b4ba">
+        <Attribute dwd:design-time-name="d357e9f1-f7fe-43cc-b2cf-e6264f3ad4b9">
           <AttributeID>SCORE BLOCK CODE</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="84b341a2-ba1e-4763-b48b-29bc14f0ed8a">
+        <Attribute dwd:design-time-name="3efb439b-96b1-4f4e-a248-0f3e4a94c721">
           <AttributeID>SCORE BLOCK NAME</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="fe38eb16-e606-416b-902b-954461f08d7b">
+    <Dimension dwd:design-time-name="fd3a2d64-cfbb-4318-ba6b-981c5761383b">
       <ID>DIM MAJOR GROUP</ID>
       <Name>DIM MAJOR GROUP</Name>
       <DimensionID>DIM MAJOR GROUP</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e15ab121-0beb-4b19-9f8e-eaf599cfbccd">
+        <Attribute dwd:design-time-name="b35a5396-086e-4fb9-bb96-d2d1a6816b4b">
           <AttributeID>MAJOR GROUP ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4ac1fdcb-3603-47dd-95fa-904faf09172e">
+        <Attribute dwd:design-time-name="e71e63ee-88e5-4ea5-87d7-baca00b93bc8">
           <AttributeID>MAJOR GROUP NAME</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="842b6ecb-62d9-4108-9b1c-38058b143a91">
+    <Dimension dwd:design-time-name="a6d3b6d0-7f43-4d9b-9881-7a7eec7f46f1">
       <ID>DIM MAJOR</ID>
       <Name>DIM MAJOR</Name>
       <DimensionID>DIM MAJOR</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="dd24e218-2bc3-4f76-8744-9ff5480996fb">
+        <Attribute dwd:design-time-name="b7428446-ed09-4b17-8adc-718a3cdb4850">
           <AttributeID>MAJOR ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="97a7c1c6-c558-42e1-9f3b-8ee912ca2391">
+        <Attribute dwd:design-time-name="6e723d0f-95e3-48c0-8bff-b02192223efe">
           <AttributeID>MAJOR NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5eeb67ea-91a0-40dc-b2d9-2da047bff670">
+        <Attribute dwd:design-time-name="33da0a63-2060-4100-90f9-ee71a896471f">
           <AttributeID>MAJOR DESCRIPTION</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8baea607-a2bc-46f4-be85-439fe88d1457">
+    <Dimension dwd:design-time-name="1564d3ce-57ea-4869-83fe-011957263e70">
       <ID>DIM SUBJECT</ID>
       <Name>DIM SUBJECT</Name>
       <DimensionID>DIM SUBJECT</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3fb14931-9059-4815-9cd0-3911399710d7">
+        <Attribute dwd:design-time-name="6d9ad502-cec2-452a-9657-74589edca58d">
           <AttributeID>SUBJECT ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6c7c8a29-50cf-42f3-9350-10179ac53a6a">
+        <Attribute dwd:design-time-name="1f823aa8-f739-4144-8c73-422d9bfe169a">
           <AttributeID>SUBJECT NAME</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="a1009e3c-990e-4f7d-9ef9-c3b76a08dac2">
+    <Dimension dwd:design-time-name="fb5ed659-096b-44f8-a373-8e56f1b6ccf3">
       <ID>DIM PROGRAM</ID>
       <Name>DIM PROGRAM</Name>
       <DimensionID>DIM PROGRAM</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e5ab0713-9a0f-4a96-808a-38a0924e519d">
+        <Attribute dwd:design-time-name="15be3f2a-b56a-4309-91b5-36daae8fb827">
           <AttributeID>PROGRAM ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5a3154c6-de36-4caa-9aa4-806f0c443d27">
+        <Attribute dwd:design-time-name="e56942d0-73b7-495c-8ce3-6b0072accab4">
           <AttributeID>SCORE CODE</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="32b1e389-f511-46e8-a8ff-976f4bf084e8">
+        <Attribute dwd:design-time-name="4ae188d9-bad7-4f4b-93ae-a2843019b8aa">
           <AttributeID>PROGRAM NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8dfdea6d-1e1a-4463-85d2-618343251118">
+        <Attribute dwd:design-time-name="d8779c03-05e5-4888-96ba-b09472438c9b">
           <AttributeID>SCHOOL ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f331fcaf-0b61-4214-896e-f70610126637">
+        <Attribute dwd:design-time-name="c1b47bb7-c635-4e3d-96b6-1574480d5318">
           <AttributeID>SCHOOL NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2e29b0c0-db05-4af5-9149-21593c74bc67">
+        <Attribute dwd:design-time-name="9bb99780-6fe3-4b3e-b228-020d946b4e4a">
           <AttributeID>SCHOOL TYPE</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="98e25b29-7cd1-41a9-ac7f-41a30878d740">
+        <Attribute dwd:design-time-name="72249e9b-6333-4043-ab4b-1b1744e06753">
           <AttributeID>SCHOOL SHORT NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c129cd43-0c9e-4e70-8625-201e0917c284">
+        <Attribute dwd:design-time-name="a1fb9c26-a51b-4c6d-8b5a-a9a750bf7add">
           <AttributeID>PROVINCE ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="62e3c609-9b12-4ae3-a412-05eade236c85">
+        <Attribute dwd:design-time-name="a35e376f-5b84-48e7-a5fb-4a67abfc2d9f">
           <AttributeID>PROVINCE NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4e200b3a-2150-4416-aad9-ded106c077d2">
+        <Attribute dwd:design-time-name="50067629-a814-4799-9983-2a473e0ca902">
           <AttributeID>MAJOR ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0ad93684-9b27-4120-9d34-580102de0513">
+        <Attribute dwd:design-time-name="39f404e2-b618-4be4-9dd4-99966e1d86ea">
           <AttributeID>MAJOR NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="69ec03e8-56df-46e7-9f2f-71b872afc140">
+        <Attribute dwd:design-time-name="6c5e8101-a948-46fd-83ab-f5362b4196e6">
           <AttributeID>MAJOR DESCRIPTION</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="324c4148-e185-4af5-930b-a240af89ccf6">
+        <Hierarchy dwd:design-time-name="64bec981-ba20-44cd-a9bd-7d6acc69274e">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="5828f78e-04fc-4a9e-8830-6f52bd15afb8">
+        <Hierarchy dwd:design-time-name="9e0d25d2-2bbe-4509-84ec-55fdcf161608">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="7d7c4c45-107e-4185-b7a3-84e037aff691">
+        <Hierarchy dwd:design-time-name="75683f53-a10e-4b40-ad07-5704b6c91d6b">
           <HierarchyID>Hierarchy 2</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b629bbeb-74d4-4534-b0b9-a70c92fcf565">
+    <Dimension dwd:design-time-name="9e16b90c-ca6a-41d3-a221-3a62601fbcc9">
       <ID>DIM YEAR</ID>
       <Name>DIM YEAR</Name>
       <DimensionID>DIM YEAR</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1d9ac9ce-5f0e-42b4-9e12-a874b76e61cc">
+        <Attribute dwd:design-time-name="c05bba27-8af1-4913-b5ad-10e6c9c4ede8">
           <AttributeID>YEAR ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3cd1c9e6-8bbd-44d5-beb2-f5e74b0fc411">
+        <Attribute dwd:design-time-name="061b265c-1a78-4863-bdb5-6568e99a47c3">
           <AttributeID>YEAR</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b95e0794-0493-45ae-8900-e54f021407ef">
+        <Attribute dwd:design-time-name="7e559a11-47b1-4b35-b143-30752b5499e3">
           <AttributeID>DECADE</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="b5fc8735-3e01-460a-b511-b90116eefe7c">
+        <Hierarchy dwd:design-time-name="c19fa03a-a092-483e-a9b7-f7cdf8261262">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="a57592d9-9f2b-486d-bc53-ceea7c1693c2">
+    <Dimension dwd:design-time-name="564b2291-026c-4506-9f7e-be79a254b848">
       <ID>DIM ADMISSION METHOD</ID>
       <Name>DIM ADMISSION METHOD</Name>
       <DimensionID>DIM ADMISSION METHOD</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="5de80aa8-5626-43ea-acb8-a27170a72b1f">
+        <Attribute dwd:design-time-name="5e96ba17-4b38-4b98-b2f5-e337fada39ce">
           <AttributeID>ADMISSION METHOD ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9b19a3ed-3bc1-4e86-bf0a-3cf1804282c2">
+        <Attribute dwd:design-time-name="97ae3ec4-b28a-4160-970d-07eafb8df655">
           <AttributeID>ADMISSION METHOD NAME</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="b673df18-b46a-4b1a-92ea-017d22c7fa3f">
+    <Dimension dwd:design-time-name="c5795e38-04f8-4463-bded-a2fcf88a62b2">
       <ID>DIM PROVINCE</ID>
       <Name>DIM PROVINCE</Name>
       <DimensionID>DIM PROVINCE</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="f8d6077f-c6de-4538-b08a-e4b19e0079d0">
+        <Attribute dwd:design-time-name="1dc20f75-e6bb-4dfb-b51c-f04b8c7b7fed">
           <AttributeID>PROVINCE ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f3dd2029-0022-43c4-9e04-7bcdab21acba">
+        <Attribute dwd:design-time-name="db6a643e-6023-44ab-80c6-5545f3ddf6bd">
           <AttributeID>PROVINCE NAME</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="7bea88c7-1845-4710-884d-8a23509e4643">
+    <Dimension dwd:design-time-name="770d920b-a656-4a94-89c2-c9df35ef281f">
       <ID>DIM SCHOOL</ID>
       <Name>DIM SCHOOL</Name>
       <DimensionID>DIM SCHOOL</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="99ce3708-28b3-4d25-9dec-532bd9f7ba75">
+        <Attribute dwd:design-time-name="7e846be3-65f8-4728-b5ee-211b82499a65">
           <AttributeID>SCHOOL ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5943c00a-b9d7-4075-b5a7-97986cd55ff3">
+        <Attribute dwd:design-time-name="df3434c8-b631-4024-b2c8-56bae6dbff2b">
           <AttributeID>SCHOOL NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="39fb2c95-ba9e-46ab-bbd0-e6b7ce73120f">
+        <Attribute dwd:design-time-name="d1f003c5-7432-4560-888b-4b87feb4660d">
           <AttributeID>SCHOOL TYPE</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="939dc492-d326-4582-be68-2addaa9a2771">
+        <Attribute dwd:design-time-name="bf525d94-92f0-4692-992a-f8a53486f77f">
           <AttributeID>SCHOOL SHORT NAME</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ec4b8f47-829e-448b-9a4f-829be5500417">
+        <Attribute dwd:design-time-name="8902604e-3c44-4b81-95d8-1f6792df2b22">
           <AttributeID>PROVINCE ID</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5cc1d296-f9fe-411c-be63-88e85c16f933">
+        <Attribute dwd:design-time-name="7c49f16e-2eb8-4a77-9bf6-70b715cb0171">
           <AttributeID>PROVINCE NAME</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="b87d33bc-2ec4-4b49-9380-324b3e558134">
+        <Hierarchy dwd:design-time-name="a516bbb8-111d-45e1-a7b4-22676ac65070">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="0e9286f1-f034-4336-b06f-7ef6fd3b351a">
+        <Hierarchy dwd:design-time-name="f19254bb-fc5a-4ca7-b2da-959b71ca24fb">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="8fe010b9-a558-4cc5-ab8e-b34170dccb39">
+    <MeasureGroup dwd:design-time-name="81c9d4d3-d48d-4420-8d76-99910ae25b7b">
       <ID>BRIDGE FACT SCORE BLOCK</ID>
       <Name>BRIDGE FACT SCORE BLOCK</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -646,14 +646,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="84b00f34-714c-4b4a-b3c1-a2fbc5a8d237">
+        <Measure dwd:design-time-name="ce68bfd9-f1f5-4f26-b579-ddd759edf976">
           <ID>BRIDGE FACT SCORE BLOCK Count</ID>
           <Name>BRIDGE FACT SCORE BLOCK Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="ed587b18-560f-4639-86cd-3e1bfed04e44">
+          <Source dwd:design-time-name="ca131fc9-50d7-4fc5-b0b7-9a53725d7fd6">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="9a47d355-6859-44d4-8b73-63c49b9db418">
+            <Source xsi:type="RowBinding" dwd:design-time-name="ba34ab30-95d4-440e-b2b1-ad94a7536d30">
               <TableID>dbo_BRIDGE_FACT_SCORE_BLOCK</TableID>
             </Source>
           </Source>
@@ -662,15 +662,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cb3174b2-3dc0-462c-8aa8-326f3bd010d1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="993d9c67-9e6d-4acb-88d5-245c304a89d5">
           <CubeDimensionID>FACT CUTOFF SCORE</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1ccea00d-0909-43b0-915b-f98a25b3ddca">
+            <Attribute dwd:design-time-name="dbcd5bb3-9005-4f39-8962-ca3a442e1a14">
               <AttributeID>FACT ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7f2c5c3e-aaf4-4190-bafe-01e31b660ac6">
+                <KeyColumn dwd:design-time-name="e6f86222-4609-4265-87a0-1c6bda3916cb">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b02ed211-8578-4e6c-bec9-b1d26ed75901">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="01085a8c-d598-498a-b6c3-03682a26cf8a">
                     <TableID>dbo_BRIDGE_FACT_SCORE_BLOCK</TableID>
                     <ColumnID>FACT_ID</ColumnID>
                   </Source>
@@ -680,16 +680,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="789b0eb2-e053-43e6-993f-5a8d383a8987">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cdf59ef5-199f-4c95-9e9b-e5c3d6410a25">
           <CubeDimensionID>DIM SCORE BLOCK</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a68318d9-8ba0-4770-9c3f-43cf8ae1c45d">
+            <Attribute dwd:design-time-name="4682e17e-e777-46dd-be8c-ff0c7bfe6ba3">
               <AttributeID>SCORE BLOCK CODE</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4ec63021-5887-4350-aec9-f73b889baf8f">
+                <KeyColumn dwd:design-time-name="dd6bb86b-91e9-4d0b-af0f-ad34e4373e91">
                   <DataType>WChar</DataType>
                   <DataSize>50</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0bb04366-188c-46dd-b3f9-86c27fa8b48b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="293b7c57-43f7-4c13-9bd5-f12cec3df38a">
                     <TableID>dbo_BRIDGE_FACT_SCORE_BLOCK</TableID>
                     <ColumnID>SCORE_BLOCK_CODE</ColumnID>
                   </Source>
@@ -699,10 +699,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a55fe06f-a723-4d72-ab6e-dfbef82c6d98">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="835c8bea-5267-4f50-9866-dcd1ef16369e">
           <CubeDimensionID>DIM PROGRAM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="99536db3-364c-418d-a273-30114361cad3">
+            <Attribute dwd:design-time-name="d14f99b1-2987-45d5-9242-aedb694cbd34">
               <AttributeID>PROGRAM ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -712,10 +712,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ad246e39-2e4b-4495-a6c8-21c439f814bb">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f8910953-e9a3-40b1-b977-6a7ae81605fe">
           <CubeDimensionID>DIM YEAR</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e1dc5228-cf57-46f7-be88-be7bf484fc25">
+            <Attribute dwd:design-time-name="f1f3901e-d44c-47ae-a2be-6d874f916b1c">
               <AttributeID>YEAR ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -725,10 +725,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="a4d41b85-7478-48fd-b5a8-32bfb32c55d9">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="680c45b0-b4b5-4f0a-ab6a-34532ad42b4f">
           <CubeDimensionID>DIM ADMISSION METHOD</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="868c2289-5e47-49fb-85db-68719f2f09c4">
+            <Attribute dwd:design-time-name="c0dccacf-741f-4157-99d2-f62e0cc01f7f">
               <AttributeID>ADMISSION METHOD ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -741,7 +741,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="834bd5a9-f460-4bc5-be4b-87217a1ff721">
+    <MeasureGroup dwd:design-time-name="e5532c02-311b-4fb9-acf8-a032863f5df7">
       <ID>BRIDGE MAJOR GROUP</ID>
       <Name>BRIDGE MAJOR GROUP</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -749,14 +749,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="0bdac727-7e80-4961-ad3f-ba5f61bd3e52">
+        <Measure dwd:design-time-name="cd776723-61de-4e6a-990a-a8fa6c4ef819">
           <ID>BRIDGE MAJOR GROUP Count</ID>
           <Name>BRIDGE MAJOR GROUP Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="59eac69d-3f3a-4f82-925a-22dabac9d374">
+          <Source dwd:design-time-name="ca2e1107-3c4b-4d68-8a31-c72089829a11">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="a0719d9e-9bce-47d6-bd71-a2c96cb9e509">
+            <Source xsi:type="RowBinding" dwd:design-time-name="72386461-35e1-4376-8f9e-fdbed9453a0a">
               <TableID>dbo_BRIDGE_MAJOR_GROUP</TableID>
             </Source>
           </Source>
@@ -765,15 +765,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e86969e3-be21-4a70-b2a3-6a00c0b21812">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fc1d9b15-0a1b-4ad3-a127-4d48b00ac138">
           <CubeDimensionID>DIM MAJOR GROUP</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c4402342-90cf-4030-b476-b069f121dde4">
+            <Attribute dwd:design-time-name="441b3dc3-62e9-485d-b7e6-688c663c8644">
               <AttributeID>MAJOR GROUP ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a2df46f3-77a8-427f-98f9-ae338315be52">
+                <KeyColumn dwd:design-time-name="2fa7e347-eb67-405b-95da-9c08edfd4e93">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8a3e2828-4fb3-40e2-8b56-389cd34244a4">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9da38c9b-665d-4f23-9e97-338051b9b804">
                     <TableID>dbo_BRIDGE_MAJOR_GROUP</TableID>
                     <ColumnID>MAJOR_GROUP_ID</ColumnID>
                   </Source>
@@ -783,15 +783,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="352b1179-ed10-4e66-9f5f-7b61b77b307b">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57077d1c-c9b7-40c1-a505-3a1087fc7ad7">
           <CubeDimensionID>DIM MAJOR</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="3e0ec422-a11b-4683-8a63-3ed477a95dcc">
+            <Attribute dwd:design-time-name="3b5f2072-14e9-4b98-910e-48a127550a5f">
               <AttributeID>MAJOR ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e3b948d0-6723-43db-a417-cf15fe440ee1">
+                <KeyColumn dwd:design-time-name="dfc00357-02ea-4158-8754-e6508629cbd4">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9591f977-0f6f-4d44-a890-4ee8cab48da0">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f02c16fb-d184-4212-a8aa-600d9a0678aa">
                     <TableID>dbo_BRIDGE_MAJOR_GROUP</TableID>
                     <ColumnID>MAJOR_ID</ColumnID>
                   </Source>
@@ -804,7 +804,7 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="efdc9baf-9780-4cf9-9659-5f6c49b52e41">
+    <MeasureGroup dwd:design-time-name="933651da-b998-49ed-bcd8-b7e6d8c07a55">
       <ID>BRIDGE SCORE BLOCK SUBJECT</ID>
       <Name>BRIDGE SCORE BLOCK SUBJECT</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -812,14 +812,14 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="0a17d51d-d9bb-4927-9e82-bcdb3edee2a8">
+        <Measure dwd:design-time-name="1c84d873-f921-4cc1-a48d-15313bf14e8e">
           <ID>BRIDGE SCORE BLOCK SUBJECT Count</ID>
           <Name>BRIDGE SCORE BLOCK SUBJECT Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="6e88999b-9ff7-49f8-975f-8c5721d96bcb">
+          <Source dwd:design-time-name="cf52ad77-1b61-43cf-bec7-dfdf1dd7156c">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="4db3cf31-f78e-4ca5-ba0b-b7ce55c8f43d">
+            <Source xsi:type="RowBinding" dwd:design-time-name="89718aad-203f-44c1-b5f4-09122aa8fc97">
               <TableID>dbo_BRIDGE_SCORE_BLOCK_SUBJECT</TableID>
             </Source>
           </Source>
@@ -828,15 +828,15 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="003ed31e-89ad-4c8a-803f-07799f6daa46">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="527599d2-f37d-4641-9896-e35b99c92af2">
           <CubeDimensionID>DIM SUBJECT</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1f35a19c-4f38-4350-bdae-152380900f7d">
+            <Attribute dwd:design-time-name="eaab3c52-e5d2-43dc-8660-c5ef99feaba2">
               <AttributeID>SUBJECT ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="7728e577-a4ba-4864-8af4-2a70f6a860b7">
+                <KeyColumn dwd:design-time-name="cb83e900-3509-43b0-a7a3-dfbbfec467b9">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e2e09644-3a3a-4dbc-8951-608ca2b7a3d8">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="113fd443-4d9d-462b-b917-8c0cf9ee5c8a">
                     <TableID>dbo_BRIDGE_SCORE_BLOCK_SUBJECT</TableID>
                     <ColumnID>SUBJECT_ID</ColumnID>
                   </Source>
@@ -846,16 +846,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0f4b6a24-47b8-42e6-a607-32e2497e3cc1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="da897329-2c86-4282-b6bd-07558f26a39d">
           <CubeDimensionID>DIM SCORE BLOCK</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="bd3262aa-b1ba-4545-b4f8-6b9f1858a206">
+            <Attribute dwd:design-time-name="bef4de30-58e5-457b-b0f0-0bdaf8b2f2e8">
               <AttributeID>SCORE BLOCK CODE</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="cae3d501-8c83-47d2-8482-feba8f5e6f9d">
+                <KeyColumn dwd:design-time-name="a8194e03-90cf-41f0-919e-917218ee8783">
                   <DataType>WChar</DataType>
                   <DataSize>50</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2ae0481b-9d18-40c5-889a-40586be22986">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5cb512bd-1cd3-457b-890a-ddd39d683ced">
                     <TableID>dbo_BRIDGE_SCORE_BLOCK_SUBJECT</TableID>
                     <ColumnID>SCORE_BLOCK_CODE</ColumnID>
                   </Source>
@@ -865,14 +865,14 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="9508d933-3cff-4ef1-9255-c05f0700a350">
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="af58372e-8465-43df-8248-23c588a0ed3d">
           <CubeDimensionID>FACT CUTOFF SCORE</CubeDimensionID>
           <MeasureGroupID>BRIDGE FACT SCORE BLOCK</MeasureGroupID>
         </Dimension>
       </Dimensions>
       <Partitions />
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="46648341-de40-4051-a6d4-5818a6f87872">
+    <MeasureGroup dwd:design-time-name="e482042d-6d69-42eb-8a84-523503d45499">
       <ID>FACT CUTOFF SCORE</ID>
       <Name>FACT CUTOFF SCORE</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -880,42 +880,70 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="8053773b-6159-4611-8e4d-495ee2df5b93">
+        <Measure dwd:design-time-name="9f5fdb06-eb31-4abc-80bd-833021548493">
           <ID>SCORE MARK</ID>
           <Name>SCORE MARK</Name>
-          <Source dwd:design-time-name="9bff4018-3661-4092-9f7c-c24bae53b1a9">
+          <Source dwd:design-time-name="3d19d43f-d2d6-4153-8b04-dc67a3edeb0d">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="5d1723b3-add9-4479-80b3-551489379646">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="be74f1af-572d-433f-8eca-e06d5377e89b">
               <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
               <ColumnID>SCORE_MARK</ColumnID>
             </Source>
           </Source>
+          <FormatString>Standard</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="9870906a-761a-4495-b85a-ce49200af4fa">
+        <Measure dwd:design-time-name="fc174af7-32f6-4292-a251-bd2d73542e12">
           <ID>FACT CUTOFF SCORE Count</ID>
           <Name>FACT CUTOFF SCORE Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="3bdea65d-492b-4980-b92f-1637d04043ca">
+          <Source dwd:design-time-name="310f5e87-2b03-4559-af25-ee3553744535">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="006b4d4c-14a2-4d2e-b22e-c1cd16f30bff">
+            <Source xsi:type="RowBinding" dwd:design-time-name="93642a5c-e893-4497-b84e-f0a1adb68168">
               <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
             </Source>
           </Source>
+          <FormatString>Standard</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="86745038-7d16-40d4-aa26-8bd746e352c6">
+          <ID>Minimum SCORE MARK</ID>
+          <Name>Minimum SCORE MARK</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="4e922916-7ccc-4679-851f-332e862dd1dd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2aece5ff-8cc1-4e7f-888d-ab1cb3cda7ef">
+              <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+              <ColumnID>SCORE_MARK</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Standard</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="22bf32f7-78fb-4299-bed8-9197d9895efb">
+          <ID>Maximum SCORE MARK</ID>
+          <Name>Maximum SCORE MARK</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="b76a93f0-3d1c-4e9c-8a2e-65e00cdf3f4c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0f6e49bf-65a7-41bd-9a25-987a3b512250">
+              <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
+              <ColumnID>SCORE_MARK</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>Standard</FormatString>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8ee554df-d87e-467d-a848-be352a64ed75">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="6c97319d-45cb-4983-9e4a-c79ed2934d0f">
           <CubeDimensionID>FACT CUTOFF SCORE</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f5734a68-9375-4d70-a2d2-45a864ea5fc2">
+            <Attribute dwd:design-time-name="483b01f5-9a8d-434d-bc79-b195eb2e8624">
               <AttributeID>FACT ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d01dae5d-043a-4923-8eb5-541a682afd5b">
+                <KeyColumn dwd:design-time-name="989cbc53-990f-49f5-ace8-266898fa03ab">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bddb1cb1-b614-4e37-a15f-6d71c496cfe9">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="577a9bb4-02d9-4cac-872c-f7370c709583">
                     <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
                     <ColumnID>FACT_ID</ColumnID>
                   </Source>
@@ -925,15 +953,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ad1253a5-093a-43b3-98e8-010f5775d286">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2f923f71-60d4-45b8-aa37-31a8cc36a1b9">
           <CubeDimensionID>DIM PROGRAM</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f63342fb-a6b8-48ff-b60c-54f761ff4b82">
+            <Attribute dwd:design-time-name="07470fd2-cae9-4a7b-af0f-231ab94a4ba5">
               <AttributeID>PROGRAM ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d2304cbf-dfbe-4f00-8c2c-92e88c7d2216">
+                <KeyColumn dwd:design-time-name="20b97c53-4960-4aa9-bfe7-4ff6fc27ee8f">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="62b542a7-06e1-480e-96c6-ce4ade21cc4d">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18306dbe-125d-4d3f-866a-a1d33ca052e7">
                     <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
                     <ColumnID>PROGRAM_ID</ColumnID>
                   </Source>
@@ -943,15 +971,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4e664790-b29f-4679-a040-1f409f2ac33e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3d755a55-8f1c-4eb4-a036-d7b668065f75">
           <CubeDimensionID>DIM YEAR</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1f76e496-ad10-46c7-9cdc-c1a73c134d4e">
+            <Attribute dwd:design-time-name="af14cb15-c4a4-416c-b919-c4dac215fb7a">
               <AttributeID>YEAR ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="04162b10-0440-418d-a990-3edeb169f306">
+                <KeyColumn dwd:design-time-name="ef6fa931-c0db-4106-b90d-e2f2cf795757">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1a69048d-fb37-47d9-bdd9-0077dff1bb72">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3c2e2235-8a56-4508-b3b6-7db13416c363">
                     <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
                     <ColumnID>YEAR_ID</ColumnID>
                   </Source>
@@ -961,15 +989,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b5481bc8-89a3-4569-9ac4-56f4490107fa">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6a99dc5c-cfd2-4bd8-be1d-84e08660e062">
           <CubeDimensionID>DIM ADMISSION METHOD</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ac3619d2-2497-4894-affc-0f7fd21942d3">
+            <Attribute dwd:design-time-name="adb1c928-ed92-4fe6-b9f7-874f918cbf9d">
               <AttributeID>ADMISSION METHOD ID</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="d942da35-25a2-49a7-91c1-83794c63d643">
+                <KeyColumn dwd:design-time-name="d67a8258-5354-455a-9319-4edd2694ad52">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="33bd71a0-5a8e-47ad-b319-3ad53a8079f6">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7a1522e2-d852-4f92-b17c-b3deaaf4d43a">
                     <TableID>dbo_FACT_CUTOFF_SCORE</TableID>
                     <ColumnID>ADMISSION_METHOD_ID</ColumnID>
                   </Source>
@@ -979,14 +1007,14 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="e2ffaf23-f8bf-44f2-8e2f-a27f9679d899">
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="34c4fbb3-c2a7-4f90-905e-889b1d6f68b4">
           <CubeDimensionID>DIM SCORE BLOCK</CubeDimensionID>
           <MeasureGroupID>BRIDGE FACT SCORE BLOCK</MeasureGroupID>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="39029d82-e8fb-4474-98a6-30d2cfc345e4">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d5bd9195-0cec-446f-959d-cdce9bdafbcd">
           <CubeDimensionID>DIM MAJOR</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="16ada2ef-3a0c-45db-9d20-0e2b737e6fe4">
+            <Attribute dwd:design-time-name="cfcf8ddb-6b20-48e1-8cd9-f0bdcece2ee8">
               <AttributeID>MAJOR ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -996,10 +1024,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="4e04c93c-121a-4a69-a275-e8def1272ee0">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="912b9c2c-0776-4252-812b-124961ba06cc">
           <CubeDimensionID>DIM PROVINCE</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ee10784e-99df-48ab-b78f-8839a5e9561f">
+            <Attribute dwd:design-time-name="e5249753-ecce-4bcd-9973-b7f244002e68">
               <AttributeID>PROVINCE ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1009,10 +1037,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="f6eaf903-1c39-4e54-95ff-ddf01f18cfe0">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="68e8701a-f8fb-42d9-8ba7-5b5e793c5656">
           <CubeDimensionID>DIM SCHOOL</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2545ddf8-d197-467b-9316-eb81f64cbbe9">
+            <Attribute dwd:design-time-name="3fd53a37-b4cc-4abd-a56e-d7bc2541c858">
               <AttributeID>SCHOOL ID</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1022,15 +1050,23 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="92b2eafb-788a-4f46-a8a2-94f57fa1763c">
+          <CubeDimensionID>DIM MAJOR GROUP</CubeDimensionID>
+          <MeasureGroupID>BRIDGE MAJOR GROUP</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="5f1751fe-85d1-4fc8-b607-8be39e542133">
+          <CubeDimensionID>DIM SUBJECT</CubeDimensionID>
+          <MeasureGroupID>BRIDGE SCORE BLOCK SUBJECT</MeasureGroupID>
+        </Dimension>
       </Dimensions>
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="50499b71-d462-4070-9161-fdbb60d360ff">
+  <Source dwd:design-time-name="54c16e06-7348-496e-abe1-c7a97eb646ca">
     <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="44fa2108-d9b1-47ae-88e5-aab5d89f1782">
+    <MdxScript dwd:design-time-name="786b997f-a76c-4770-9ac3-38e4e3854f08">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1043,15 +1079,21 @@ If the CALCULATE command is deleted or modified, the data within the cube is aff
 You should edit this command only if you manually specify how the cube is aggregated.
 */
 CALCULATE; 
-CREATE MEMBER CURRENTCUBE.[Measures].Mean_Score_Mark
+CREATE MEMBER CURRENTCUBE.[Measures].[YoY Mean SCORE MARK]
+ AS [Measures].[Mean SCORE MARK] - ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember), 
+VISIBLE = 1  ;    
+CREATE MEMBER CURRENTCUBE.[Measures].[Mean SCORE MARK]
  AS [Measures].[SCORE MARK] / [Measures].[FACT CUTOFF SCORE Count], 
-VISIBLE = 1  ; 
-CREATE MEMBER CURRENTCUBE.[Measures].Max_Score_Mark
- AS MAX([DIM PROGRAM].[PROGRAM NAME].MEMBERS, [Measures].[SCORE MARK]), 
-VISIBLE = 1  ; 
-CREATE MEMBER CURRENTCUBE.[Measures].Min_Score_Mark
- AS MIN([DIM PROGRAM].[PROGRAM NAME].MEMBERS, [Measures].[SCORE MARK]), 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Diff SCORE MARK]
+ AS [Measures].[Maximum SCORE MARK] - [Measures].[Minimum SCORE MARK], 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Count SCORE MARK above 24]
+ AS SUM(EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS, IIF([Measures].[SCORE MARK] &gt;= 24, 1, 0)), 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio SCORE MARK above 24]
+ AS IIF([Measures].[FACT CUTOFF SCORE Count] = 0, NULL, [Measures].[Count SCORE MARK above 24] / [Measures].[FACT CUTOFF SCORE Count]), 
+VISIBLE = 1; </Text>
         </Command>
       </Commands>
     </MdxScript>

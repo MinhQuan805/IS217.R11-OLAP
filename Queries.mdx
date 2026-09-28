@@ -1,4 +1,4 @@
 ﻿SELECT NON EMPTY [DIM YEAR].[YEAR].MEMBERS ON ROWS,
-       [Measures].[Mean_Converted_Score_Mark] ON COLUMNS
+       [Measures].[Mean_Score_Mark] ON COLUMNS
 FROM [Admission Data Warehouse]
 WHERE ([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT])
