@@ -2902,19 +2902,32 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE; 
+CALCULATE;  
 CREATE MEMBER CURRENTCUBE.[Measures].[YoY Mean SCORE MARK]
- AS [Measures].[Mean SCORE MARK] - ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember), 
-VISIBLE = 1  ;    
+ AS IIF(
+    IsError(
+        ([Measures].[Mean SCORE MARK],
+        StrToMember("[DIM YEAR].[YEAR].&amp;[" + CStr([DIM YEAR].[YEAR].CurrentMember.MemberValue - 1) + "]"))
+    )
+    OR IsEmpty(
+        ([Measures].[Mean SCORE MARK],
+        StrToMember("[DIM YEAR].[YEAR].&amp;[" + CStr([DIM YEAR].[YEAR].CurrentMember.MemberValue - 1) + "]"))
+    )
+    OR IsEmpty([Measures].[Mean SCORE MARK]),
+    NULL,
+    [Measures].[Mean SCORE MARK] - ([Measures].[Mean SCORE MARK],
+    StrToMember("[DIM YEAR].[YEAR].&amp;[" + CStr([DIM YEAR].[YEAR].CurrentMember.MemberValue - 1) + "]"))
+), 
+VISIBLE = 1  ;     
 CREATE MEMBER CURRENTCUBE.[Measures].[Mean SCORE MARK]
  AS [Measures].[SCORE MARK] / [Measures].[FACT CUTOFF SCORE Count], 
-VISIBLE = 1;  
+VISIBLE = 1;   
 CREATE MEMBER CURRENTCUBE.[Measures].[Diff SCORE MARK]
  AS [Measures].[Maximum SCORE MARK] - [Measures].[Minimum SCORE MARK], 
-VISIBLE = 1;  
+VISIBLE = 1;   
 CREATE MEMBER CURRENTCUBE.[Measures].[Count SCORE MARK above 24]
  AS SUM(EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS, IIF([Measures].[SCORE MARK] &gt;= 24, 1, 0)), 
-VISIBLE = 1;  
+VISIBLE = 1;   
 CREATE MEMBER CURRENTCUBE.[Measures].[Ratio SCORE MARK above 24]
  AS IIF([Measures].[FACT CUTOFF SCORE Count] = 0, NULL, [Measures].[Count SCORE MARK above 24] / [Measures].[FACT CUTOFF SCORE Count]), 
 VISIBLE = 1; </Text>
