@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f96e28ae-f0cc-49a8-a8eb-a43c3fb4ae03" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="de5de380-19ce-4a71-af02-318327fcb720" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM SCHOOL</ID>
   <Name>DIM SCHOOL</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-933" scrolltop="-2303" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6668" y="11335" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-933" scrolltop="-2303" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="12922" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SCHOOL" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4307" height="2445" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SCHOOL" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4307" height="2445" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000d31000008d090000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_PROVINCE" left="475" top="4845" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3397" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_PROVINCE" left="475" top="4845" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3397" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000450d000095050000" />
             </control>
@@ -41,10 +41,10 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1774" top="2145" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1774" top="2145" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
               </ddsxmlobj>
             </control>
             <layoutobject>
@@ -127,45 +127,53 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e50e969c-2fc4-42d8-a2b2-8b6386ffb346">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0f195b38-080c-4a84-8368-92506e632e2f">
     <DataSourceViewID>Admission Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="620afc1b-a7df-490b-bfcf-c1a09ca590a9">
+  <ErrorConfiguration dwd:design-time-name="02e3ee38-40ca-4909-8c89-d4b40a7b0318">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="a4405a93-886e-4dc5-82c0-a6699ce7860b">
+    <Attribute dwd:design-time-name="cd0f0248-5db6-415a-99d3-0e75fc0dc78f">
       <ID>SCHOOL ID</ID>
       <Name>SCHOOL ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6e54b891-49f7-4ab9-87f3-686571b9fac0">
+        <KeyColumn dwd:design-time-name="a1f51668-cbd2-41eb-8e6c-bbdd5310cc0f">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a5510be-4839-4b9c-9c38-8443b1cc72fb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cbb65807-b98d-46d3-9e2b-ccb1bf3a334d">
             <TableID>dbo_DIM_SCHOOL</TableID>
             <ColumnID>SCHOOL_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="26aeb5aa-e5aa-4798-a4c6-07e8e6ad6cd5">
+        <DataType>WChar</DataType>
+        <DataSize>500</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="55eb12bd-31dc-48bb-a746-53399b0ea926">
+          <TableID>dbo_DIM_SCHOOL</TableID>
+          <ColumnID>SCHOOL_NAME</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8f596975-a9ce-4347-b717-520e554a70ee">
+        <AttributeRelationship dwd:design-time-name="10f076ad-b57f-4e7f-b42b-fbc90dba1a4c">
           <AttributeID>SCHOOL NAME</AttributeID>
           <Name>SCHOOL NAME</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4e13810f-bffa-42a2-88d6-fec7f8d029ca">
+        <AttributeRelationship dwd:design-time-name="b6f58a49-4002-4291-8cf6-dd5b5f8663b6">
           <AttributeID>SCHOOL TYPE</AttributeID>
           <Name>SCHOOL TYPE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="300b239e-1665-4634-a1e6-d96b8aade46d">
+        <AttributeRelationship dwd:design-time-name="145babea-57df-47b7-8d28-59140744946c">
           <AttributeID>SCHOOL SHORT NAME</AttributeID>
           <Name>SCHOOL SHORT NAME</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4ab585a0-f526-473a-9b5b-6bcf8cf6bd3e">
+        <AttributeRelationship dwd:design-time-name="1a07450b-89e1-4807-a35e-8adb6aa35957">
           <AttributeID>PROVINCE ID</AttributeID>
           <Name>PROVINCE ID</Name>
         </AttributeRelationship>
@@ -174,14 +182,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="36400420-8b36-4ad6-9f88-df2dc491c503">
+    <Attribute dwd:design-time-name="37ba5ab3-428f-4f3b-baef-43ca72487d9d">
       <ID>SCHOOL NAME</ID>
       <Name>SCHOOL NAME</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0e175433-d71d-4736-9619-7879b04151a8">
+        <KeyColumn dwd:design-time-name="db93de76-8f0f-4855-a620-feeab19fc0cb">
           <DataType>WChar</DataType>
           <DataSize>500</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="39be8983-6d88-4e5b-b4e8-9f56da5c1cba">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15766af7-6f33-4c50-a4ce-d24bbf42c5d8">
             <TableID>dbo_DIM_SCHOOL</TableID>
             <ColumnID>SCHOOL_NAME</ColumnID>
           </Source>
@@ -191,14 +199,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e0556d3f-6093-4aed-86e5-3e8a8a2ac0f2">
+    <Attribute dwd:design-time-name="33eb58d6-ae9d-4e52-97f7-bff899eae3d9">
       <ID>SCHOOL TYPE</ID>
       <Name>SCHOOL TYPE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="77015908-eebc-49fc-8357-dfe1ee152021">
+        <KeyColumn dwd:design-time-name="ea802c66-1fe3-4e45-a6d0-500f0d5a7f15">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="345c1f3c-bed3-46f0-bc57-35fd9e172ea0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="52ed7b92-d109-4046-96c8-0094a39d1cb4">
             <TableID>dbo_DIM_SCHOOL</TableID>
             <ColumnID>SCHOOL_TYPE</ColumnID>
           </Source>
@@ -208,14 +216,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="72bb886e-1f3c-42dc-9064-4e77c83d4054">
+    <Attribute dwd:design-time-name="bec7cf9c-6729-4d35-a533-327bddd152e3">
       <ID>SCHOOL SHORT NAME</ID>
       <Name>SCHOOL SHORT NAME</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fc1087d0-9405-491e-a65c-b0045a29b362">
+        <KeyColumn dwd:design-time-name="2c93fc91-748a-4c6c-aba7-16c4ca60564d">
           <DataType>WChar</DataType>
           <DataSize>200</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5aa92443-bb5a-4fe1-bffd-d79f3e7ec5f3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2c71b03-dcdd-4401-8562-e8a080874cb5">
             <TableID>dbo_DIM_SCHOOL</TableID>
             <ColumnID>SCHOOL_SHORT_NAME</ColumnID>
           </Source>
@@ -225,21 +233,29 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d7390ef8-4d94-440a-a098-22c6dc38ff37">
+    <Attribute dwd:design-time-name="a89062bf-2ef1-4d59-b82e-b55e03475fe3">
       <ID>PROVINCE ID</ID>
       <Name>PROVINCE ID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a27a11b9-9fdf-4a3e-8fc2-7ee2746cfcbc">
+        <KeyColumn dwd:design-time-name="20fd1404-8d33-43b4-b7b9-d0ca5ee6f1f6">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee5170fd-9055-4467-8d12-a03212a43cc8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3910e8b6-820a-4177-b683-429e3edf7f5a">
             <TableID>dbo_DIM_PROVINCE</TableID>
             <ColumnID>PROVINCE_ID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="4ef213e1-2928-45d7-a7a0-626de5636d86">
+        <DataType>WChar</DataType>
+        <DataSize>200</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4547406b-129f-41ec-b7c1-2ce8c2c0d97a">
+          <TableID>dbo_DIM_PROVINCE</TableID>
+          <ColumnID>PROVINCE_NAME</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="dd670a9b-ca0d-47cf-8ba4-34a316c61dd1">
+        <AttributeRelationship dwd:design-time-name="1adff1e7-0a0e-43bd-9b08-70b19fcfd01d">
           <AttributeID>PROVINCE NAME</AttributeID>
           <Name>PROVINCE NAME</Name>
         </AttributeRelationship>
@@ -248,14 +264,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="de1613c7-cb35-45a5-bc11-0c79721ed0b0">
+    <Attribute dwd:design-time-name="76c82c00-15c0-4bf3-b313-70f95fdb27dc">
       <ID>PROVINCE NAME</ID>
       <Name>PROVINCE NAME</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b80d2b73-199a-4893-a26f-2e28e28a2a15">
+        <KeyColumn dwd:design-time-name="ce6bdd8a-d65f-4f52-85a4-5932ca9db213">
           <DataType>WChar</DataType>
           <DataSize>200</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6afd315-1603-4666-ab5e-484af2ac66ff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec59cb9e-f9d5-4226-b332-599869c1fad7">
             <TableID>dbo_DIM_PROVINCE</TableID>
             <ColumnID>PROVINCE_NAME</ColumnID>
           </Source>
@@ -267,32 +283,32 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="9e3f5520-252c-438c-acb2-7935f41cbc9f">
+    <Hierarchy dwd:design-time-name="6f942493-c2ec-492e-a0ea-c3654cb31cc0">
       <ID>Hierarchy</ID>
       <Name>Province - School</Name>
       <Levels>
-        <Level dwd:design-time-name="87e752da-edcb-4e3b-9236-58c06989addf">
+        <Level dwd:design-time-name="e2d4c763-e383-46c9-8bf8-ad33066a833c">
           <ID>PROVINCE ID</ID>
           <Name>PROVINCE ID</Name>
           <SourceAttributeID>PROVINCE ID</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="bb770ef6-abfc-49be-adef-4560d22e0226">
+        <Level dwd:design-time-name="047acba9-57e8-4be4-bce9-27919bb2c879">
           <ID>SCHOOL ID</ID>
           <Name>SCHOOL ID</Name>
           <SourceAttributeID>SCHOOL ID</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="557dcf79-dc12-4615-9f90-2ba78805a37a">
+    <Hierarchy dwd:design-time-name="8eb228a3-1636-4cd6-9b43-dc86f969872b">
       <ID>Hierarchy 1</ID>
       <Name>Type - School</Name>
       <Levels>
-        <Level dwd:design-time-name="ac2fd58f-dd9d-48f2-a860-7a323b2a1c7e">
+        <Level dwd:design-time-name="814da227-3ebd-405a-808f-8160372cb058">
           <ID>SCHOOL TYPE</ID>
           <Name>SCHOOL TYPE</Name>
           <SourceAttributeID>SCHOOL TYPE</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="532683aa-27e7-4e29-adcd-963a206c5105">
+        <Level dwd:design-time-name="89daa0d0-2d93-4071-82bd-df47ee22762c">
           <ID>SCHOOL ID</ID>
           <Name>SCHOOL ID</Name>
           <SourceAttributeID>SCHOOL ID</SourceAttributeID>

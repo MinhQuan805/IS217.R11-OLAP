@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -33,35 +33,35 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>EA0bZeXfvmYLI4W39FFkB3QTSZc=9/27/2026 2:57:08 PM9/27/2026 2:57:08 PM</TimeStamp>
+        <TimeStamp>wcGuTCwwouDbyw5akSsjgUyd0uk=10/14/2026 9:08:57 AM9/27/2026 2:57:08 PM</TimeStamp>
         <ID>
           <String>DIM PROVINCE</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>nd91P2OqCqMV8ztrfqPqDCKHCO8=9/27/2026 2:57:53 PM9/27/2026 2:57:21 PM</TimeStamp>
+        <TimeStamp>CVWemgH/uJdPkfH5L/pTzfChGR4=10/14/2026 3:21:46 PM9/27/2026 2:57:21 PM</TimeStamp>
         <ID>
           <String>DIM SCHOOL</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>cMcSdISQdDDyCCNT1OKlLf2jbRQ=9/27/2026 2:58:06 PM9/27/2026 2:58:06 PM</TimeStamp>
+        <TimeStamp>1z5fGKX2k9oMord2L1o/1s3VGUs=10/14/2026 9:09:24 AM9/27/2026 2:58:06 PM</TimeStamp>
         <ID>
           <String>DIM MAJOR GROUP</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>e6gk/8LFN82SGso6GPMUvP8JmzQ=9/27/2026 2:58:24 PM9/27/2026 2:58:24 PM</TimeStamp>
+        <TimeStamp>TROJ0BWRprrlcPG1UA4pzw+zDdg=10/14/2026 9:09:39 AM9/27/2026 2:58:24 PM</TimeStamp>
         <ID>
           <String>DIM MAJOR</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>4viYTTAj5qHQHrl7RbZGiVUFToo=10/7/2026 9:44:39 PM9/27/2026 2:58:41 PM</TimeStamp>
+        <TimeStamp>Kr9B41vuvApeEEzWBG2BmNrdyxU=10/14/2026 9:08:24 AM9/27/2026 2:58:41 PM</TimeStamp>
         <ID>
           <String>DIM PROGRAM</String>
         </ID>
@@ -75,21 +75,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>JNykw+5FqaG8nYaFdK2iEpf1X7w=9/27/2026 3:01:33 PM9/27/2026 3:01:33 PM</TimeStamp>
+        <TimeStamp>dzPRUYauNGSw/fdITf/ZnEQSoI8=10/14/2026 9:09:58 AM9/27/2026 3:01:33 PM</TimeStamp>
         <ID>
           <String>DIM SUBJECT</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>qCtJAdECgOB8rd/Zx0liRqGpv2k=9/27/2026 3:01:45 PM9/27/2026 3:01:45 PM</TimeStamp>
+        <TimeStamp>fT5uKIidGVg7OTPvVGApoXbGXMc=10/14/2026 9:10:07 AM9/27/2026 3:01:45 PM</TimeStamp>
         <ID>
           <String>DIM ADMISSION METHOD</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>oVXMjEI3fOY9PCmegSKK4d3yhbI=9/27/2026 3:02:43 PM9/27/2026 3:01:56 PM</TimeStamp>
+        <TimeStamp>mP9ysoSYD9EmUQMdn8+gLQ/Goz0=10/14/2026 9:10:55 AM9/27/2026 3:01:56 PM</TimeStamp>
         <ID>
           <String>DIM YEAR</String>
         </ID>
@@ -103,7 +103,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>RW3+Oz/A4R6Y2AF66tnuLiFOX3M=10/8/2026 2:31:35 PM9/27/2026 3:03:03 PMXCDV74P4r8px3OLFgXgEXRrsHSE=9/27/2026 9:56:08 PM9/27/2026 3:03:03 PM</TimeStamp>
+        <TimeStamp>2bd4IZMTY063P9LDaK7qc0saeCE=10/15/2026 12:43:14 AM9/27/2026 3:03:03 PMXCDV74P4r8px3OLFgXgEXRrsHSE=9/27/2026 9:56:08 PM9/27/2026 3:03:03 PM</TimeStamp>
         <ID>
           <String>Admission Data Warehouse</String>
         </ID>
@@ -120,5 +120,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-10-08T07:31:46.893333Z</LastDeployed>
+  <LastDeployed>2026-10-14T17:43:19.686667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -19,6 +19,32 @@
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1552" scrolltop="-5165" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_PROVINCE" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3397" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000450d000095050000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DIM_PROVINCE" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -34,15 +60,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
+          <Value>-1552</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
+          <Value>-5165</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
+          <Value>20</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -80,6 +106,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>200</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_PROVINCE</TableID>
+              <ColumnID>PROVINCE_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>PROVINCE NAME</AttributeID>
@@ -120,7 +154,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-933" scrolltop="-2303" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6668" y="11335" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-933" scrolltop="-2303" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="12922" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
                 </font>
@@ -131,7 +165,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SCHOOL" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4307" height="2445" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SCHOOL" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4307" height="2445" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000d31000008d090000" />
                 </control>
@@ -142,7 +176,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_PROVINCE" left="475" top="4845" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3397" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_PROVINCE" left="475" top="4845" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3397" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000450d000095050000" />
                 </control>
@@ -153,10 +187,10 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1774" top="2145" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1774" top="2145" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
-                    <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                   </ddsxmlobj>
                 </control>
                 <layoutobject>
@@ -264,6 +298,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>500</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_SCHOOL</TableID>
+              <ColumnID>SCHOOL_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>SCHOOL NAME</AttributeID>
@@ -350,6 +392,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>200</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_PROVINCE</TableID>
+              <ColumnID>PROVINCE_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>PROVINCE NAME</AttributeID>
@@ -422,6 +472,32 @@
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-954" scrolltop="-4937" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_MAJOR_GROUP" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4138" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00002a10000095050000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DIM_MAJOR_GROUP" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -437,15 +513,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
+          <Value>-954</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
+          <Value>-4937</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
+          <Value>20</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -481,6 +557,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>500</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_MAJOR_GROUP</TableID>
+              <ColumnID>MAJOR_GROUP_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>MAJOR GROUP NAME</AttributeID>
@@ -519,6 +603,32 @@
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1002" scrolltop="-4768" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_MAJOR" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4043" height="1767" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000cb0f0000e7060000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DIM_MAJOR" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -534,15 +644,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
+          <Value>-1002</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
+          <Value>-4768</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
+          <Value>20</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -580,6 +690,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>500</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_MAJOR</TableID>
+              <ColumnID>MAJOR_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>MAJOR NAME</AttributeID>
@@ -648,7 +766,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1253" scrolltop="-2988" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="5726" y="11335" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1253" scrolltop="-2988" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="3672" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
                 </font>
@@ -823,6 +941,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>1000</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_PROGRAM</TableID>
+              <ColumnID>PROGRAM_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>SCORE CODE</AttributeID>
@@ -892,6 +1018,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>500</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_SCHOOL</TableID>
+              <ColumnID>SCHOOL_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>SCHOOL NAME</AttributeID>
@@ -978,6 +1112,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>200</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_PROVINCE</TableID>
+              <ColumnID>PROVINCE_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>PROVINCE NAME</AttributeID>
@@ -1018,6 +1160,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>500</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_MAJOR</TableID>
+              <ColumnID>MAJOR_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>MAJOR NAME</AttributeID>
@@ -1257,6 +1407,32 @@
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1647" scrolltop="-5165" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6541" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_SUBJECT" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3207" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000870c000095050000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DIM_SUBJECT" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -1272,15 +1448,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
+          <Value>-1647</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
+          <Value>-5165</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
+          <Value>20</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -1316,6 +1492,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>200</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_SUBJECT</TableID>
+              <ColumnID>SUBJECT_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>SUBJECT NAME</AttributeID>
@@ -1354,6 +1538,32 @@
       <Annotations>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-552" scrolltop="-4937" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_ADMISSION_METHOD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4942" height="1429" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00004e13000095050000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_DIM_ADMISSION_METHOD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -1369,15 +1579,15 @@
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-          <Value>0</Value>
+          <Value>-552</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-          <Value>0</Value>
+          <Value>-4937</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-          <Value>0</Value>
+          <Value>20</Value>
         </Annotation>
         <Annotation>
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -1413,6 +1623,14 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>300</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_ADMISSION_METHOD</TableID>
+              <ColumnID>ADMISSION_METHOD_NAME</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>ADMISSION METHOD NAME</AttributeID>
@@ -1453,7 +1671,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1814" scrolltop="-4784" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6668" y="11335" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1814" scrolltop="-4784" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="3672" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
                 </font>
@@ -1464,7 +1682,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_YEAR" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1767" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_YEAR" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1767" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000e7060000" />
                 </control>
@@ -1563,6 +1781,13 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_DIM_YEAR</TableID>
+              <ColumnID>YEAR</ColumnID>
+            </Source>
+          </NameColumn>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>YEAR</AttributeID>
@@ -1784,7 +2009,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-643" scrolltop="8368" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="9155" y="12922" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="52" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-643" scrolltop="8368" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="9366" y="11758" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="010000009001683c0100065461686f6d61" />
                 </font>
@@ -2921,49 +3146,110 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;                      
+CALCULATE;   
+CREATE DYNAMIC SET CURRENTCUBE.[Major group - Major]
+ AS GENERATE(
+    [DIM MAJOR GROUP].[MAJOR GROUP NAME].[MAJOR GROUP NAME].MEMBERS,
+    CROSSJOIN(
+        [DIM MAJOR GROUP].[MAJOR GROUP NAME].CurrentMember,
+        [DIM MAJOR].[MAJOR NAME].MEMBERS
+    )
+);                                         
 CREATE MEMBER CURRENTCUBE.[Measures].[Mean SCORE MARK]
  AS [Measures].[SCORE MARK] / [Measures].[FACT CUTOFF SCORE Count], 
-VISIBLE = 1;                 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;                                    
 CREATE MEMBER CURRENTCUBE.[Measures].[Diff SCORE MARK]
  AS [Measures].[Maximum SCORE MARK] - [Measures].[Minimum SCORE MARK], 
-VISIBLE = 1;                    
-CREATE MEMBER CURRENTCUBE.[Measures].[Count SCORE MARK above 24]
- AS SUM(EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS, IIF([Measures].[SCORE MARK] &gt;= 24, 1, 0)), 
-VISIBLE = 1;                    
-CREATE MEMBER CURRENTCUBE.[Measures].[Ratio SCORE MARK above 24]
- AS IIF([Measures].[FACT CUTOFF SCORE Count] = 0, NULL, [Measures].[Count SCORE MARK above 24] / [Measures].[FACT CUTOFF SCORE Count]), 
-VISIBLE = 1;                   
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[YoY Mean SCORE MARK]
  AS IIF(
-    IsError(
-        ([Measures].[Mean SCORE MARK],
-        StrToMember("[DIM YEAR].[YEAR].&amp;[" + CStr([DIM YEAR].[YEAR].CurrentMember.MemberValue - 1) + "]"))
-    )
-    OR IsEmpty(
-        ([Measures].[Mean SCORE MARK],
-        StrToMember("[DIM YEAR].[YEAR].&amp;[" + CStr([DIM YEAR].[YEAR].CurrentMember.MemberValue - 1) + "]"))
-    )
-    OR IsEmpty([Measures].[Mean SCORE MARK]),
+    IsEmpty([Measures].[Mean SCORE MARK])
+    OR IsEmpty(([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember))
+    OR ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember) = 0,
     NULL,
-    [Measures].[Mean SCORE MARK] - ([Measures].[Mean SCORE MARK],
-    StrToMember("[DIM YEAR].[YEAR].&amp;[" + CStr([DIM YEAR].[YEAR].CurrentMember.MemberValue - 1) + "]"))
+    (
+        [Measures].[Mean SCORE MARK]
+        - ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember)
+    )
+    / ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember)
 ), 
-VISIBLE = 1;  
-CREATE DYNAMIC SET CURRENTCUBE.[Top 10 Program 2025 THPT]
- AS TopCount(
-    NonEmpty(
-        [DIM PROGRAM].[SCHOOL NAME].[SCHOOL NAME].MEMBERS
-      * [DIM PROGRAM].[PROGRAM NAME].[PROGRAM NAME].MEMBERS,
-        ( [Measures].[Mean SCORE MARK],
-          [DIM YEAR].[YEAR].&amp;[2025],
-          [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&amp;[Điểm thi THPT] )
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;          
+CREATE MEMBER CURRENTCUBE.[Measures].[Score 2025]
+ AS IIF(
+    ISEMPTY( ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2025]) ),
+    NULL,
+    ([Measures].[SCORE MARK], [DIM YEAR].[YEAR].&amp;[2025]) / ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2025])
+), 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;          
+CREATE MEMBER CURRENTCUBE.[Measures].[Score 2024]
+ AS IIF(
+    ISEMPTY( ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2024]) ),
+    NULL,
+    ([Measures].[SCORE MARK], [DIM YEAR].[YEAR].&amp;[2024]) / ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2024])
+), 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;          
+CREATE MEMBER CURRENTCUBE.[Measures].[Diff 2025-2024]
+ AS IIF(
+    ISEMPTY([Measures].[Score 2025]) OR ISEMPTY([Measures].[Score 2024]),
+    NULL,
+    [Measures].[Score 2025] - [Measures].[Score 2024]
+), 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;          
+CREATE DYNAMIC SET CURRENTCUBE.[Programs Up 2.5]
+ AS ORDER(
+    FILTER(
+        [DIM PROGRAM].[SCHOOL NAME].[SCHOOL NAME].MEMBERS * [DIM PROGRAM].[PROGRAM NAME].[PROGRAM NAME].MEMBERS,
+        NOT ISEMPTY([Measures].[Diff 2025-2024])
+        AND [Measures].[Diff 2025-2024] &gt;= 2.5
     ),
-    10,
-    ( [Measures].[Mean SCORE MARK],
-      [DIM YEAR].[YEAR].&amp;[2025],
-      [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&amp;[Điểm thi THPT] )
-), DISPLAY_FOLDER = 'Sets'  ; </Text>
+    [Measures].[Diff 2025-2024],
+    BDESC
+);         
+CREATE MEMBER CURRENTCUBE.[Measures].[Above 24 Count]
+ AS SUM (
+	EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS,
+	IIF ([Measures].[SCORE MARK] &gt;= 24, 1, 0)
+), 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1;         
+CREATE MEMBER CURRENTCUBE.[Measures].[Above 24 Ratio]
+ AS IIF (
+	[Measures].[FACT CUTOFF SCORE Count] &lt;= 0,
+	0,
+	[Measures].[Above 24 Count] / [Measures].[FACT CUTOFF SCORE Count]
+), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1;       
+CREATE MEMBER CURRENTCUBE.[Measures].[By Admission method Count]
+ AS (
+    [Measures].[FACT CUTOFF SCORE Count],
+    [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[All]
+), 
+FORMAT_STRING = "Standard", 
+VISIBLE = 1  ;  
+CREATE DYNAMIC SET CURRENTCUBE.[School - Program above 24]
+ AS FILTER(
+    CROSSJOIN(
+        [DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,
+        [DIM PROGRAM].[PROGRAM NAME].[PROGRAM NAME].MEMBERS
+    ),
+    [Measures].[Mean SCORE MARK] &gt;= 24
+);       
+CREATE MEMBER CURRENTCUBE.[Measures].[By Admission method Ratio]
+ AS -- Tỷ trọng (%) của từng phương thức so với tổng của năm đó
+IIF(
+    IsEmpty([Measures].[FACT CUTOFF SCORE Count]) OR [Measures].[By Admission method Count] = 0,
+    NULL,
+    [Measures].[FACT CUTOFF SCORE Count] / [Measures].[By Admission method Count]
+), 
+FORMAT_STRING = "Percent", 
+VISIBLE = 1; </Text>
             </Command>
           </Commands>
         </MdxScript>
