@@ -1,0 +1,352 @@
+-- Query 1
+
+SELECT
+	[Measures].[Mean SCORE MARK] ON COLUMNS,
+	[DIM YEAR].[YEAR].[YEAR].MEMBERS ON ROWS
+FROM [Admission Data Warehouse]
+WHERE ([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT])
+
+-- Query 2
+
+WITH
+  SET [Top10 Major] AS
+    HEAD(
+      ORDER(
+        NONEMPTY([DIM MAJOR].[MAJOR NAME].[MAJOR NAME].MEMBERS, [Measures].[Mean SCORE MARK]),
+        [Measures].[Mean SCORE MARK], BDESC
+      ), 10
+    )
+  MEMBER [Measures].[Rank] AS
+    RANK([DIM MAJOR].[MAJOR NAME].CurrentMember, [Top10 Major])
+SELECT
+  { [Measures].[Rank], [Measures].[Mean SCORE MARK] } ON COLUMNS,
+  [Top10 Major] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],
+  [DIM YEAR].[YEAR].&[2025]
+)
+
+-- Query 3
+
+SELECT
+  [Measures].[Mean SCORE MARK] ON COLUMNS,
+  [Major group - Major] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],
+  [DIM YEAR].[YEAR].&[2025]
+)
+
+-- Query 4
+
+WITH
+  SET [Top5 Block] AS
+    HEAD(
+      ORDER(
+        [DIM SCORE BLOCK].[SCORE BLOCK NAME].[SCORE BLOCK NAME].MEMBERS,
+        [Measures].[BRIDGE FACT SCORE BLOCK Count], BDESC
+      ), 5
+    )
+  MEMBER [Measures].[Share Top5] AS
+    [Measures].[BRIDGE FACT SCORE BLOCK Count]
+      / SUM([Top5 Block], [Measures].[BRIDGE FACT SCORE BLOCK Count]),
+    FORMAT_STRING = "Percent"
+  MEMBER [Measures].[Cumulative Share] AS
+    SUM(
+      HEAD([Top5 Block], RANK([DIM SCORE BLOCK].[SCORE BLOCK NAME].CurrentMember, [Top5 Block])),
+      [Measures].[Share Top5]
+    ),
+    FORMAT_STRING = "Percent"
+SELECT
+  { [Measures].[BRIDGE FACT SCORE BLOCK Count],
+    [Measures].[Share Top5],
+    [Measures].[Cumulative Share] } ON COLUMNS,
+  [Top5 Block] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE ([DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Công nghệ thông tin - Tin học])
+
+-- Query 5
+
+WITH
+  MEMBER [Measures].[Max-Mean Gap] AS
+    [Measures].[Maximum SCORE MARK] - [Measures].[Mean SCORE MARK],
+    FORMAT_STRING = "0.00"
+  SET [HN HCM Schools] AS
+    GENERATE(
+      { [DIM SCHOOL].[PROVINCE NAME].&[Hà Nội],
+        [DIM SCHOOL].[PROVINCE NAME].&[TP. Hồ Chí Minh] },
+      { [DIM SCHOOL].[PROVINCE NAME].CurrentMember } *
+      ORDER(
+        NONEMPTY(
+          EXISTS([DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,
+                 [DIM SCHOOL].[PROVINCE NAME].CurrentMember),
+          [Measures].[Mean SCORE MARK]
+        ),
+        [Measures].[Mean SCORE MARK], BDESC
+      )
+    )
+SELECT
+  { [Measures].[Mean SCORE MARK],
+    [Measures].[Maximum SCORE MARK],
+    [Measures].[Max-Mean Gap] } ON COLUMNS,
+  [HN HCM Schools] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM YEAR].[YEAR].&[2025],
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT]
+)
+
+-- Query 6
+
+SELECT
+  [Measures].[Mean SCORE MARK] ON COLUMNS,
+  [School - Program above 24] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],
+  [DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Y - Dược]
+)
+
+-- Query 7
+
+WITH
+  SET [Province then School] AS
+    GENERATE(
+      ORDER(
+        NONEMPTY([DIM SCHOOL].[Province - School].Levels(1).MEMBERS,
+                 [Measures].[Mean SCORE MARK]),
+        [Measures].[Mean SCORE MARK], BDESC
+      ),
+      { [DIM SCHOOL].[Province - School].CurrentMember,
+        NONEMPTY([DIM SCHOOL].[Province - School].CurrentMember.CHILDREN,
+                 [Measures].[Mean SCORE MARK]) }
+    )
+SELECT
+  [Measures].[Mean SCORE MARK] ON COLUMNS,
+  [Province then School] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE ([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT])
+
+-- Query 8
+
+WITH
+  SET [Top10 HCM Schools] AS
+    HEAD(
+      ORDER(
+        NONEMPTY(
+          EXISTS([DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,
+                 { [DIM SCHOOL].[PROVINCE NAME].&[TP Hồ Chí Minh] }),
+          [Measures].[FACT CUTOFF SCORE Count]
+        ),
+        [Measures].[FACT CUTOFF SCORE Count], BDESC
+      ), 10
+    )
+  MEMBER [Measures].[Rank] AS
+    RANK([DIM SCHOOL].[SCHOOL NAME].CurrentMember, [Top10 HCM Schools])
+SELECT
+  { [Measures].[Rank], [Measures].[FACT CUTOFF SCORE Count] } ON COLUMNS,
+  [Top10 HCM Schools] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm ĐGNL V-ACT],
+  [DIM YEAR].[YEAR].&[2025]
+)
+
+-- Query 9
+
+WITH
+  SET [Schools] AS
+    NONEMPTY([DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS, [Measures].[Diff SCORE MARK])
+  MEMBER [Measures].[Avg Diff] AS
+    AVG([Schools], [Measures].[Diff SCORE MARK]),
+    FORMAT_STRING = "0.00"
+  MEMBER [Measures].[Diff vs Avg] AS
+    [Measures].[Diff SCORE MARK] - [Measures].[Avg Diff],
+    FORMAT_STRING = "+0.00;-0.00"
+  MEMBER [Measures].[Spread Level] AS
+    IIF([Measures].[Diff SCORE MARK] > [Measures].[Avg Diff], "Cao hơn TB", "Thấp hơn/bằng TB")
+  MEMBER [Measures].[Rank Diff] AS
+    RANK([DIM SCHOOL].[SCHOOL NAME].CurrentMember, [Schools], [Measures].[Diff SCORE MARK])
+SELECT
+  { [Measures].[Minimum SCORE MARK], [Measures].[Maximum SCORE MARK],
+    [Measures].[Diff SCORE MARK], [Measures].[Avg Diff],
+    [Measures].[Diff vs Avg], [Measures].[Spread Level],
+    [Measures].[Rank Diff] } ON COLUMNS,
+  ORDER([Schools], [Measures].[Diff SCORE MARK], BDESC) ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm học bạ],
+  [DIM YEAR].[YEAR].&[2025]
+)
+
+-- Query 10
+
+SELECT
+  UNION(
+    NONEMPTY([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[ADMISSION METHOD NAME].MEMBERS,
+             [Measures].[FACT CUTOFF SCORE Count]),
+    { [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].DEFAULTMEMBER }
+  ) ON COLUMNS,
+  UNION(
+    NONEMPTY([DIM MAJOR GROUP].[MAJOR GROUP NAME].[MAJOR GROUP NAME].MEMBERS,
+             [Measures].[FACT CUTOFF SCORE Count]),
+    { [DIM MAJOR GROUP].[MAJOR GROUP NAME].DEFAULTMEMBER }
+  ) ON ROWS
+FROM [Admission Data Warehouse]
+WHERE ([Measures].[FACT CUTOFF SCORE Count])
+
+-- Query 11
+
+WITH
+  MEMBER [Measures].[Prev Mean] AS
+    ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.LAG(1)),
+    FORMAT_STRING = "0.00"
+  MEMBER [Measures].[YoY Mean] AS
+    IIF(
+      ISEMPTY([Measures].[Mean SCORE MARK]) OR ISEMPTY([Measures].[Prev Mean])
+        OR [Measures].[Prev Mean] = 0,
+      NULL,
+      [Measures].[Mean SCORE MARK] / [Measures].[Prev Mean] - 1
+    ),
+    FORMAT_STRING = "0.00%"
+SELECT
+  { [Measures].[Mean SCORE MARK], [Measures].[Prev Mean], [Measures].[YoY Mean] } ON COLUMNS,
+  NONEMPTY([DIM YEAR].[YEAR].[YEAR].MEMBERS, [Measures].[Mean SCORE MARK]) ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Kinh tế - Quản trị kinh doanh - Thương Mại],
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT]
+)
+
+-- Query 12
+
+WITH
+  MEMBER [Measures].[By Method Count] AS
+    ([Measures].[FACT CUTOFF SCORE Count],
+     [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].DEFAULTMEMBER)
+  MEMBER [Measures].[By Method Ratio] AS
+    IIF(
+      COALESCEEMPTY([Measures].[By Method Count], 0) = 0,
+      NULL,
+      COALESCEEMPTY([Measures].[FACT CUTOFF SCORE Count], 0) / [Measures].[By Method Count]
+    ),
+    FORMAT_STRING = "0.00%"
+SELECT
+  NONEMPTY([DIM YEAR].[YEAR].[YEAR].MEMBERS, [Measures].[FACT CUTOFF SCORE Count]) ON COLUMNS,
+  ORDER(
+    NONEMPTY([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[ADMISSION METHOD NAME].MEMBERS,
+             [Measures].[FACT CUTOFF SCORE Count]),
+    [Measures].[By Method Ratio], BDESC
+  ) ON ROWS
+FROM [Admission Data Warehouse]
+WHERE ([Measures].[By Method Ratio])
+
+-- Query 13
+
+WITH
+  SET [Blocks] AS
+    { [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[A00],
+      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[A01],
+      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[B00],
+      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[C00],
+      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[D01] }
+  MEMBER [DIM SCORE BLOCK].[SCORE BLOCK CODE].[Avg 5 Blocks] AS
+    AVG([Blocks], [Measures].[Mean SCORE MARK]),
+    FORMAT_STRING = "0.00"
+SELECT
+  { [Blocks], [DIM SCORE BLOCK].[SCORE BLOCK CODE].[Avg 5 Blocks] } ON COLUMNS,
+  NONEMPTY(
+    LASTPERIODS(11, [DIM YEAR].[YEAR].&[2025]),
+    [Measures].[Mean SCORE MARK]
+  ) ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],
+  [Measures].[Mean SCORE MARK]
+)
+
+-- Query 14
+
+WITH
+  MEMBER [Measures].[Above 24 Count] AS
+    COUNT(
+      FILTER(
+        EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS,
+        [Measures].[SCORE MARK] >= 24
+      )
+    )
+  MEMBER [Measures].[Above 24 Ratio] AS
+    IIF(
+      [Measures].[FACT CUTOFF SCORE Count] <= 0, 0,
+      [Measures].[Above 24 Count] / [Measures].[FACT CUTOFF SCORE Count]
+    ),
+    FORMAT_STRING = "0.00%"
+  SET [Groups] AS
+    ORDER(
+      NONEMPTY([DIM MAJOR GROUP].[MAJOR GROUP NAME].[MAJOR GROUP NAME].MEMBERS,
+               [Measures].[FACT CUTOFF SCORE Count]),
+      [Measures].[Above 24 Ratio], BDESC
+    )
+  MEMBER [Measures].[Rank] AS
+    RANK([DIM MAJOR GROUP].[MAJOR GROUP NAME].CurrentMember, [Groups])
+SELECT
+  { [Measures].[Rank],
+    [Measures].[Above 24 Count],
+    [Measures].[FACT CUTOFF SCORE Count],
+    [Measures].[Above 24 Ratio] } ON COLUMNS,
+  [Groups] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],
+  [DIM YEAR].[YEAR].&[2025]
+)
+
+-- Query 15
+
+WITH
+  MEMBER [Measures].[Score 2025] AS
+    IIF(ISEMPTY(([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&[2025])),
+        NULL,
+        ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].&[2025])),
+    FORMAT_STRING = "0.00"
+  MEMBER [Measures].[Score 2024] AS
+    IIF(ISEMPTY(([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&[2024])),
+        NULL,
+        ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].&[2024])),
+    FORMAT_STRING = "0.00"
+  MEMBER [Measures].[Diff 2025-2024] AS
+    IIF(ISEMPTY([Measures].[Score 2025]) OR ISEMPTY([Measures].[Score 2024]),
+        NULL,
+        [Measures].[Score 2025] - [Measures].[Score 2024]),
+    FORMAT_STRING = "+0.00;-0.00"
+  SET [Programs Above 2.5] AS
+    ORDER(
+      FILTER(
+        NONEMPTY(
+          CROSSJOIN([DIM PROGRAM].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,
+                    [DIM PROGRAM].[PROGRAM NAME].[PROGRAM NAME].MEMBERS),
+          [Measures].[Diff 2025-2024]
+        ),
+        [Measures].[Diff 2025-2024] >= 2.5
+      ),
+      [Measures].[Diff 2025-2024], BDESC
+    )
+  MEMBER [Measures].[Rank] AS
+    RANK(
+      ([DIM PROGRAM].[SCHOOL NAME].CurrentMember, [DIM PROGRAM].[PROGRAM NAME].CurrentMember),
+      [Programs Above 2.5]
+    )
+SELECT
+  { [Measures].[Rank],
+    [Measures].[Score 2024],
+    [Measures].[Score 2025],
+    [Measures].[Diff 2025-2024] } ON COLUMNS,
+  [Programs Above 2.5] ON ROWS
+FROM [Admission Data Warehouse]
+WHERE (
+  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],
+  [DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Công nghệ thông tin - Tin học]
+)
+
+

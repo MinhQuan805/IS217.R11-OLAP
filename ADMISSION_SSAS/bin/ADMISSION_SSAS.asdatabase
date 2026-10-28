@@ -3146,7 +3146,7 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;   
+CALCULATE;     
 CREATE DYNAMIC SET CURRENTCUBE.[Major group - Major]
  AS GENERATE(
     [DIM MAJOR GROUP].[MAJOR GROUP NAME].[MAJOR GROUP NAME].MEMBERS,
@@ -3154,15 +3154,15 @@ CREATE DYNAMIC SET CURRENTCUBE.[Major group - Major]
         [DIM MAJOR GROUP].[MAJOR GROUP NAME].CurrentMember,
         [DIM MAJOR].[MAJOR NAME].MEMBERS
     )
-);                                         
+);                                           
 CREATE MEMBER CURRENTCUBE.[Measures].[Mean SCORE MARK]
  AS [Measures].[SCORE MARK] / [Measures].[FACT CUTOFF SCORE Count], 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1;                                    
+VISIBLE = 1;                                      
 CREATE MEMBER CURRENTCUBE.[Measures].[Diff SCORE MARK]
  AS [Measures].[Maximum SCORE MARK] - [Measures].[Minimum SCORE MARK], 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1;                                      
+VISIBLE = 1;                                        
 CREATE MEMBER CURRENTCUBE.[Measures].[YoY Mean SCORE MARK]
  AS IIF(
     IsEmpty([Measures].[Mean SCORE MARK])
@@ -3176,7 +3176,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[YoY Mean SCORE MARK]
     / ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].CurrentMember.PrevMember)
 ), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;          
+VISIBLE = 1;            
 CREATE MEMBER CURRENTCUBE.[Measures].[Score 2025]
  AS IIF(
     ISEMPTY( ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2025]) ),
@@ -3184,7 +3184,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[Score 2025]
     ([Measures].[SCORE MARK], [DIM YEAR].[YEAR].&amp;[2025]) / ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2025])
 ), 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1;          
+VISIBLE = 1;            
 CREATE MEMBER CURRENTCUBE.[Measures].[Score 2024]
  AS IIF(
     ISEMPTY( ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2024]) ),
@@ -3192,7 +3192,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[Score 2024]
     ([Measures].[SCORE MARK], [DIM YEAR].[YEAR].&amp;[2024]) / ([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&amp;[2024])
 ), 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1;          
+VISIBLE = 1;            
 CREATE MEMBER CURRENTCUBE.[Measures].[Diff 2025-2024]
  AS IIF(
     ISEMPTY([Measures].[Score 2025]) OR ISEMPTY([Measures].[Score 2024]),
@@ -3200,7 +3200,7 @@ CREATE MEMBER CURRENTCUBE.[Measures].[Diff 2025-2024]
     [Measures].[Score 2025] - [Measures].[Score 2024]
 ), 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1;          
+VISIBLE = 1;            
 CREATE DYNAMIC SET CURRENTCUBE.[Programs Up 2.5]
  AS ORDER(
     FILTER(
@@ -3210,14 +3210,14 @@ CREATE DYNAMIC SET CURRENTCUBE.[Programs Up 2.5]
     ),
     [Measures].[Diff 2025-2024],
     BDESC
-);         
+);           
 CREATE MEMBER CURRENTCUBE.[Measures].[Above 24 Count]
  AS SUM (
 	EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS,
 	IIF ([Measures].[SCORE MARK] &gt;= 24, 1, 0)
 ), 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1;         
+VISIBLE = 1;           
 CREATE MEMBER CURRENTCUBE.[Measures].[Above 24 Ratio]
  AS IIF (
 	[Measures].[FACT CUTOFF SCORE Count] &lt;= 0,
@@ -3225,14 +3225,14 @@ CREATE MEMBER CURRENTCUBE.[Measures].[Above 24 Ratio]
 	[Measures].[Above 24 Count] / [Measures].[FACT CUTOFF SCORE Count]
 ), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1;       
+VISIBLE = 1;         
 CREATE MEMBER CURRENTCUBE.[Measures].[By Admission method Count]
  AS (
     [Measures].[FACT CUTOFF SCORE Count],
     [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[All]
 ), 
 FORMAT_STRING = "Standard", 
-VISIBLE = 1  ;  
+VISIBLE = 1;    
 CREATE DYNAMIC SET CURRENTCUBE.[School - Program above 24]
  AS FILTER(
     CROSSJOIN(
@@ -3240,7 +3240,7 @@ CREATE DYNAMIC SET CURRENTCUBE.[School - Program above 24]
         [DIM PROGRAM].[PROGRAM NAME].[PROGRAM NAME].MEMBERS
     ),
     [Measures].[Mean SCORE MARK] &gt;= 24
-);       
+);         
 CREATE MEMBER CURRENTCUBE.[Measures].[By Admission method Ratio]
  AS -- Tỷ trọng (%) của từng phương thức so với tổng của năm đó
 IIF(
@@ -3249,7 +3249,280 @@ IIF(
     [Measures].[FACT CUTOFF SCORE Count] / [Measures].[By Admission method Count]
 ), 
 FORMAT_STRING = "Percent", 
-VISIBLE = 1; </Text>
+VISIBLE = 1;  
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2010]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2010]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2011]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2011]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2012]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2012]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2013]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2013]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2014]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2014]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2015]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2015]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2016]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2016]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2017]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2017]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2018]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2018]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2019]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2019]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2020]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2020]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2021]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2021]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2022]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2022]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2023]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2023]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2024]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2024]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Ratio 2025]
+ AS ([Measures].[By Admission method Ratio], [DIM YEAR].[YEAR].&amp;[2025]),
+FORMAT_STRING = "Percent",
+VISIBLE = 1; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Mean A00]
+ AS ([Measures].[Mean SCORE MARK], [DIM SCORE BLOCK].[SCORE BLOCK CODE].&amp;[A00]),
+FORMAT_STRING = "Standard",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Mean A01]
+ AS ([Measures].[Mean SCORE MARK], [DIM SCORE BLOCK].[SCORE BLOCK CODE].&amp;[A01]),
+FORMAT_STRING = "Standard",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Mean B00]
+ AS ([Measures].[Mean SCORE MARK], [DIM SCORE BLOCK].[SCORE BLOCK CODE].&amp;[B00]),
+FORMAT_STRING = "Standard",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Mean C00]
+ AS ([Measures].[Mean SCORE MARK], [DIM SCORE BLOCK].[SCORE BLOCK CODE].&amp;[C00]),
+FORMAT_STRING = "Standard",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Mean D01]
+ AS ([Measures].[Mean SCORE MARK], [DIM SCORE BLOCK].[SCORE BLOCK CODE].&amp;[D01]),
+FORMAT_STRING = "Standard",
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Chứng chỉ quốc tế]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Chứng chỉ quốc tế]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm Đánh giá đầu vào V-SAT]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm Đánh giá đầu vào V-SAT]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm ĐGNL HSA]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm ĐGNL HSA]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm ĐGNL H-SCA]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm ĐGNL H-SCA]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm ĐGNL SP2E]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm ĐGNL SP2E]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm ĐGNL SPT]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm ĐGNL SPT]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm ĐGNL V-ACT]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm ĐGNL V-ACT]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm ĐGTD TSA]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm ĐGTD TSA]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm học bạ]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm học bạ]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm thi riêng]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm thi riêng]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm thi THPT]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm thi THPT]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count Điểm xét tuyển kết hợp]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[Điểm xét tuyển kết hợp]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Count ƯTXT, XT thẳng]
+ AS COUNT(
+    NonEmpty(
+        [DIM PROGRAM].[PROGRAM ID].[PROGRAM ID].MEMBERS,
+        (
+            [Measures].[FACT CUTOFF SCORE Count],
+            [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[ƯTXT, XT thẳng]
+        )
+    )
+),
+FORMAT_STRING = "#,#",
+VISIBLE = 1;</Text>
             </Command>
           </Commands>
         </MdxScript>
