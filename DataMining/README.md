@@ -3,7 +3,7 @@
 **Môn học:** KHO DỮ LIỆU VÀ OLAP (IS217.R11)  
 **Trường:** Đại học Công nghệ Thông tin – ĐHQG-HCM (UIT)  
 **Giảng viên hướng dẫn:** ThS. Đỗ Thị Minh Phụng  
-**Sinh viên thực hiện:**  
+**Nhóm sinh viên thực hiện:**  
 1. Cao Thái Bảo – MSSV: 24520145  
 2. Võ Minh Quân – MSSV: 24521459  
 
@@ -11,49 +11,68 @@
 
 ## 1. Giới thiệu đề tài
 
-Thư mục này chứa mã nguồn thực nghiệm khai phá dữ liệu (Data Mining) hỗ trợ phân tích và dự báo tuyển sinh Đại học tại Việt Nam giai đoạn 2010 – 2025:
-* **Hồi quy (Regression):** Dự báo điểm chuẩn thực tế (Score Mark) bằng Random Forest và XGBoost Regressor.
-* **Phân loại đa lớp (Classification):** Phân tầng mức độ cạnh tranh của các ngành học thành 4 phân khúc (Tiêu chuẩn, Trung bình, Cao, Rất cao).
-* **Phân loại nhị phân (Binary Classification):** Dự báo ngành cạnh tranh cao (điểm chuẩn $\ge 24.0$) và phân tích đường cong ROC-AUC.
-* **Đánh giá đặc trưng (Feature Importance):** Xác định các yếu tố chi phối mạnh nhất đến điểm chuẩn (Trường, Khu vực, Khối ngành, Khối thi, Thời gian).
+Thư mục này chứa toàn bộ mã nguồn, dữ liệu thực nghiệm và tài liệu báo cáo của học phần Khai phá dữ liệu (Data Mining) – **Chương 5** của Đồ án Kho dữ liệu và OLAP Tuyển sinh Đại học Việt Nam (2010 – 2025).
+
+Nội dung nghiên cứu giải quyết 3 bài toán học máy:
+1. **Hồi quy (Regression):** Dự báo điểm chuẩn thực tế (`score_mark` thang điểm 30) của từng trường, ngành và tổ hợp xét tuyển trong tương lai bằng Random Forest và XGBoost Regressor.
+2. **Phân loại đa lớp (Multi-class Classification):** Phân tầng mức độ cạnh tranh của các chương trình đào tạo thành 4 phân khúc (`Dưới 18`, `Từ 18 đến dưới 22`, `Từ 22 đến dưới 25`, `Từ 25 trở lên`) bằng Decision Tree, Random Forest, XGBoost và LightGBM.
+3. **Phân loại nhị phân (Binary Classification):** Dự báo và cảnh báo ngành có điểm chuẩn cạnh tranh cao ($\ge 24.0$ điểm), phân tích đường cong ROC và chỉ số AUC.
+4. **Phân tích mức độ quan trọng đặc trưng (Feature Importance):** Ứng dụng kỹ thuật Permutation Importance nhằm xác định các nhân tố chi phối mạnh mẽ nhất đến điểm chuẩn (Điểm chuẩn năm trước, Danh tiếng trường, Vùng miền, Nhóm ngành, Khối thi).
 
 ---
 
-## 2. Cấu trúc thư mục
+## 2. Nguồn dữ liệu sử dụng
+
+Bộ dữ liệu đầu vào được lấy trực tiếp từ thư mục dữ liệu sạch chuẩn hóa của đồ án tại `PythonScripts/cleaned-data`:
+- `cleaned-cutoff-scores.csv`: 103,403 dòng lưu vết điểm chuẩn qua các năm. **Lưu ý:** Điểm chuẩn sử dụng trực tiếp cột `score_mark` (đã được chuẩn hóa về thang 30, không sử dụng `converted_score_mark`).
+- `cleaned-majors.csv`: 506 dòng danh mục ngành và nhóm ngành đào tạo chuẩn hóa.
+- `cleaned-score-blocks.csv`: 280 tổ hợp môn xét tuyển chuẩn quốc gia.
+
+---
+
+## 3. Cấu trúc thư mục
 
 ```text
 DataMining/
 ├── notebooks/
-│   └── Data_Mining.ipynb      # File Jupyter Notebook thực nghiệm chi tiết từng bước
-├── scripts/
-│   ├── preprocess.py          # Tiền xử lý, lọc THPT, chuẩn hóa thang điểm và chia tập
-│   ├── train_models.py        # Danh mục mô hình và huấn luyện (Decision Tree, RF, XGBoost, LightGBM)
-│   ├── evaluate.py            # Tính toán các độ đo (MAE, RMSE, R2, F1, AUC) và vẽ biểu đồ
-│   └── run_all.py             # Script chạy toàn bộ pipeline từ đầu đến cuối
-├── results/                   # Thư mục lưu kết quả thực nghiệm
-│   ├── data/                  # Dữ liệu sạch sau tiền xử lý
-│   ├── images/                # Các biểu đồ kết quả (Confusion Matrix, ROC, Phân bố, Tầm quan trọng)
-│   ├── models/                # Các mô hình học máy đã huấn luyện (.joblib)
-│   ├── predictions_2025.csv   # Kết quả dự đoán trên tập kiểm thử năm 2025
-│   └── metrics_summary.json   # Tổng hợp số liệu và chỉ số đánh giá của các mô hình
-├── README.md                  # Tài liệu hướng dẫn
+│   └── Data_Mining.ipynb      # File Jupyter Notebook thực nghiệm độc lập (self-contained) chuẩn hóa theo CHƯƠNG 5
+├── results/
+│   └── images/                # Danh mục các biểu đồ kết quả thực nghiệm (Confusion Matrix, Feature Importance, So sánh)
+├── README.md                  # Tài liệu hướng dẫn cấu trúc dự án và tóm tắt kết quả
 └── requirements.txt           # Danh sách các thư viện cần thiết
 ```
 
 ---
 
-## 3. Hướng dẫn cài đặt và thực thi
+## 4. Hướng dẫn cài đặt và thực thi
 
 ### Bước 1: Cài đặt các thư viện cần thiết
 ```bash
 pip install -r requirements.txt
 ```
 
-### Bước 2: Chạy toàn bộ pipeline
-Chạy lệnh sau tại thư mục `DataMining`:
-```bash
-python scripts/run_all.py
-```
+### Bước 2: Chạy thực nghiệm và theo dõi trực quan
+- Mở file `notebooks/Data_Mining.ipynb` trong VS Code hoặc Jupyter Lab và chọn `Run All`.
+- Toàn bộ notebook được thiết kế độc lập (self-contained), tự động đọc dữ liệu nguồn tại `PythonScripts/cleaned-data/`, thực hiện chọn lọc dữ liệu, huấn luyện các mô hình (Decision Tree, Random Forest, XGBoost, LightGBM) và trực quan hóa kết quả kiểm thử trên Test 2025.
+- Đọc báo cáo hoàn chỉnh tại file `report.md` hoặc `report.docx`.
 
-### Hoặc chạy trực quan trên Jupyter Notebook
-Mở file `notebooks/Data_Mining.ipynb` trong Jupyter Lab / VS Code và nhấn **Run All** để theo dõi từng bước trực quan.
+---
+
+## 5. Tóm tắt kết quả thực nghiệm chính (Tập Test 2025)
+
+- **Hồi quy điểm chuẩn (Score Mark):**
+  - **Random Forest Regressor** đạt sai số tuyệt đối thấp nhất: $MAE = 2.548$ điểm, $RMSE = 3.224$ điểm, $R^2 = 0.4494$.
+  - **XGBoost Regressor** đạt: $MAE = 2.664$ điểm, $RMSE = 3.259$ điểm, $R^2 = 0.4374$.
+  - Cả hai mô hình vượt trội so với điểm năm trước (*Previous year baseline*, $MAE = 4.028$) và trung vị (*Median baseline*, $MAE = 4.371$).
+- **Phân loại nhị phân ngành cạnh tranh cao ($\ge 24.0$ điểm):**
+  - **XGBoost Classifier** đạt độ chính xác $80.72\%$, $Macro\ F1 = 0.7833$ và $ROC\ AUC = 0.8739$.
+- **Phân loại đa lớp (4 tầng điểm):**
+  - **LightGBM** đạt độ chính xác cao nhất: $Accuracy = 50.94\%$, $Macro\ F1 = 0.4699$, $Weighted\ F1 = 0.4818$.
+  - **XGBoost** đạt $Accuracy = 49.95\%$, $Macro\ F1 = 0.4570$.
+  - **Random Forest** đạt $Accuracy = 49.10\%$, $Macro\ F1 = 0.4542$.
+- **Đặc trưng chi phối điểm chuẩn:**
+  1. `previous_year_score`: $+1.525$ điểm MAE (nhân tố quan trọng nhất).
+  2. `school_id`: $+0.758$ điểm MAE.
+  3. `province_name`: $+0.448$ điểm MAE.
+  4. `major_groups`: $+0.235$ điểm MAE.
+  5. `block_set`: $+0.169$ điểm MAE.

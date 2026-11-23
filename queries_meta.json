@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Truy vấn 1: Điểm chuẩn TB theo năm (Điểm thi THPT)",
+    "purpose": "Theo dõi xu hướng biến thiên điểm chuẩn tuyển sinh theo phương thức Điểm thi THPT qua các năm (2015 - 2025).",
+    "image": "media/image71.png",
+    "insight": "Điểm chuẩn trung bình dao động ổn định trong khoảng 18 - 21 điểm; có xu hướng nhích tăng ở các năm có đề thi phân hóa cao.",
+    "mdx": "SELECT\n\t[Measures].[Mean SCORE MARK] ON COLUMNS,\n\t[DIM YEAR].[YEAR].[YEAR].MEMBERS ON ROWS\nFROM [Admission Data Warehouse]\nWHERE ([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT])"
+  },
+  {
+    "id": 2,
+    "title": "Truy vấn 2: TOP 10 ngành có điểm chuẩn cao nhất năm 2025",
+    "purpose": "Xác định 10 ngành đào tạo có điểm trúng tuyển cao nhất toàn quốc trong kỳ tuyển sinh năm 2025.",
+    "image": "media/image106.png",
+    "insight": "Dẫn đầu là các ngành Y khoa, Răng Hàm Mặt, Khoa học máy tính, Trí tuệ nhân tạo (điểm chuẩn chạm ngưỡng 27.5 - 29.0 điểm).",
+    "mdx": "WITH\n  SET [Top10 Major] AS\n    HEAD(\n      ORDER(\n        NONEMPTY([DIM MAJOR].[MAJOR NAME].[MAJOR NAME].MEMBERS, [Measures].[Mean SCORE MARK]),\n        [Measures].[Mean SCORE MARK], BDESC\n      ), 10\n    )\n  MEMBER [Measures].[Rank] AS\n    RANK([DIM MAJOR].[MAJOR NAME].CurrentMember, [Top10 Major])\nSELECT\n  { [Measures].[Mean SCORE MARK] } ON COLUMNS,\n  [Top10 Major] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],\n  [DIM YEAR].[YEAR].&[2025]\n)"
+  },
+  {
+    "id": 3,
+    "title": "Truy vấn 3: Điểm chuẩn TB theo Nhóm ngành & Drill-down Ngành",
+    "purpose": "Phân tích điểm chuẩn cấp vĩ mô theo Nhóm ngành, cho phép Drill-down chi tiết xuống từng Ngành trực thuộc năm 2025.",
+    "image": "media/image441.png",
+    "insight": "Nhóm Y - Dược và Công nghệ thông tin giữ vị trí dẫn đầu; khi drill-down thấy rõ độ chênh lệch giữa các ngành chuyên sâu.",
+    "mdx": "SELECT\n  [Measures].[Mean SCORE MARK] ON COLUMNS,\n  [Major group - Major] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],\n  [DIM YEAR].[YEAR].&[2025]\n)"
+  },
+  {
+    "id": 4,
+    "title": "Truy vấn 4: TOP 5 Tổ hợp xét tuyển phổ biến nhóm ngành CNTT",
+    "purpose": "Tìm ra 5 tổ hợp môn được các trường sử dụng nhiều nhất để xét tuyển ngành Công nghệ thông tin.",
+    "image": "media/image350.png",
+    "insight": "A00 (Toán, Lý, Hóa) và A01 (Toán, Lý, Anh) chiếm áp đảo (>65%), tiếp theo là D01, D07 và C01.",
+    "mdx": "WITH\n  SET [Top5 Block] AS\n    TOPCOUNT(\n      [DIM SCORE BLOCK].[SCORE BLOCK NAME].[SCORE BLOCK NAME].MEMBERS,\n      5,\n      [Measures].[BRIDGE FACT SCORE BLOCK Count]\n    )\nSELECT\n  { [Measures].[BRIDGE FACT SCORE BLOCK Count] } ON COLUMNS,\n  [Top5 Block] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE ([DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Công nghệ thông tin - Tin học])"
+  },
+  {
+    "id": 5,
+    "title": "Truy vấn 5: So sánh Điểm TB và Điểm Max tại Hà Nội vs TP.HCM 2025",
+    "purpose": "Đối sánh chất lượng tuyển sinh giữa hai đại đô thị trung tâm giáo dục đại học lớn nhất cả nước.",
+    "image": "media/image167.png",
+    "insight": "Cả hai thành phố đều có đỉnh điểm chuẩn đạt tuyệt đối (29-30 điểm), song Hà Nội có điểm trung bình nhỉnh hơn ở khối ngành Kỹ thuật - Xã hội.",
+    "mdx": "WITH\n  SET [HN HCM Schools] AS\n    GENERATE(\n      { [DIM SCHOOL].[PROVINCE NAME].&[Hà Nội],\n        [DIM SCHOOL].[PROVINCE NAME].&[TP. Hồ Chí Minh] },\n      { [DIM SCHOOL].[PROVINCE NAME].CurrentMember } *\n      ORDER(\n        NONEMPTY(\n          EXISTS([DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,\n                 [DIM SCHOOL].[PROVINCE NAME].CurrentMember),\n          [Measures].[Mean SCORE MARK]\n        ),\n        [Measures].[Mean SCORE MARK], BDESC\n      )\n    )\nSELECT\n  { [Measures].[Mean SCORE MARK],\n    [Measures].[Maximum SCORE MARK] } ON COLUMNS,\n  [HN HCM Schools] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM YEAR].[YEAR].&[2025],\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT]\n)"
+  },
+  {
+    "id": 6,
+    "title": "Truy vấn 6: Điểm TB Trường - Chương trình nhóm Y-Dược >= 25.0",
+    "purpose": "Lọc các trường và chương trình đào tạo Y Dược có điểm chuẩn chất lượng cao (>= 25 điểm).",
+    "image": "media/image206.png",
+    "insight": "Tập trung tại ĐH Y Hà Nội, ĐH Y Dược TP.HCM, ĐH Y Dược Huế; khẳng định tiêu chuẩn tuyển sinh khắt khe của khối ngành sức khỏe.",
+    "mdx": "SELECT\n  [Measures].[Mean SCORE MARK] ON COLUMNS,\n  [School - Program above 24] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],\n  [DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Y - Dược]\n)"
+  },
+  {
+    "id": 7,
+    "title": "Truy vấn 7: Phân cấp Điểm chuẩn TB từ Tỉnh/Thành phố -> Trường",
+    "purpose": "Sử dụng cấu trúc phân cấp địa lý (Province -> School) để quan sát sự phân bố nguồn lực giáo dục.",
+    "image": "media/image55.png",
+    "insight": "Điểm chuẩn tập trung cao đột biến ở các tỉnh/thành phố trung ương (HN, TP.HCM, Đà Nẵng, Cần Thơ), giảm dần ở các trường địa phương.",
+    "mdx": "WITH\n  SET [Province then School] AS\n    GENERATE(\n      ORDER(\n        NONEMPTY([DIM SCHOOL].[Province - School].Levels(1).MEMBERS,\n                 [Measures].[Mean SCORE MARK]),\n        [Measures].[Mean SCORE MARK], BDESC\n      ),\n      { [DIM SCHOOL].[Province - School].CurrentMember,\n        NONEMPTY([DIM SCHOOL].[Province - School].CurrentMember.CHILDREN,\n                 [Measures].[Mean SCORE MARK]) }\n    )\nSELECT\n  [Measures].[Mean SCORE MARK] ON COLUMNS,\n  [Province then School] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE ([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT])"
+  },
+  {
+    "id": 8,
+    "title": "Truy vấn 8: TOP 10 trường TP.HCM xét ĐGNL V-ACT nhiều nhất 2025",
+    "purpose": "Thống kê mức độ phủ sóng của phương thức Đánh giá năng lực ĐHQG-HCM (V-ACT) tại khu vực phía Nam.",
+    "image": "media/image135.png",
+    "insight": "Phương thức ĐGNL trở thành trụ cột tuyển sinh chính tại ĐHQG-HCM và các trường thành viên (Bách khoa, KHTN, Kinh tế - Luật).",
+    "mdx": "WITH\n  SET [Top10 HCM Schools] AS\n    HEAD(\n      ORDER(\n        NONEMPTY(\n          EXISTS([DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,\n                 { [DIM SCHOOL].[PROVINCE NAME].&[TP Hồ Chí Minh] }),\n          [Measures].[FACT CUTOFF SCORE Count]\n        ),\n        [Measures].[FACT CUTOFF SCORE Count], BDESC\n      ), 10\n    )\nSELECT\n  { [Measures].[FACT CUTOFF SCORE Count] } ON COLUMNS,\n  [Top10 HCM Schools] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm ĐGNL V-ACT],\n  [DIM YEAR].[YEAR].&[2025]\n)"
+  },
+  {
+    "id": 9,
+    "title": "Truy vấn 9: Độ phân hóa điểm chuẩn (Max - Min) cùng trường (Học bạ)",
+    "purpose": "Tính toán độ chênh lệch (Spread = Max - Min) điểm chuẩn học bạ nội bộ từng trường năm 2025.",
+    "image": "media/image102.png",
+    "insight": "Nhiều trường đa ngành có biên độ phân hóa rất lớn (lên tới 8-10 điểm), cho thấy sự phân hóa mạnh mẽ giữa ngành 'hot' và ngành truyền thống.",
+    "mdx": "WITH\n  SET [Schools] AS\n    NONEMPTY([DIM SCHOOL].[SCHOOL NAME].[SCHOOL NAME].MEMBERS, [Measures].[Diff SCORE MARK])\n  MEMBER [Measures].[Avg Diff] AS\n    AVG([Schools], [Measures].[Diff SCORE MARK]),\n    FORMAT_STRING = \"0.00\"\n  MEMBER [Measures].[Diff vs Avg] AS\n    [Measures].[Diff SCORE MARK] - [Measures].[Avg Diff],\n    FORMAT_STRING = \"+0.00;-0.00\"\n  MEMBER [Measures].[Spread Level] AS\n    IIF([Measures].[Diff SCORE MARK] > [Measures].[Avg Diff], \"Cao hơn TB\", \"Thấp hơn/bằng TB\")\n  MEMBER [Measures].[Rank Diff] AS\n    RANK([DIM SCHOOL].[SCHOOL NAME].CurrentMember, [Schools], [Measures].[Diff SCORE MARK])\nSELECT\n  { [Measures].[Minimum SCORE MARK], [Measures].[Maximum SCORE MARK],\n    [Measures].[Diff SCORE MARK], [Measures].[Avg Diff],\n    [Measures].[Diff vs Avg], [Measures].[Spread Level],\n    [Measures].[Rank Diff] } ON COLUMNS,\n  ORDER([Schools], [Measures].[Diff SCORE MARK], BDESC) ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm học bạ],\n  [DIM YEAR].[YEAR].&[2025]\n)"
+  },
+  {
+    "id": 10,
+    "title": "Truy vấn 10: Ma trận 2 chiều: Nhóm ngành x Phương thức xét tuyển",
+    "purpose": "Phân bố số lượng mã ngành theo ma trận 2 chiều chéo giữa Nhóm ngành đào tạo và Phương thức xét tuyển.",
+    "image": "media/image142.png",
+    "insight": "Phương thức Điểm thi THPT và Học bạ phủ rộng 100% các nhóm ngành; các phương thức chứng chỉ quốc tế và ĐGNL tập trung ở nhóm Kinh tế, CNTT.",
+    "mdx": "SELECT\n  UNION(\n    NONEMPTY([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[ADMISSION METHOD NAME].MEMBERS,\n             [Measures].[FACT CUTOFF SCORE Count]),\n    { [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].DEFAULTMEMBER }\n  ) ON COLUMNS,\n  UNION(\n    NONEMPTY([DIM MAJOR GROUP].[MAJOR GROUP NAME].[MAJOR GROUP NAME].MEMBERS,\n             [Measures].[FACT CUTOFF SCORE Count]),\n    { [DIM MAJOR GROUP].[MAJOR GROUP NAME].DEFAULTMEMBER }\n  ) ON ROWS\nFROM [Admission Data Warehouse]\nWHERE ([Measures].[FACT CUTOFF SCORE Count])"
+  },
+  {
+    "id": 11,
+    "title": "Truy vấn 11: Tăng trưởng YoY điểm chuẩn TB nhóm Kinh tế - QTKD",
+    "purpose": "Sử dụng hàm phân tích thời gian để tính tỷ lệ tăng trưởng so với năm trước (Year-over-Year) của nhóm ngành Kinh tế.",
+    "image": "media/image374.png",
+    "insight": "Giai đoạn 2020-2022 điểm chuẩn tăng trưởng nóng (+3% đến +5%/năm), sau đó chững lại và phân hóa sâu hơn trong giai đoạn 2023-2025.",
+    "mdx": "SELECT\n  { [Measures].[Mean SCORE MARK], [Measures].[YoY Mean SCORE MARK] } ON COLUMNS,\n  NONEMPTY([DIM YEAR].[YEAR].[YEAR].MEMBERS, [Measures].[Mean SCORE MARK]) ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Kinh tế - Quản trị kinh doanh - Thương Mại],\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT]\n)"
+  },
+  {
+    "id": 12,
+    "title": "Truy vấn 12: Tỷ trọng (%) số ngành theo Phương thức qua các năm",
+    "purpose": "Theo dõi xu hướng chuyển dịch cơ cấu tuyển sinh từ phụ thuộc điểm thi THPT sang đa dạng hóa phương thức.",
+    "image": "media/image40.png",
+    "insight": "Tỷ trọng xét điểm thi THPT giảm dần từ >85% (trước 2018) xuống ~45-50% (2025), nhường chỗ cho Học bạ, ĐGNL và xét tuyển kết hợp.",
+    "mdx": "WITH\n  MEMBER [Measures].[By Method Count] AS\n    ([Measures].[FACT CUTOFF SCORE Count],\n     [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].DEFAULTMEMBER)\n  MEMBER [Measures].[By Method Ratio] AS\n    IIF(\n      COALESCEEMPTY([Measures].[By Method Count], 0) = 0,\n      NULL,\n      COALESCEEMPTY([Measures].[FACT CUTOFF SCORE Count], 0) / [Measures].[By Method Count]\n    ),\n    FORMAT_STRING = \"0.00%\"\nSELECT\n  NONEMPTY([DIM YEAR].[YEAR].[YEAR].MEMBERS, [Measures].[FACT CUTOFF SCORE Count]) ON COLUMNS,\n  ORDER(\n    NONEMPTY([DIM ADMISSION METHOD].[ADMISSION METHOD NAME].[ADMISSION METHOD NAME].MEMBERS,\n             [Measures].[FACT CUTOFF SCORE Count]),\n    [Measures].[By Method Ratio], BDESC\n  ) ON ROWS\nFROM [Admission Data Warehouse]\nWHERE ([Measures].[By Method Ratio])"
+  },
+  {
+    "id": 13,
+    "title": "Truy vấn 13: So sánh Điểm TB tổ hợp A00, A01, B00, C00, D01 (2015-2025)",
+    "purpose": "So sánh 5 tổ hợp xét tuyển truyền thống xuyên suốt 10 năm theo phương thức thi tốt nghiệp THPT.",
+    "image": "media/image276.png",
+    "insight": "Tổ hợp B00 có điểm trung bình cao nhất (do nhóm Y Dược), tiếp theo là A00, A01; tổ hợp C00 có biến động mạnh nhất theo độ khó của đề Văn, Sử, Địa.",
+    "mdx": "WITH\n  SET [Blocks] AS\n    { [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[A00],\n      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[A01],\n      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[B00],\n      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[C00],\n      [DIM SCORE BLOCK].[SCORE BLOCK CODE].&[D01] }\n  MEMBER [DIM SCORE BLOCK].[SCORE BLOCK CODE].[Avg 5 Blocks] AS\n    AVG([Blocks], [Measures].[Mean SCORE MARK]),\n    FORMAT_STRING = \"0.00\"\nSELECT\n  { [Blocks], [DIM SCORE BLOCK].[SCORE BLOCK CODE].[Avg 5 Blocks] } ON COLUMNS,\n  NONEMPTY(\n    LASTPERIODS(11, [DIM YEAR].[YEAR].&[2025]),\n    [Measures].[Mean SCORE MARK]\n  ) ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],\n  [Measures].[Mean SCORE MARK]\n)"
+  },
+  {
+    "id": 14,
+    "title": "Truy vấn 14: Tỷ lệ (%) ngành đạt Điểm chuẩn >= 24.0 theo Nhóm ngành",
+    "purpose": "Đánh giá mức độ cạnh tranh gay gắt của từng lĩnh vực thông qua tỷ lệ ngành điểm cao (>= 24 điểm) năm 2025.",
+    "image": "media/image155.png",
+    "insight": "Nhóm Y - Dược đạt tỷ lệ áp đảo (>70% ngành >= 24 điểm), theo sát sau là Khoa học máy tính & CNTT (~55%), Kinh tế (~40%).",
+    "mdx": "WITH\n  MEMBER [Measures].[Above 24 Count] AS\n    COUNT(\n      FILTER(\n        EXISTING [FACT CUTOFF SCORE].[FACT ID].[FACT ID].MEMBERS,\n        [Measures].[SCORE MARK] >= 24\n      )\n    )\n  MEMBER [Measures].[Above 24 Ratio] AS\n    IIF(\n      [Measures].[FACT CUTOFF SCORE Count] <= 0, 0,\n      [Measures].[Above 24 Count] / [Measures].[FACT CUTOFF SCORE Count]\n    ),\n    FORMAT_STRING = \"0.00%\"\n  SET [Groups] AS\n    ORDER(\n      NONEMPTY([DIM MAJOR GROUP].[MAJOR GROUP NAME].[MAJOR GROUP NAME].MEMBERS,\n               [Measures].[FACT CUTOFF SCORE Count]),\n      [Measures].[Above 24 Ratio], BDESC\n    )\nSELECT\n  { [Measures].[FACT CUTOFF SCORE Count],\n    [Measures].[Above 24 Ratio] } ON COLUMNS,\n  [Groups] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],\n  [DIM YEAR].[YEAR].&[2025]\n)"
+  },
+  {
+    "id": 15,
+    "title": "Truy vấn 15: Trường - Ngành CNTT tăng điểm đột biến >= 2.5 điểm",
+    "purpose": "Truy vết các ngành/trường thuộc nhóm CNTT có sự nhảy vọt về điểm chuẩn giữa năm 2025 so với năm 2024.",
+    "image": "media/image218.png",
+    "insight": "Ghi nhận sự bứt phá mạnh ở các ngành Công nghệ Vi mạch bán dẫn, An toàn thông tin, Khoa học Dữ liệu tại các trường đại học kỹ thuật công lập.",
+    "mdx": "WITH\n  MEMBER [Measures].[Score 2025] AS\n    IIF(ISEMPTY(([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&[2025])),\n        NULL,\n        ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].&[2025])),\n    FORMAT_STRING = \"0.00\"\n  MEMBER [Measures].[Score 2024] AS\n    IIF(ISEMPTY(([Measures].[FACT CUTOFF SCORE Count], [DIM YEAR].[YEAR].&[2024])),\n        NULL,\n        ([Measures].[Mean SCORE MARK], [DIM YEAR].[YEAR].&[2024])),\n    FORMAT_STRING = \"0.00\"\n  MEMBER [Measures].[Diff 2025-2024] AS\n    IIF(ISEMPTY([Measures].[Score 2025]) OR ISEMPTY([Measures].[Score 2024]),\n        NULL,\n        [Measures].[Score 2025] - [Measures].[Score 2024]),\n    FORMAT_STRING = \"+0.00;-0.00\"\n  SET [Programs Above 2.5] AS\n    ORDER(\n      FILTER(\n        NONEMPTY(\n          CROSSJOIN([DIM PROGRAM].[SCHOOL NAME].[SCHOOL NAME].MEMBERS,\n                    [DIM PROGRAM].[PROGRAM NAME].[PROGRAM NAME].MEMBERS),\n          [Measures].[Diff 2025-2024]\n        ),\n        [Measures].[Diff 2025-2024] >= 2.5\n      ),\n      [Measures].[Diff 2025-2024], BDESC\n    )\n  MEMBER [Measures].[Rank] AS\n    RANK(\n      ([DIM PROGRAM].[SCHOOL NAME].CurrentMember, [DIM PROGRAM].[PROGRAM NAME].CurrentMember),\n      [Programs Above 2.5]\n    )\nSELECT\n  { [Measures].[Rank],\n    [Measures].[Score 2024],\n    [Measures].[Score 2025],\n    [Measures].[Diff 2025-2024] } ON COLUMNS,\n  [Programs Above 2.5] ON ROWS\nFROM [Admission Data Warehouse]\nWHERE (\n  [DIM ADMISSION METHOD].[ADMISSION METHOD NAME].&[Điểm thi THPT],\n  [DIM MAJOR GROUP].[MAJOR GROUP NAME].&[Công nghệ thông tin - Tin học]\n)"
+  }
+]

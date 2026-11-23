@@ -1,0 +1,281 @@
+
+[Heading 1] (P2) LỜI CẢM ƠN
+
+[Heading 1] (P18) NHẬN XÉT CỦA GIẢNG VIÊN
+
+[Heading 1] (P49) MỤC LỤC
+
+[Heading 1] (P52) MỤC LỤC
+
+[Heading 1] (P58) CHƯƠNG I. GIỚI THIỆU TỔNG QUAN VỀ KHO DỮ LIỆU
+
+[Heading 2] (P59) 1.1 Phát biểu về dữ liệu
+
+[Heading 3] (P60) 1.1.1 Mô tả dữ liệu
+
+[Heading 3] (P66) 1.1.2 Các thuộc tính của dataset
+
+[Heading 4] (P69) 1.1.2.1 File cutoff-scores.csv
+
+[Heading 4] (P73) 1.1.2.2 File majors.csv
+
+[Heading 4] (P77) 1.1.2.3 File score-group.csv
+
+[Heading 3] (P81) 1.1.3 Làm sạch dataset
+
+[Heading 4] (P85) 1.1.3.1 File cutoff-scores.csv
+
+[Heading 4] (P138) 1.1.3.2 File majors.csv
+
+[Heading 4] (P152) 1.1.3.3 File score-group.csv
+
+[Heading 2] (P163) 1.2 Xây dựng kho dữ liệu
+
+[Heading 3] (P164) 1.2.1 Sơ đồ bông tuyết
+
+[Heading 3] (P169) 1.2.2 Mô tả cấu trúc từng bảng
+
+[Heading 1] (P202) CHƯƠNG II. TÍCH HỢP DỮ LIỆU VÀO KHO (SSIS)
+
+[Heading 2] (P203) 2.1 Chuẩn bị Database
+(P227) Bước 9: Kết quả hiển thị Success cho tất cả quá trình thì bấm Close.
+--- QUERY P236 ---
+Bước 12: Tại Select data collector sets you want to enable, chọn các Data Collector Set cần thiết, sau đó chọn Next.
+
+[Heading 2] (P245) 2.2. Tạo Project SSIS trong Visual Studio 2022
+
+[Heading 2] (P250) 2.3. Tạo và xóa các bảng bằng Execute SQL Task
+
+[Heading 3] (P252) 2.3.1. Drop All Tables
+
+[Heading 3] (P273) 2.3.2. Create All Tables
+
+[Heading 3] (P285) 2.3.3. Thực thi tạo và xóa các bảng
+
+[Heading 2] (P293) 2.4 Tạo bảng Dim và bảng Fact
+
+[Heading 3] (P294) 2.4.1. Bảng DIM_PROVINCE
+
+[Heading 3] (P363) 2.4.2. Bảng DIM_SCHOOL
+(P394) Bước 12: Kiểm tra toàn bộ luồng Flat File Source → Derived Column → Sort → OLE DB Destination, sau đó thực thi Data Flow Task và kiểm tra kết quả.
+
+[Heading 3] (P397) 2.4.3. Bảng DIM_MAJOR_GROUP
+
+[Heading 3] (P466) 2.4.4. Bảng DIM_MAJOR
+(P514) Bước 16: Quay lại tab Control Flow, thực thi Data Flow Task DIM_MAJOR và kiểm tra kết quả.
+
+[Heading 3] (P517) 2.4.5. Bảng DIM_PROGRAM
+(P607) Bước 19: Quay lại tab Control Flow, thực thi Data Flow Task DIM_PROGRAM và kiểm tra kết quả.
+
+[Heading 3] (P610) 2.4.6. Bảng DIM_SCORE_BLOCK
+
+[Heading 3] (P675) 2.4.7. Bảng DIM_SUBJECT
+
+[Heading 3] (P721) 2.4.8. Bảng DIM_ADMISSION_METHOD
+(P741) Bước 7: Quay lại tab Control Flow, thực thi DIM_ADMISSION_METHOD và kiểm tra kết quả.
+
+[Heading 3] (P744) 2.4.9. Bảng DIM_YEAR
+(P767) Bước 7: Quay lại tab Control Flow, thực thi DIM_YEAR và kiểm tra kết quả.
+
+[Heading 3] (P770) 2.4.10. Bảng FACT_CUTOFF_SCORE
+(P812) Bước 14: Quay lại tab Control Flow, thực thi task FACT_CUTOFF_SCORE và kiểm tra kết quả thực thi.
+
+[Heading 3] (P815) 2.4.11. Bảng BRIDGE_MAJOR_GROUP
+(P838) Bước 8: Quay lại tab Control Flow, thực thi task BRIDGE_MAJOR_GROUP và kiểm tra kết quả thực thi.
+
+[Heading 3] (P841) 2.4.12. Bảng BRIDGE_SCORE_BLOCK_SUBJECT
+
+[Heading 3] (P900) 2.4.13. Bảng BRIDGE_FACT_SCORE_BLOCK
+(P953) Bước 14: Quay lại tab Control Flow, thực thi task BRIDGE_FACT_SCORE_BLOCK và kiểm tra kết quả thực thi.
+
+[Heading 2] (P956) 2.5 Thiết lập ràng buộc ưu tiên
+
+[Heading 2] (P965) 2.6. Kết quả SSIS
+
+[Heading 3] (P966) 2.6.1. Kết quả bảng DIM_PROVINCE
+
+[Heading 3] (P968) 2.6.2. Kết quả bảng DIM_SCHOOL
+
+[Heading 3] (P970) 2.6.3. Kết quả bảng DIM_MAJOR_GROUP
+
+[Heading 3] (P972) 2.6.4. Kết quả bảng DIM_MAJOR
+
+[Heading 3] (P974) 2.6.5. Kết quả bảng DIM_PROGRAM
+
+[Heading 3] (P976) 2.6.6. Kết quả bảng DIM_SCORE_BLOCK
+
+[Heading 3] (P978) 2.6.7. Kết quả bảng DIM_SUBJECT
+
+[Heading 3] (P980) 2.6.8. Kết quả bảng DIM_ADMISSION_METHOD
+
+[Heading 3] (P982) 2.6.9. Kết quả bảng DIM_YEAR
+
+[Heading 3] (P984) 2.6.10. Kết quả bảng BRIDGE_MAJOR_GROUP
+
+[Heading 3] (P986) 2.6.11. Kết quả bảng BRIDGE_SCORE_BLOCK_SUBJECT
+
+[Heading 3] (P988) 2.6.12. Kết quả bảng BRIDGE_FACT_SCORE_BLOCK
+
+[Heading 1] (P993) CHƯƠNG III. THỰC HIỆN PHÂN TÍCH TRÊN KHO DỮ LIỆU (SSAS)
+
+[Heading 2] (P994) 3.1. Tạo Project SSAS mới
+
+[Heading 2] (P1006) 3.2. Tạo Data Source
+(P1032) Kết quả data source đã tạo thành công.
+
+[Heading 2] (P1034) 3.3. Tạo Data Source View
+
+[Heading 2] (P1054) 3.4. Tạo các Dimension và cấu hình phân cấp dữ liệu
+
+[Heading 3] (P1055) 3.4.1. Tạo Dimension DIM_PROVINCE
+
+[Heading 3] (P1073) 3.4.2. Tạo Dimension DIM_SCHOOL
+
+[Heading 3] (P1089) 3.4.3. Tạo Dimension DIM_MAJOR_GROUP
+
+[Heading 3] (P1101) 3.4.4. Tạo Dimension DIM_MAJOR
+
+[Heading 3] (P1113) 3.4.5. Tạo Dimension DIM_PROGRAM
+
+[Heading 3] (P1128) 3.4.6. Tạo Dimension DIM_SCORE_BLOCK
+
+[Heading 3] (P1141) 3.4.7. Tạo Dimension DIM_SUBJECT
+
+[Heading 3] (P1153) 3.4.8. Tạo Dimension DIM_ADMISSION_METHOD
+
+[Heading 3] (P1165) 3.4.9. Tạo Dimension DIM_YEAR
+
+[Heading 2] (P1181) 3.5. Tạo Cube
+
+[Heading 2] (P1203) 3.6. Tạo Dimension cho các bảng Bridge
+
+[Heading 2] (P1221) 3.7. Thiết lập quan hệ chiều
+
+[Heading 2] (P1240) 3.9. Thực hiện Deploy Project SSAS
+
+[Heading 2] (P1250) 3.10. Thực hiện các câu truy vấn sử dụng Cube Browser (manual), Excel Pivot Table và MDX
+
+[Heading 3] (P1259) 3.1. Truy vấn 1 – Điểm chuẩn trung bình theo năm theo phương thức Điểm thi THPT
+
+[Heading 3] (P1279) 3.2. Truy vấn 2 – TOP 10 ngành có điểm chuẩn cao nhất năm 2025, phương thức Điểm thi THPT
+
+[Heading 3] (P1298) 3.3. Truy vấn 3 – Điểm chuẩn trung bình theo Nhóm ngành, phương thức Điểm thi THPT, năm 2025, DRILL-DOWN Nhóm ngành → Ngành
+
+[Heading 3] (P1317) 3.4. Truy vấn 4 – TOP 5 Tổ hợp xét tuyển phổ biến nhất cho nhóm ngành Công nghệ thông tin – Tin học
+
+[Heading 3] (P1333) 3.5. Truy vấn 5 – So sánh Điểm chuẩn trung bình và Điểm chuẩn cao nhất của các trường tại Hà Nội, TP.HCM năm 2025 (Điểm thi THPT)
+
+[Heading 3] (P1348) 3.6. Truy vấn 6 – Liệt kê điểm trung bình Trường – Chương trình thuộc nhóm Y – Dược có Điểm chuẩn ≥ 25.0 (Điểm thi THPT)
+
+[Heading 3] (P1373) 3.7. Truy vấn 7 – Điểm chuẩn trung bình từ Trường → Tỉnh/Thành phố theo phương thức Điểm thi THPT
+
+[Heading 3] (P1389) 3.8. Truy vấn 8 – TOP 10 trường tại TP.HCM có số ngành tuyển sinh bằng phương thức ĐGNL V-ACT nhiều nhất năm 2025
+
+[Heading 3] (P1413) 3.9 Truy vấn 9 – Độ phân hóa điểm chuẩn (Max − Min) trong cùng một trường năm 2025 (Điểm học bạ)
+
+[Heading 3] (P1431) 3.10. Truy vấn 10 – Tổng số mã ngành theo Nhóm ngành và Phương thức xét tuyển sử dụng ma trận 2 chiều
+
+[Heading 3] (P1449) 3.11. Truy vấn 11 – Tốc độ tăng trưởng (YoY) của Điểm chuẩn TB, nhóm Kinh tế – Quản trị kinh doanh – Thương mại theo phương thức Điểm thi THPT
+
+[Heading 3] (P1469) 3.12. Truy vấn 12 – Tỷ trọng (%) số ngành theo từng Phương thức xét tuyển qua các năm
+
+[Heading 3] (P1493) 3.13. Truy vấn 13 – So sánh Điểm chuẩn TB theo các tổ hợp A00, A01, B00, C00, D01 giai đoạn 2015 – 2025 (Điểm thi THPT)
+
+[Heading 3] (P1504) 3.14. Truy vấn 14 – Tỷ lệ (%) số ngành có Điểm chuẩn ≥ 24.0 trên tổng số ngành của từng Nhóm ngành, năm 2025 (Điểm thi THPT)
+
+[Heading 3] (P1526) 3.15. Truy vấn 15 – Tìm các Trường – Ngành có Điểm chuẩn tăng ≥ 2.5 điểm năm 2025 so với 2024 (phương thức Điểm thi THPT và nhóm ngành Công nghệ thông tin – Tin học), sắp xếp giảm dần theo mức tăng
+
+[Heading 1] (P1557) CHƯƠNG IV. QUÁ TRÌNH LẬP BÁO BIỂU
+
+[Heading 2] (P1559) 3.1. Tạo report bằng Power BI
+
+[Heading 3] (P1561) 3.1.1. Khởi tạo project
+
+[Heading 3] (P1583) 3.1.2. Report 1 – Xu hướng điểm chuẩn và cơ cấu phương thức qua các năm
+
+[Heading 3] (P1631) 3.1.3. Report 2 – Cạnh tranh theo nhóm ngành và ngành qua các năm
+
+[Heading 3] (P1669) 3.1.4. Report 3 – So sánh phương thức Điểm thi THPT và học bạ
+
+[Heading 2] (P1716) 3.2. Tạo report bằng Google Looker (Google Data Studio)
+
+[Heading 3] (P1717) 3.2.1. Report 1 – Bản đồ điểm chuẩn theo Tỉnh/Thành và Trường
+(P1723) Sao chép kết quả vào Excel và xuất ra file dưới dạng CSV UTF-8 (Comma delimited) (*.csv).
+(P1728) Trong Looker, tạo Data Source mới:
+
+[Heading 3] (P1796) 3.2.2. Report 2 – Biến động điểm chuẩn 2024 – 2025
+(P1802) Sao chép kết quả vào Excel và xuất ra file dưới dạng CSV UTF-8 (Comma delimited) (*.csv).
+(P1807) Trong Looker, tạo Data Source mới:
+(P1829) Kết quả:
+
+[Heading 3] (P1878) 3.2.3. Report 3 – Tổ hợp xét tuyển phổ biến theo nhóm ngành
+(P1884) Sao chép kết quả vào Excel và xuất ra file dưới dạng CSV UTF-8 (Comma delimited) (*.csv).
+(P1889) Trong Looker, tạo Data Source mới:
+
+[Heading 1] (P1950) CHƯƠNG V. QUÁ TRÌNH KHAI THÁC DỮ LIỆU
+
+[Heading 2] (P1952) 5.1 Mô tả bộ dữ liệu
+
+[Heading 3] (P1953) 5.1.1 Tổng quan dữ liệu
+
+[Heading 3] (P1962) 5.1.2 Mô tả chi tiết bộ dữ liệu
+
+[Heading 2] (P1966) 5.2 Chọn lọc và định hình tập dữ liệu khai phá
+
+[Heading 2] (P1996) 5.3 Chuẩn bị dữ liệu để bắt đầu huấn luyện mô hình
+
+[Heading 3] (P1997) 5.3.1 Phân chia tập dữ liệu theo thời gian
+
+[Heading 3] (P2005) 5.3.2 Thiết lập Pipeline tiền xử lý và mã hóa đặc trưng
+
+[Heading 2] (P2015) 5.4 Ứng dụng mô hình thuật toán
+
+[Heading 3] (P2016) 5.4.1 Đánh giá mô hình
+(P2019) Accuracy (Độ chính xác): Tỷ lệ các dự đoán đúng trên tổng số mẫu.
+(P2021) F1-score: Trung bình điều hòa precsion và recall. Chỉ số này đại diện cho sự cân bằng của mô hình, vừa không dự đoán giả (FP), vừa không bỏ sót mẫu (FN)
+
+[Heading 3] (P2037) 5.4.2 Decision tree
+
+[Heading 4] (P2039) 5.4.2.1 Cơ sở lý thuyết
+
+[Heading 4] (P2052) 5.4.2.2 Xây dựng mô hình và kết quả huấn luyện
+(P2057) Bước 4: Chấm điểm (Evaluation): Gọi hàm mẫu run_step tính toán Accuracy và F1-Score.
+
+[Heading 3] (P2064) 5.4.3 XGBOOST
+
+[Heading 4] (P2066) 5.4.3.1 Cơ sở lý thuyết
+
+[Heading 4] (P2079) 5.4.3.2 Xây dựng mô hình và kết quả huấn luyện
+(P2084) Bước 4: Chấm điểm (Evaluation): Tính toán các chỉ số Accuracy và F1-Score qua hàm run_step.
+
+[Heading 3] (P2089) 5.4.4 Light GBM
+
+[Heading 4] (P2091) 5.4.4.1 Cơ sở lý thuyết
+(P2094) GOSS (Gradient-based One-Side Sampling): Giữ lại các mẫu có gradient lớn và lấy mẫu ngẫu nhiên các mẫu có gradient nhỏ để giảm số lượng mẫu cần tính toán mà vẫn bảo toàn độ chính xác.
+(P2100) Độ chính xác cao nhờ cơ chế rẽ nhánh theo lá (Leaf-wise split).
+
+[Heading 4] (P2109) 5.4.4.2 Xây dựng mô hình và kết quả huấn luyện
+(P2114) Bước 4: Chấm điểm (Evaluation): Tính toán các chỉ số Accuracy và F1-Score qua hàm run_step.
+
+[Heading 3] (P2121) 5.4.5 Stacking classifier
+
+[Heading 4] (P2123) 5.4.5.1 Cơ sở lý thuyết
+
+[Heading 4] (P2140) 5.4.5.2 Xây dựng mô hình và kết quả huấn luyện
+
+[Heading 4] (P2152) 5.4.5.3 Xây dựng mô hình và kết quả huấn luyện
+(P2155) Bước 1: Tính toán độ quan trọng (Calculation): Xáo trộn ngẫu nhiên dữ liệu của từng cột 5 lần (n_repeats=5) và ghi nhận mức độ suy giảm Accuracy.
+
+[Heading 3] (P2162) 5.4.6 So sánh kết quả của các mô hình
+(P2164) Bước 1: Tổng hợp dữ liệu (Data Aggregation): Gom tất cả các biến kết quả lẻ (Accuracy, F1) của từng mô hình Decision Tree, XGBoost, LightGBM và Stacking Classifier vào một bảng tổng hợp duy nhất (DataFrame).
+(P2166) Bước 3: Vẽ biểu đồ (Plotting): Sử dụng sns.barplot với tham số hue='Metric' để tách đôi cột dữ liệu (một cột cho Accuracy, một cột cho F1).
+
+[Heading 3] (P2173) 5.4.7 Đánh giá kết quả mô hình
+(P2176) Tất cả các mô hình học máy đều có Accuracy vượt ngưỡng Baseline ngẫu nhiên/đa số (~31.48%), chứng minh dữ liệu điểm chuẩn lịch sử kết hợp cùng thuộc tính ngành đào tạo, tổ hợp môn và danh tiếng trường mang giá trị dự báo có ý nghĩa thống kê cao.
+(P2177) Sự tương đồng và chênh lệch rất nhỏ giữa hai thang đo Accuracy và F1-Score (weighted) ở các mô hình cho thấy mô hình kiểm soát tốt sự cân bằng dữ liệu, không bị hiện tượng đoán mò thiên lệch theo nhóm đa số.
+(P2179) Decision Tree đạt kết quả thấp nhất (Accuracy: 39.86%, F1-Score: 37.95%). Điều này hoàn toàn phù hợp với lý thuyết vì Decision Tree là mô hình cây đơn lẻ, dễ bị giới hạn biểu diễn và khó nắm bắt trọn vẹn sự biến thiên phức tạp đa chiều giữa các năm tuyển sinh.
+(P2180) XGBoost thể hiện bước nhảy vọt về hiệu năng (Accuracy: 51.55%, F1-Score: 48.13%), vượt trội hơn hẳn Decision Tree nhờ cơ chế tối ưu hóa gradient tuần tự và điều chuẩn (regularization).
+(P2181) LightGBM đã chứng minh sự ưu việt vượt trội khi xuất sắc đạt vị trí quán quân với Accuracy: 54.99% và F1-Score: 51.09%. Chiến lược phân nhánh theo chiều sâu lá (Leaf-wise split) cùng cơ chế GOSS giúp LightGBM phát hiện các quy luật phân lớp cạnh tranh sắc bén hơn.
+(P2184) Do Stacking làm tăng độ phức tạp tính toán và thời gian huấn luyện mà không cải thiện thêm hiệu suất, LightGBM là lựa chọn tối ưu nhất để triển khai vào hệ thống tư vấn tuyển sinh thực tế nhờ tốc độ xử lý nhanh nhất và độ chính xác phân lớp dẫn đầu.
+
+[Heading 1] (P2200) TÀI LIỆU THAM KHẢO
